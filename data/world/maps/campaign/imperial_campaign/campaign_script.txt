@@ -1,0 +1,585 @@
+script
+
+;monitor_event ButtonPressed ButtonPressed make_capital
+;    console_command add_money -10000 
+;end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;INTROS;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;	Macedon
+;;	monitor_conditions I_TurnNumber = 0
+;;		and I_LocalFaction macedon
+;;
+;;	include_script intros\macedon_intro_script.txt
+;;
+;;	terminate_monitor
+;;end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;SPARTA INTRO;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+				monitor_conditions I_TurnNumber = 0
+					and I_LocalFaction greek_cities
+					and I_AdvisorVerbosity > 0
+
+				;declare_prologue
+				disable_cursor
+				disable_shortcuts true
+				inhibit_camera_input true
+				disable_shortcuts advisor_portrait_button false
+				suspend_unscripted_advice true
+				disable_entire_ui
+				filter_all_ui_commands off
+
+				hide_ui
+
+				snap_strat_camera 318, 276
+
+				campaign_wait 3
+
+				play_sound_event	272_SPARTA_CAMPAIGN_INTRO_SPEECH_01		tag = 272_sparta_campaign_intro_01_tag
+
+				campaign_wait 4
+
+				play_sound_event	272_SPARTA_CAMPAIGN_INTRO_SPEECH_02		tag = 272_sparta_campaign_intro_02_tag
+
+				zoom_strat_camera 0.0
+				move_strat_camera 272, 317		;Center camera on Brundisium 
+
+				campaign_wait 4
+
+				zoom_strat_camera 0.0
+				move_strat_camera 315, 322		;Center camera on Pella
+
+				campaign_wait 2
+
+				reveal_tile 315, 322
+
+				campaign_wait 4
+
+				play_sound_event	272_SPARTA_CAMPAIGN_INTRO_SPEECH_03		tag = 272_sparta_campaign_intro_03_tag
+
+				campaign_wait 12
+
+				play_sound_event	272_SPARTA_CAMPAIGN_INTRO_SPEECH_04		tag = 272_sparta_campaign_intro_04_tag
+
+				campaign_wait 15
+
+				play_sound_event	272_SPARTA_CAMPAIGN_INTRO_SPEECH_05		tag = 272_sparta_campaign_intro_05_tag
+
+				campaign_wait 12
+
+				play_sound_event	272_SPARTA_CAMPAIGN_INTRO_SPEECH_06		tag = 272_sparta_campaign_intro_06_tag
+
+				campaign_wait 2
+
+				zoom_strat_camera 0.0
+				move_strat_camera 318, 276		;Center camera on Sparta
+
+				campaign_wait 7
+
+				play_sound_event	272_SPARTA_CAMPAIGN_INTRO_SPEECH_07		tag = 272_sparta_campaign_intro_07_tag
+
+				zoom_strat_camera 0.0
+				move_strat_camera 345, 254		;Center camera on Areus
+
+				campaign_wait 3
+
+				zoom_strat_camera 0.0
+				move_strat_camera 318, 276		;Center camera on Sparta
+
+				campaign_wait 3
+
+				play_sound_event	272_SPARTA_CAMPAIGN_INTRO_SPEECH_08		tag = 272_sparta_campaign_intro_08_tag
+
+				campaign_wait 11
+
+				hide_all_revealed_tiles
+
+				stop_sound_event 272_sparta_campaign_intro_01_tag
+				stop_sound_event 272_sparta_campaign_intro_02_tag
+				stop_sound_event 272_sparta_campaign_intro_03_tag
+				stop_sound_event 272_sparta_campaign_intro_04_tag
+				stop_sound_event 272_sparta_campaign_intro_05_tag
+				stop_sound_event 272_sparta_campaign_intro_06_tag
+				stop_sound_event 272_sparta_campaign_intro_07_tag
+				stop_sound_event 272_sparta_campaign_intro_08_tag
+
+				filter_all_ui_commands on
+				enable_entire_ui
+				disable_shortcuts false		
+				inhibit_camera_input false
+				enable_cursor
+        			steal_esc_key off
+				show_ui
+				suspend_unscripted_advice false
+
+				terminate_monitor
+			end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;SPARTA INTRO END;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;MACEDON INTRO;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+				monitor_conditions I_TurnNumber = 0
+					and I_LocalFaction macedon
+					and I_AdvisorVerbosity > 0
+
+				;declare_prologue
+				disable_cursor
+				disable_shortcuts true
+				inhibit_camera_input true
+				disable_shortcuts advisor_portrait_button false
+				suspend_unscripted_advice true
+				disable_entire_ui
+				filter_all_ui_commands off
+
+				hide_ui
+
+				;;restrict_strat_movement epirus, 225, 195
+
+				snap_strat_camera 320, 321
+
+				campaign_wait 3
+
+				play_sound_event	272_MACEDON_CAMPAIGN_INTRO_SPEECH_01		tag = 272_macedon_campaign_intro_01_tag
+
+				campaign_wait 4
+
+				play_sound_event	272_MACEDON_CAMPAIGN_INTRO_SPEECH_02		tag = 272_macedon_campaign_intro_02_tag
+
+				campaign_wait 3
+
+				zoom_strat_camera 0.0
+				move_strat_camera 303, 300		;Center camera on Ambracia
+
+				campaign_wait 3
+
+				reveal_tile 303, 300
+
+				campaign_wait 5
+
+				play_sound_event	272_MACEDON_CAMPAIGN_INTRO_SPEECH_03		tag = 272_macedon_campaign_intro_03_tag
+
+				campaign_wait 4
+
+				zoom_strat_camera 0.0
+				move_strat_camera 316, 307		;Center camera on Larissa
+
+				reveal_tile 316, 307
+				reveal_tile 310, 307
+
+				campaign_wait 1
+
+				zoom_strat_camera 0.0
+				move_strat_camera 315, 322		;Center camera on Pella
+
+				campaign_wait 2
+
+				reveal_tile 315, 322
+				reveal_tile 304, 316
+
+				campaign_wait 3
+
+				play_sound_event	272_MACEDON_CAMPAIGN_INTRO_SPEECH_04		tag = 272_macedon_campaign_intro_04_tag
+
+				campaign_wait 8
+
+				zoom_strat_camera 0.0
+				move_strat_camera 318, 276		;Center camera on Sparta
+
+				campaign_wait 3
+
+				reveal_tile 318, 276
+
+				campaign_wait 5
+
+				settlement_flash_start Sparta
+
+				play_sound_event	272_MACEDON_CAMPAIGN_INTRO_SPEECH_05		tag = 272_macedon_campaign_intro_05_tag
+
+				campaign_wait 6
+
+				settlement_flash_stop Sparta
+
+				campaign_wait 2
+
+				play_sound_event	272_MACEDON_CAMPAIGN_INTRO_SPEECH_06		tag = 272_macedon_campaign_intro_06_tag
+
+				campaign_wait 14
+
+				play_sound_event	272_MACEDON_CAMPAIGN_INTRO_SPEECH_07		tag = 272_macedon_campaign_intro_07_tag
+
+				zoom_strat_camera 0.0
+				move_strat_camera 322, 287		;Center camera on Corinth
+
+				campaign_wait 2
+
+				settlement_flash_start Corinth
+
+				campaign_wait 5
+
+				settlement_flash_stop Corinth
+
+				campaign_wait 4
+
+				play_sound_event	272_MACEDON_CAMPAIGN_INTRO_SPEECH_08		tag = 272_macedon_campaign_intro_08_tag
+
+				campaign_wait 10
+
+				play_sound_event	272_MACEDON_CAMPAIGN_INTRO_SPEECH_09		tag = 272_macedon_campaign_intro_09_tag
+
+				zoom_strat_camera 0.0
+				move_strat_camera 318, 276		;Center camera on Sparta
+
+				campaign_wait 5
+
+				zoom_strat_camera 0.0
+				move_strat_camera 320, 321		;Center camera on Thessalonica
+
+				campaign_wait 5
+
+				hide_all_revealed_tiles
+
+				stop_sound_event 272_macedon_campaign_intro_01_tag
+				stop_sound_event 272_macedon_campaign_intro_02_tag
+				stop_sound_event 272_macedon_campaign_intro_03_tag
+				stop_sound_event 272_macedon_campaign_intro_04_tag
+				stop_sound_event 272_macedon_campaign_intro_05_tag
+				stop_sound_event 272_macedon_campaign_intro_06_tag
+				stop_sound_event 272_macedon_campaign_intro_07_tag
+				stop_sound_event 272_macedon_campaign_intro_08_tag
+				stop_sound_event 272_macedon_campaign_intro_09_tag
+
+				filter_all_ui_commands on
+				enable_entire_ui
+				disable_shortcuts false		
+				inhibit_camera_input false
+				enable_cursor
+        			steal_esc_key off
+				show_ui
+				suspend_unscripted_advice false
+
+				terminate_monitor
+			end_monitor
+
+;;;;;;;;;;UNUSED VICTORY/DEFEAT RESULTS-- ARMY SPAWN CAUSES CRASH;;;;;;;;;;
+;;				monitor_conditions I_TurnNumber = 1
+;;					and I_LocalFaction macedon
+;;					and not I_CharacterTypeNearTile epirus named_character, 10 225, 195
+;;					;;and not AcrotatusB Agides WonBattle
+;;					;;and Ameinias Iolaides WonBattle
+;;
+;;				console_command capture_settlement Pella
+;;				;;console_command capture_settlement Argos Orestikon
+;;				console_command capture_settlement Larissa
+;;
+;;       			spawn_army
+;;            				faction macedon
+;;          				character Iollas, general, age 20, x 222, y 227
+;;            				unit greek hoplite militia, exp 0 armour 0 weapon_lvl 0
+;;            				unit greek hoplite militia, exp 0 armour 0 weapon_lvl 0
+;;        			end
+;;
+;;        			spawn_army
+;;            				faction macedon
+;;           				character Iollas, general, age 20, x 222, y 216
+;;            				unit greek hoplite militia, exp 0 armour 0 weapon_lvl 0
+;;            				unit greek hoplite militia, exp 0 armour 0 weapon_lvl 0
+;;        			end
+;;
+;;				;;clear_restrict_strat_movement
+;;
+;;				terminate_monitor
+;;			end_monitor
+;;
+;;				monitor_conditions I_TurnNumber = 1
+;;					and I_LocalFaction macedon
+;;					and I_CharacterTypeNearTile epirus named_character, 10 225, 195
+;;
+;;				engage_armies Acrotatus Agides, Pyrrhus Aeacides
+;;
+;;				;;clear_restrict_strat_movement
+;;
+;;				terminate_monitor
+;;			end_monitor
+;;
+;;;;;;;;;;UNUSED VICTORY/DEFEAT END;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;MACEDON INTRO END;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;INTROS END;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;RELATIONS SETUP;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+          and I_TurnNumber = 1
+
+	console_command become_protector seleucid greek_f_9
+	console_command become_protector seleucid greek_f_6
+	console_command become_protector seleucid east_f_4
+
+	console_command become_protector egypt greek_f_2
+
+	console_command become_protector macedon argos
+	console_command become_protector macedon greek_f_8
+	;;console_command become_protector macedon thessaly
+
+	console_command become_protector romans_julii picentes
+	console_command become_protector romans_scipii italic_f_2
+
+	console_command become_protector germans germanic_f_12
+	console_command become_protector germans germanic_f_22
+
+	console_command become_protector germanic_f_9 germanic_f_3
+	console_command become_protector germanic_f_9 germanic_f_10
+	console_command become_protector germanic_f_9 germanic_f_19
+	console_command become_protector germanic_f_9 germanic_f_23
+
+	console_command become_protector gallic_f_1 senones
+	console_command become_protector gallic_f_1 belgic_f_7
+
+    terminate_monitor
+
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;RELATIONS SETUP END;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;GARRISON SCRIPTS;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event SettlementTurnStart TrueCondition
+and not FactionIsLocal
+	declare_counter settlement_besieged
+	retrieve_counter l_settlement_besieged settlement settlement_besieged
+
+	if SettlementOrderLevel besieged > 0
+	and I_CompareCounter settlement_besieged = 0
+		set_counter settlement_besieged 1
+		store_counter settlement_besieged settlement l_settlement_besieged
+		
+		;;army spawns
+		
+		if SettlementName Alexandria
+			and I_SettlementOwner Alexandria = egypt
+			and I_FactionBesieged egypt
+				console_command create_unit Alexandria "greek pikemen" 2 0 0 0
+				console_command create_unit Alexandria "greek levy pikemen" 2 0 0 0
+				console_command create_unit Alexandria "greek hoplite militia" 4 0 0 0
+				console_command create_unit Alexandria "egyptian archer" 2 0 0 0
+		end_if
+		
+		if SettlementName Aspabota
+			and I_SettlementOwner Aspabota = parthia
+			and I_FactionBesieged parthia
+				console_command create_unit Aspabota "east horse archer" 2 0 0 0
+				console_command create_unit Aspabota "east hillmen" 2 0 0 0
+				console_command create_unit Aspabota "east infantry" 4 0 0 0
+				console_command create_unit Aspabota "east slinger" 2 0 0 0
+		end_if
+		
+		if SettlementName Amaseia
+			and I_SettlementOwner Amaseia = pontus
+			and I_FactionBesieged pontus
+				console_command create_unit Amaseia "east hoplite" 4 0 0 0
+				console_command create_unit Amaseia "east infantry" 4 0 0 0
+				console_command create_unit Amaseia "east peltast" 2 0 0 0
+		end_if
+		
+		if SettlementName Antioch
+			and I_SettlementOwner Antioch = seleucid
+			and I_FactionBesieged seleucid
+				console_command create_unit Antioch "greek pikemen" 2 0 0 0
+				console_command create_unit Antioch "greek levy pikemen" 2 0 0 0
+				console_command create_unit Antioch "greek hoplite militia" 4 0 0 0
+				console_command create_unit Antioch "greek archer" 2 0 0 0
+		end_if
+		
+		if SettlementName Armavir
+			and I_SettlementOwner Armavir = armenia
+			and I_FactionBesieged armenia
+				console_command create_unit Armavir "east heavy infantry" 4 0 0 0
+				console_command create_unit Armavir "east infantry" 4 0 0 0
+				console_command create_unit Armavir "east peltast" 2 0 0 0
+		end_if
+		
+		if SettlementName Carthage
+			and I_SettlementOwner Carthage = carthage
+			and I_FactionBesieged carthage
+				console_command create_unit Carthage "carthaginian elephant forest" 1 0 0 0
+				console_command create_unit Carthage "carthaginian sacred band infantry" 1 0 0 0
+				console_command create_unit Carthage "carthaginian medium infantry" 2 0 0 0
+				console_command create_unit Carthage "carthaginian infantry" 4 0 0 0
+				console_command create_unit Carthage "carthaginian peltast" 2 0 0 0
+				console_command create_unit Carthage "carthaginian slinger" 2 0 0 0
+		end_if
+		
+		if SettlementName Gergovia
+			and I_SettlementOwner Gergovia = gauls
+			and I_FactionBesieged gauls
+				console_command create_unit Gergovia "warband sword gaul" 4 0 0 0
+				console_command create_unit Gergovia "barb infantry gaul" 4 0 0 0
+				console_command create_unit Gergovia "barb peltast gaul" 2 0 0 0
+		end_if
+		
+		if SettlementName Helis
+			and I_SettlementOwner Helis = dacia
+			and I_FactionBesieged dacia
+				console_command create_unit Helis "warband falx dacian" 4 0 0 0
+				console_command create_unit Helis "barb infantry dacian" 4 0 0 0
+				console_command create_unit Helis "barb archer dacian" 2 0 0 0
+		end_if
+		
+		if SettlementName Odryssa
+			and I_SettlementOwner Odryssa = thrace
+			and I_FactionBesieged thrace
+				console_command create_unit Odryssa "greek pikemen" 2 0 0 0
+				console_command create_unit Odryssa "warband falx thracian" 2 0 0 0
+				console_command create_unit Odryssa "greek hoplite militia" 4 0 0 0
+				console_command create_unit Odryssa "greek peltast" 2 0 0 0
+		end_if
+
+		if SettlementName Oxthraca
+			and I_SettlementOwner Oxthraca = spain
+			and I_FactionBesieged spain
+				console_command create_unit Oxthraca "spanish scutarii" 4 0 0 0
+				console_command create_unit Oxthraca "carthaginian infantry" 4 0 0 0
+				console_command create_unit Oxthraca "carthaginian peltast" 2 0 0 0
+		end_if
+		
+		if SettlementName Pella
+			and I_SettlementOwner Pella = macedon
+			and I_FactionBesieged macedon
+				console_command create_unit Pella "greek pikemen" 2 0 0 0
+				console_command create_unit Pella "greek levy pikemen" 2 0 0 0
+				console_command create_unit Pella "greek hoplite militia" 4 0 0 0
+				console_command create_unit Pella "greek peltast" 2 0 0 0
+		end_if
+		
+		if SettlementName Seleucia
+			and I_SettlementOwner Seleucia = seleucid
+			and I_FactionBesieged seleucid
+				console_command create_unit Seleucia "greek pikemen" 2 0 0 0
+				console_command create_unit Seleucia "greek levy pikemen" 2 0 0 0
+				console_command create_unit Seleucia "greek hoplite militia" 4 0 0 0
+				console_command create_unit Seleucia "greek archer" 2 0 0 0
+		end_if
+		
+		if SettlementName Serimum
+			and I_SettlementOwner Serimum = scythia
+			and I_FactionBesieged scythia
+				console_command create_unit Serimum "barb horse archers scythian" 2 0 0 0
+				console_command create_unit Serimum "warband axe scythian" 4 0 0 0
+				console_command create_unit Serimum "barb archer scythian" 4 0 0 0
+		end_if
+		
+		if SettlementName Sesudata
+			and I_SettlementOwner Sesudata = germans
+			and I_FactionBesieged germans
+				console_command create_unit Sesudata "warband axe german" 4 0 0 0
+				console_command create_unit Sesudata "warband spear german" 4 0 0 0
+				console_command create_unit Sesudata "barb peltast german" 2 0 0 0
+		end_if
+		
+		if SettlementName Sparta
+			and I_SettlementOwner Sparta = greek_cities
+			and I_FactionBesieged greek_cities
+				console_command create_unit Sparta "greek hoplite spartan" 2 0 0 0
+				console_command create_unit Sparta "greek hoplite" 2 0 0 0
+				console_command create_unit Sparta "greek hoplite militia" 4 0 0 0
+				console_command create_unit Sparta "greek peltast" 2 0 0 0
+		end_if
+		
+		if SettlementName Thessalonica
+			and I_SettlementOwner Thessalonica = macedon
+			and I_FactionBesieged macedon
+				console_command create_unit Thessalonica "greek pikemen" 1 0 0 0
+				console_command create_unit Thessalonica "greek levy pikemen" 1 0 0 0
+				console_command create_unit Thessalonica "greek hoplite militia" 2 0 0 0
+				console_command create_unit Thessalonica "greek peltast" 1 0 0 0
+		end_if
+		
+		if SettlementName Tingartia
+			and I_SettlementOwner Tingartia = numidia
+			and I_FactionBesieged numidia
+				console_command create_unit Tingartia "numidian desert warriors" 2 0 0 0
+				console_command create_unit Tingartia "carthaginian medium infantry" 4 0 0 0
+				console_command create_unit Tingartia "numidian javelinmen" 2 0 0 0
+				console_command create_unit Tingartia "carthaginian slinger" 2 0 0 0
+		end_if
+		
+		if SettlementName Venta_Icenorum
+			and I_SettlementOwner Venta_Icenorum = britons
+			and I_FactionBesieged britons
+				console_command create_unit Venta_Icenorum "warband sword briton" 4 0 0 0
+				console_command create_unit Venta_Icenorum "barb infantry briton" 4 0 0 0
+				console_command create_unit Venta_Icenorum "barb slinger briton" 2 0 0 0
+		end_if
+
+	end_if
+
+	if SettlementOrderLevel besieged < 1
+	and I_CompareCounter settlement_besieged > 0
+
+		;; increment counter
+
+		inc_counter settlement_besieged 1
+
+		;;reset_counter
+
+		if I_CompareCounter settlement_besieged = 15
+			set_counter settlement_besieged 0
+	end_if
+
+		store_counter settlement_besieged settlement l_settlement_besieged
+
+	end_if
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;CAPITAL FLAG SCRIPT;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event NewTurnStart TrueCondition
+	for_each settlement in world
+		if not IsCapital
+		&& HasResource capital
+			remove_hidden_resource local capital
+		end_if
+		if IsCapital
+		&& not HasResource capital
+			add_hidden_resource local capital
+		end_if
+	end_for
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+while I_TurnNumber < 9999
+    suspend_unscripted_advice true
+end_while
+
+end_script

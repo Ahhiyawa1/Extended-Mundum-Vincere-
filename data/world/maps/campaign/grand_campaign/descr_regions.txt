@@ -1,0 +1,10885 @@
+; XGM-XC6
+;	This file contains a variety of region information, in this format:
+;
+;	region tag
+;settlement tag
+;default culture tag
+;map RGB value
+;comma-seperated resource list
+;triumph point value
+;base farm level
+;
+;	Map base farm conversion table
+;	KirsiXC
+;	13-147 ( Alexandria(12) )
+;	12	6 ( Roma(8), Carthage(14), Seleucia(14), Memphis(10) )
+;	11	5 ( Antioch(9), Thebes(8), Syracuse(8), Tarsus(12), Taxila(12), Bactra(11), Ariana(8) )
+;	9-104 ( Byzantium(12), Athens(9), Tolosa(9), Cenabum(8)/Lutetia(10), Mediolanium(10), Maracanda(9) )
+;	8	3 ( Larissa(12), Burdigala(Cossium,7), Massilia(9), Menosgada(Mogontiacum,5), Chach(9) )
+;	7	2 ( Ambracia(10), Nora(5), Bibracte(7), Eburodunum(Meliodunum,6), Cas(5), Alexandropolis(7), Saphara(5), Mariaba(5) )
+;	5-6	1 ( Aleria(6), Thermon(9), Sparta(7), Nisa(6), Tabae(Tabai,4), Kabalaka(Chabala,10) )
+;	0-4	0 ( Petra(4), Gerrha(5), Turris Lapidea(Shurabashat,6) )
+;
+; regions list
+;
+
+; 1. Britannia
+; 2. Hibernia
+; 3. Scandinavia
+; 4. Belgica
+; 5. Gallia
+; 6. Hispania
+; 7. Baliares
+; 8. Sardinia & Corsica
+; 9. Sicilia & Islands
+; 10. Italia
+; 11. Alps
+; 12. Germania magna
+; 13. Baltic
+; 14. Carpathia
+; 15. Illyria
+; 16. Thracia
+; 17. Macedonia
+; 18. Hellas
+; 19. Anatolia
+; 20. Caucasia
+; 21. Armenia
+; 22. Levante
+; 23. Mesopotamia
+; 24. Arabia
+; 25. Persia
+; 26. Ariana
+; 27. Chorasmia
+; 28. Bactria & Sogdiana
+; 29. Indus
+; 30. Himalaya
+; 31. Bengal
+; 32. Ganges
+; 33. Satpura-Vindhaya
+; 34. Gurjaratra
+; 35. Malabar Coast
+; 36. Deccan
+; 37. Coromandel Coast
+; 38. Simhala
+; 39. Taklamakan
+; 40. Qaidam & Turfan
+; 41. Altai
+; 42. Eastern Scythia
+; 43. Sarmatia
+; 44. Taurika
+; 45. Western Scythia
+; 46. Northern Forests
+; 47. Egypt
+; 48. Ethiopia
+; 49. Eastern Africa
+; 50. Libya
+; 51. Africa 
+; 52. Numidia
+; 53. Mauretania
+; 54. Sahara
+
+; Far East
+; 55. India beyond Gangas
+; 56. Kham
+; 57. Amdo
+; 58. Mongolia
+; 59. Korea & Manchuria
+; 60. Hebei
+; 61. Zhongyuan
+; 62. Shuofeng-Yongliang
+; 63. Ba & Shu
+; 64. Jingzhou
+; 65. Jiangdong
+; 66. Minnan
+; 67. Lingnan
+; 68. Nanzhong
+; 69. Nanyang
+; 70. Indies Archipelago
+; 71. Tsushima Basin
+; 72. Mai/Tagalog Archipelago
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; *********************************************************
+; *********************************************************
+; 1. Britannia
+; Number of Provinces: 28
+
+Dumna_R
+	Dumna
+	macedon
+	Brigantes
+	36 119 52
+	none
+	5
+	1
+Tarvodubron_R
+	Tarvodubron
+	macedon
+	Brigantes
+	208 170 37
+	none
+	5
+	2
+Tuesis_R
+	Tuesis
+	macedon
+	Brigantes
+	74 71 127
+	none
+	5
+	2
+Devana_R
+	Devana
+	macedon
+	Brigantes
+	157 70 156
+	none
+	5
+	4
+Orrea_R
+	Orrea
+	macedon
+	Brigantes
+	145 19 37
+	none
+	5
+	3
+Lindum_R
+	Lindum
+	macedon
+	Brigantes
+	120 227 147
+	none
+	5
+	3
+Eydin_R
+	Eydin
+	macedon
+	Brigantes
+	149 147 108
+	none
+	5
+	4
+Rauatonium_R
+	Rauatonium
+	macedon
+	Brigantes
+	198 151 30
+	none
+	5
+	1
+Carbantorigum_R
+	Carbantorigum
+	macedon
+	Brigantes
+	216 218 82
+	none
+	5
+	3
+Alauna_R
+	Alauna
+	macedon
+	Brigantes
+	25 195 203
+	none
+	5
+	3
+Luguvalium_R
+	Luguvalium
+	macedon
+	Brigantes
+	170 41 57
+	none
+	5
+	4
+Mona_R
+	Mona
+	macedon
+	Brigantes
+	40 133 31
+	none
+	5
+	1
+Rigodonum_R
+	Rigodonum
+	macedon
+	Brigantes
+	221 137 23
+	none
+	5
+	4
+Britannia_Inferior
+	Eburacum
+	macedon
+	Brigantes
+	232 41 198
+	none
+	5
+	5
+Seguntium_R
+	Seguntium
+	macedon
+	Brigantes
+	200 61 101
+	none
+	5
+	3
+Tribus_Silurii
+	Deva
+	macedon
+	Silures
+	41 232 63
+	none
+	0
+	4
+Moridunum_R
+	Moridunum
+	macedon
+	Brigantes
+	138 108 60
+	none
+	5
+	4
+Cornoviorum_R
+	Cornoviorum
+	macedon
+	Brigantes
+	178 160 117
+	none
+	5
+	4
+Corinion_R
+	Corinion
+	macedon
+	Brigantes
+	189 215 101
+	none
+	5
+	5
+Isca_R
+	Isca
+	macedon
+	Brigantes
+	27 73 45
+	none
+	5
+	4
+Durotrigorum_R
+	Durotrigorum
+	macedon
+	Brigantes
+	119 53 162
+	none
+	5
+	5
+Noviomagus_Reginorum_R
+	Noviomagus_Reginorum
+	macedon
+	Brigantes
+	214 113 60
+	none
+	5
+	5
+Calleva_R
+	Calleva
+	macedon
+	Brigantes
+	210 51 201
+	none
+	5
+	4
+Ratae_R
+	Ratae
+	macedon
+	Brigantes
+	57 114 24
+	none
+	5
+	5
+Britannia_Superior
+	Londinium
+	macedon
+	Iceni
+	232 41 46
+	none
+	5
+	8
+Venta_Icenorum_R
+	Venta_Icenorum
+	macedon
+	Brigantes
+	226 234 142
+	none
+	5
+	5
+Camulodunum_R
+	Camulodunum
+	macedon
+	Brigantes
+	32 110 124
+	none
+	5
+	6
+Durovernum_R
+	Durovernum
+	macedon
+	Brigantes
+	163 165 16
+	none
+	5
+	5
+
+; *********************************************************
+; *********************************************************
+; 2. Hibernia
+; Number of Provinces: 6
+
+Hibernia
+	Tara
+	macedon
+	Hibernians
+	212 232 41
+	none
+	5
+	3
+Regia_R
+	Regia
+	macedon
+	Hibernians
+	87 157 100
+	none
+	5
+	3
+Dunum_R
+	Dunum
+	macedon
+	Hibernians
+	87 90 145
+	none
+	5
+	4
+Rhaeba_R
+	Rhaeba
+	macedon
+	Brigantes
+	191 64 32
+	none
+	5
+	4
+Macolicum_R
+	Macolicum
+	macedon
+	Hibernians
+	151 64 132
+	none
+	5
+	3
+Hibernis_R
+	Hibernis
+	macedon
+	Hibernians
+	150 98 31
+	none
+	5
+	2
+
+; *********************************************************
+; *********************************************************
+; 3. Scandinavia
+; Number of Provinces: 15
+
+Suionium_R
+	Suionium
+	macedon
+	Saxones
+	134 17 156
+	none
+	5
+	3
+Levonium_R
+	Levonium
+	macedon
+	Saxones
+	137 168 183
+	none
+	5
+	3
+Castrum_Gautorum_R
+	Castrum_Gautorum
+	macedon
+	Saxones
+	158 152 95
+	none
+	5
+	2
+Gautum_R
+	Gautum
+	macedon
+	Saxones
+	232 130 118
+	none
+	5
+	3
+Ranium_R
+	Ranium
+	macedon
+	Saxones
+	27 154 98
+	none
+	5
+	3
+Favonium_R
+	Favonium
+	macedon
+	Saxones
+	46 54 126
+	none
+	5
+	4
+Hillevionum_R
+	Hillevionum
+	macedon
+	Saxones
+	102 190 42
+	none
+	5
+	4
+Firaesum_R
+	Firaesum
+	macedon
+	Saxones
+	39 124 36
+	none
+	5
+	2
+Burgundium_R
+	Burgundium
+	macedon
+	Saxones
+	214 225 45
+	none
+	5
+	2
+Augandzium_R
+	Augandzium
+	macedon
+	Saxones
+	196 195 62
+	none
+	5
+	2
+Rugium_R
+	Rugium
+	macedon
+	Saxones
+	161 113 169
+	none
+	5
+	2
+Suardonium_R
+	Suardonium
+	macedon
+	Saxones
+	98 185 114
+	none
+	5
+	4
+Nuithonium_R
+	Nuithonium
+	macedon
+	Saxones
+	178 32 69
+	none
+	5
+	6
+
+; *********************************************************
+; *********************************************************
+; 4. Belgica
+; Number of Provinces: 5
+
+Atuatuca_R
+	Atuatuca
+	macedon
+	Belgae
+	215 17 48
+	none
+	5
+	6
+Menapium_R
+	Menapium
+	macedon
+	Belgae
+	207 112 100
+	none
+	5
+	5
+Bagacum_R
+	Bagacum
+	macedon
+	Belgae
+	104 31 97
+	none
+	5
+	7
+Belgica
+	Samarobriva
+	macedon
+	Belgae
+	232 90 41
+	none
+	5
+	7
+Durocotorum_R
+	Durocotorum
+	macedon
+	Aedui
+	60 106 24
+	none
+	5
+	8
+
+; *********************************************************
+; *********************************************************
+; 5. Gallia
+; Number of Provinces: 29
+
+Rotomagus_R
+	Rotomagus
+	macedon
+	Belgae
+	135 218 69
+	none
+	5
+	6
+Noviomagus_Lexoviorum_R
+	Noviomagus_Lexoviorum
+	macedon
+	Belgae
+	148 66 54
+	none
+	5
+	5
+Lutetia_Parisia_R
+	Lutetia_Parisia
+	macedon
+	Aedui
+	124 106 198
+	none
+	5
+	10
+Agedincum_R
+	Agedincum
+	macedon
+	Aedui
+	225 66 66
+	none
+	5
+	6
+Central_Gaul
+	Alesia
+	macedon
+	Senones
+	31 75 37
+	none
+	5
+	7
+Vesontio_R
+	Vesontio
+	macedon
+	Aedui
+	27 217 51
+	none
+	5
+	5
+Avaricum_R
+	Avaricum
+	macedon
+	Aedui
+	166 185 115
+	none
+	5
+	7
+Bibracte_R
+	Bibracte
+	macedon
+	Aedui
+	97 51 121
+	none
+	5
+	7
+Cabillonum_R
+	Cabillonum
+	macedon
+	Aedui
+	83 153 134
+	none
+	5
+	8
+Cenabum_R
+	Cenabum
+	macedon
+	Aedui
+	93 21 109
+	none
+	5
+	8
+Crociatonum_R
+	Crociatonum
+	macedon
+	Veneti
+	63 139 71
+	none
+	5
+	7
+Vorgium_R
+	Vorgium
+	macedon
+	Veneti
+	166 163 15
+	none
+	5
+	3
+Armorica
+	Condate_Redonum
+	macedon
+	Veneti
+	232 41 135
+	none
+	5
+	7
+Darioritum_R
+	Darioritum
+	macedon
+	Veneti
+	23 81 30
+	none
+	5
+	4
+Condevincum_R
+	Condevincum
+	macedon
+	Veneti
+	171 45 174
+	none
+	5
+	5
+Andecavium_R
+	Andecavium
+	macedon
+	Veneti
+	138 109 38
+	none
+	5
+	7
+Aquitania
+	Lemonum
+	macedon
+	Pictones
+	68 232 41
+	none
+	5
+	7
+Mediolanum_Santonum_R
+	Mediolanum_Santonum
+	macedon
+	Pictones
+	233 232 50
+	none
+	5
+	7
+Durotincum_R
+	Durotincum
+	macedon
+	Pictones
+	148 203 215
+	none
+	5
+	6
+Gergovia_R
+	Gergovia
+	macedon
+	Aedui
+	189 124 26
+	none
+	5
+	8
+Lugdinensis
+	Lugdunum
+	macedon
+	Aedui
+	85 114 141
+	none
+	5
+	7
+Valentia_R
+	Valentia
+	macedon
+	Aedui
+	218 210 106
+	none
+	5
+	6
+Vesunna_R
+	Vesunna
+	macedon
+	Pictones
+	216 16 58
+	none
+	5
+	7
+Segodunum_R
+	Segodunum
+	macedon
+	Volcae
+	114 75 63
+	none
+	5
+	6
+Nemasus_R
+	Nemasus
+	macedon
+	Volcae
+	64 38 143
+	none
+	5
+	8
+Narbonensis
+	Narbo_Martius
+	macedon
+	Volcae
+	196 13 198
+	none
+	5
+	8
+Tolosa_R
+	Tolosa
+	macedon
+	Volcae
+	222 214 154
+	none
+	5
+	9
+Tarba_R
+	Tarba
+	macedon
+	Volcae
+	99 45 174
+	none
+	5
+	6
+Cossium_R
+	Cossium
+	macedon
+	Pictones
+	166 146 100
+	none
+	5
+	7
+
+; *********************************************************
+; *********************************************************
+; 6. Hispania
+; Number of Provinces: 39
+ 
+Brigantium_R
+	Brigantium
+	macedon
+	Iberians
+	187 191 234
+	none
+	5
+	5
+Bracara_R
+	Bracara
+	macedon
+	Iberians
+	97 216 96
+	none
+	5
+	6
+Noega_R
+	Noega
+	macedon
+	Iberians
+	180 38 206
+	none
+	5
+	2
+Gallaecia
+	Asturica
+	macedon
+	Iberians
+	13 157 198
+	none
+	0
+	3
+Pallantia_R
+	Pallantia
+	macedon
+	Iberians
+	127 53 179
+	none
+	5
+	11
+Aracillum_R
+	Aracillum
+	macedon
+	Iberians
+	217 218 95
+	none
+	5
+	3
+Celtiberia
+	Numantia
+	macedon
+	Iberians
+	198 13 35
+	none
+	5
+	5
+Pompelo_R
+	Pompelo
+	macedon
+	Iberians
+	146 99 217
+	none
+	5
+	5
+Salduba_R
+	Salduba
+	macedon
+	Iberians
+	49 21 138
+	none
+	5
+	10
+Taraconenis
+	Osca
+	macedon
+	Iberians
+	13 196 198
+	none
+	5
+	6
+Tarraco_R
+	Tarraco
+	macedon
+	Iberians
+	151 108 106
+	none
+	5
+	7
+Ilerda_R
+	Ilerda
+	macedon
+	Iberians
+	56 107 19
+	none
+	5
+	7
+Brachile_R
+	Brachile
+	macedon
+	Iberians
+	97 96 106
+	none
+	5
+	3
+Emporium_R
+	Emporium
+	macedon
+	Iberians
+	202 68 78
+	none
+	5
+	7
+Dertosa_R
+	Dertosa
+	macedon
+	Iberians
+	163 160 71
+	none
+	5
+	8
+Arse_R
+	Arse
+	macedon
+	Iberians
+	131 41 136
+	none
+	5
+	10
+Turboleta_R
+	Turboleta
+	macedon
+	Iberians
+	202 92 12
+	none
+	5
+	4
+Segobriga_R
+	Segobriga
+	macedon
+	Iberians
+	75 31 39
+	none
+	5
+	6
+Toletum_R
+	Toletum
+	macedon
+	Iberians
+	228 11 183
+	none
+	5
+	11
+Cauca_R
+	Cauca
+	macedon
+	Iberians
+	162 143 95
+	none
+	5
+	10
+Helmantica_R
+	Helmantica
+	macedon
+	Iberians
+	215 212 101
+	none
+	5
+	7
+Mirobriga_R
+	Mirobriga
+	macedon
+	Iberians
+	184 122 90
+	none
+	5
+	4
+Conimbriga_R
+	Conimbriga
+	macedon
+	Iberians
+	76 59 168
+	none
+	5
+	6
+Oxthraca_R
+	Oxthraca
+	macedon
+	Iberians
+	27 99 47
+	none
+	5
+	7
+Lusitania
+	Scallabis
+	macedon
+	Iberians
+	13 198 30
+	none
+	5
+	9
+Ebora_R
+	Ebora
+	macedon
+	Iberians
+	192 117 61
+	none
+	5
+	8
+Ossonoba_R
+	Ossonoba
+	macedon
+	Iberians
+	167 35 92
+	none
+	5
+	7 
+Iulipa_R
+	Iulipa
+	macedon
+	Iberians
+	140 120 188
+	none
+	5
+	4
+Carcuvium_R
+	Carcuvium
+	macedon
+	Iberians
+	23 157 32
+	none
+	5
+	3
+Libisosa_R
+	Libisosa
+	macedon
+	Iberians
+	208 155 201
+	none
+	5
+	8
+Saiti_R
+	Saiti
+	macedon
+	Iberians
+	113 225 144
+	none
+	5
+	8
+Ilorci_R
+	Ilorci
+	macedon
+	Iberians
+	196 105 57
+	none
+	5
+	5
+Hispania
+	Carthago_Nova
+	macedon
+	Iberians
+	187 198 13
+	none
+	5
+	7
+Castulo_R
+	Castulo
+	macedon
+	Iberians
+	64 105 86
+	none
+	5
+	7
+Abdera_R
+	Abdera
+	macedon
+	Iberians
+	144 96 103
+	none
+	5
+	6
+Hispalis_R
+	Hispalis
+	macedon
+	Iberians
+	217 214 117
+	none
+	5
+	11
+Malaca_R
+	Malaca
+	macedon
+	Iberians
+	192 50 194
+	none
+	5
+	6
+Baetica
+	Corduba
+	macedon
+	Iberians
+	17 13 198
+	none
+	5
+	13
+Gadir_R
+	Gadir
+	macedon
+	Iberians
+	38 126 62
+	none
+	5
+	10
+
+; *********************************************************
+; *********************************************************
+; 7. Baliares
+; Number of Provinces: 3
+
+Ebusus_R
+	Ebusus
+	macedon
+	Iberians
+	28 165 54
+	none
+	5
+	6
+Mago_R
+	Mago
+	macedon
+	Iberians
+	183 20 20
+	none
+	5
+	6
+Baliares
+	Palma
+	macedon
+	Iberians
+	41 232 225
+	none
+	5
+	6
+	
+; *********************************************************
+; *********************************************************
+; 8. Sardinia & Corsica
+; Number of Provinces: 5
+ 
+Sardinia
+	Caralis
+	macedon
+	Beronicensis
+	198 35 13
+	none
+	5
+	5
+Sulci_R
+	Sulci
+	macedon
+	Beronicensis
+	181 178 106
+	none
+	5
+	7
+Macopsissa_R
+	Macopsissa
+	macedon
+	Beronicensis
+	40 154 44
+	none
+	5
+	6
+OlbiaSardinica_R
+	OlbiaSardinica
+	macedon
+	Beronicensis
+	79 45 110
+	none
+	5
+	6
+Aleria_R
+	Aleria
+	macedon
+	Beronicensis
+	200 178 35
+	none
+	5
+	6
+
+; *********************************************************
+; *********************************************************
+; 9. Sicilia & Islands
+; Number of Provinces: 9
+
+Sicilia_Graecus
+	Syracuse
+	macedon
+	Syracusans
+	198 178 13
+	none
+	5
+	8
+Katane_R
+	Katane
+	macedon
+	Syracusans
+	217 186 219
+	none
+	5
+	8
+Acragas_R
+	Acragas
+	macedon
+	Sicani
+	210 50 190
+	none
+	5
+	10
+Panormus_R
+	Panormus
+	macedon
+	Sicani
+	158 19 19
+	none
+	5
+	8
+Enna_R
+	Enna
+	macedon
+	Sicani
+	55 138 23
+	none
+	5
+	7
+Lipara_R
+	Lipara
+	macedon
+	Sicani
+	194 195 119
+	none
+	5
+	4
+Sicilia_Romanus
+	Messana
+	macedon
+	Sicani
+	177 142 58
+	none
+	5
+	8
+Sicilia_Poeni
+	Lilybaeum
+	macedon
+	Sicani
+	65 17 202
+	none
+	5
+	8
+Cossura_R
+	Cossura
+	macedon
+	Poeni
+	117 185 67
+	none
+	5
+	5
+Melita_R
+	Melita
+	macedon
+	Poeni
+	83 122 13
+	none
+	5
+	6
+
+; *********************************************************
+; *********************************************************
+; 10. Italia
+; Number of Provinces: 18
+
+Rhegium_R
+	Rhegium
+	macedon
+	Sicani
+	49 114 37
+	none
+	5
+	8
+Bruttium
+	Croton
+	macedon
+	Lucanians
+	13 170 198
+	none
+	5
+	8
+Cosentia_R
+	Cosentia
+	romans_brutii
+	Lucanians
+	190 63 94
+	none
+	5
+	5
+Brundisium_R
+	Brundisium
+	macedon
+	Lucanians
+	129 81 129
+	none
+	5
+	7
+Apulia
+	Tarentum
+	macedon
+	Calabrians
+	33 196 58
+	none
+	5
+	9
+Potentia_R
+	Potentia
+	romans_brutii
+	Lucanians
+	190 150 63
+	none
+	5
+	6
+Histonium_R
+	Histonium
+	romans_brutii
+	Lucanians
+	119 40 40
+	none
+	5
+	6
+Stiglanium_R
+	Stiglanium
+	romans_brutii
+	Lucanians
+	78 53 53
+	none
+	5
+	6
+Grumentum_R
+	Grumentum
+	romans_brutii
+	Lucanians
+	157 134 134
+	none
+	5
+	6
+Consilinum_R
+	Consilinum
+	romans_brutii
+	Lucanians
+	94 95 64
+	none
+	5
+	6
+Venusia_R
+	Venusia
+	romans_brutii
+	Campanians
+	43 84 113
+	none
+	5
+	7
+Arpi_R
+	Arpi
+	romans_brutii
+	Campanians
+	128 132 23
+	none
+	5
+	8
+Campania
+	Capua
+	macedon
+	Campanians
+	198 13 174
+	none
+	5
+	9
+Corfinium_R
+	Corfinium
+	macedon
+	Umbrians
+	119 141 100
+	none
+	5
+	7
+Latium
+	Rome
+	romans_senate
+	Latins
+	52 13 198
+	rome, italy
+	5
+	8
+Asculum_R
+	Asculum
+	macedon
+	Umbrians
+	188 142 35
+	none
+	5
+	7
+Umbria
+	Ariminum
+	romans_julii
+	Umbrians
+	198 43 13
+	none
+	5
+	7
+Alsium_R
+	Alsium
+	romans_julii
+	Etruscans
+	64 39 39
+	none
+	5
+	7
+Tarquinii_R
+	Tarquinii
+	romans_julii
+	Etruscans
+	114 89 165
+	none
+	5
+	7
+Aquae_Apollinares_R
+	Aquae_Apollinares
+	romans_julii
+	Etruscans
+	96 140 89
+	none
+	5
+	7
+Pyrgium_R
+	Pyrgium
+	romans_julii
+	Etruscans
+	83 106 83
+	none
+	5
+	7
+Statonia_R
+	Statonia
+	romans_julii
+	Etruscans
+	20 62 21
+	none
+	5
+	7
+Etruria
+	Arretium
+	romans_julii
+	Etruscans
+	157 198 13
+	none
+	5
+	7
+Volaterrae_R
+	Volaterrae
+	romans_julii
+	Etruscans
+	70 35 133
+	none
+	5
+	9
+Volsinii_R
+	Volsinii
+	macedon
+	Etruscans
+	15 122 0
+	none
+	5
+	9
+Ilva_R
+	Ilva
+	romans_julii
+	Etruscans
+	213 67 60
+	none
+	5
+	3
+Bovianum_R
+	Bovianum
+	macedon
+	Lucanians
+	41 187 58
+	none
+	5
+	6
+
+; *********************************************************
+; *********************************************************
+; 11. Alps
+; Number of Provinces: 21
+
+Transalpine_Gaul
+	Massilia
+	macedon
+	Vocontii
+	117 198 13
+	none
+	5
+	9
+NicaeaLiguria_R
+	NicaeaLiguria
+	macedon
+	Ligurians
+	203 161 34
+	none
+	5
+	6
+Taurasia_R
+	Taurasia
+	macedon
+	Insubres
+	87 91 15
+	none
+	5
+	9
+Segustero_R
+	Segustero
+	macedon
+	Volcae
+	195 60 54
+	none
+	5
+	2
+Geneva_R
+	Geneva
+	macedon
+	Aedui
+	53 145 78
+	none
+	5
+	4
+Octodurus_R
+	Octodurus
+	macedon
+	Aedui
+	151 42 39
+	none
+	5
+	2
+Brenodurum_R
+	Brenodurum
+	macedon
+	Aedui
+	166 50 211
+	none
+	5
+	4
+Curia_R
+	Curia
+	macedon
+	Helvetii
+	119 168 119
+	none
+	5
+	2
+Tridentum_R
+	Tridentum
+	macedon
+	Helvetii
+	81 116 210
+	none
+	5
+	3
+Isarcium_R
+	Isarcium
+	macedon
+	Helvetii
+	217 144 95
+	none
+	5
+	2
+Noricum
+	Iuvavum
+	macedon
+	Helvetii
+	230 41 232
+	none
+	5
+	4
+Lentia_R
+	Lentia
+	macedon
+	Helvetii
+	58 106 66
+	none
+	5
+	6
+Noreia_R
+	Noreia
+	macedon
+	Illyrians
+	156 145 162
+	none
+	5
+	4
+Cambodunum_R
+	Cambodunum
+	macedon
+	Helvetii
+	191 28 38
+	none
+	5
+	7
+Tergeste_R
+	Tergeste
+	macedon
+	Veneti
+	219 98 39
+	none
+	5
+	9
+Venetia
+	Patavium
+	macedon
+	Veneti
+	13 198 117
+	none
+	5
+	14
+Cisalpine_Gaul
+	Mediolanium
+	macedon
+	Insubres
+	221 232 41
+	none
+	5
+	10
+Brixia_R
+	Brixia
+	macedon
+	Insubres
+	127 148 190
+	none
+	5
+	10
+Felsina_R
+	Felsina
+	macedon
+	Boii
+	180 100 31
+	none
+	5
+	14
+Apua_R
+	Apua
+	macedon
+	Ligurians
+	66 113 38
+	none
+	5
+	6
+Liguria
+	Segesta
+	macedon
+	Ligurians
+	157 13 198
+	none
+	5
+	4
+
+; *********************************************************
+; *********************************************************
+; 12. Germania magna
+; Number of Provinces: 37
+
+Tarodunum_R
+	Tarodunum
+	macedon
+	Treveri
+	150 109 35
+	none
+	5
+	5
+Mediomatricorum_R
+	Mediomatricorum
+	macedon
+	Treveri
+	205 198 39
+	none
+	5
+	7
+Germania_Superior
+	Trier
+	macedon
+	Treveri
+	72 41 232
+	none
+	5
+	6
+Borbetomagus_R
+	Borbetomagus
+	macedon
+	Batavi
+	212 54 130
+	none
+	5
+	6
+Segodunum_Triboccia_R
+	Segodunum_Triboccia
+	macedon
+	Treveri
+	241 148 24
+	none
+	5
+	4
+Setuacotum_R
+	Setuacotum
+	macedon
+	Treveri
+	102 48 116
+	none
+	5
+	4
+Sorviodurum_R
+	Sorviodurum
+	macedon
+	Helvetii
+	216 183 58
+	none
+	5
+	5
+Arctaunum_R
+	Arctaunum
+	macedon
+	Treveri
+	188 135 237
+	none
+	5
+	6
+Agri_Decumates
+	Mogontiacum
+	macedon
+	Alamanni
+	63 232 41
+	none
+	5
+	5
+Budoris_R
+	Budoris
+	macedon
+	Batavi
+	58 102 80
+	none
+	5
+	7
+Frisium_R
+	Frisium
+	macedon
+	Belgae
+	213 224 144
+	none
+	5
+	3
+Navalia_R
+	Navalia
+	macedon
+	Batavi
+	195 53 200
+	none
+	5
+	5
+Germania_Inferior
+	Batavodurum
+	macedon
+	Batavi
+	41 162 232
+	none
+	5
+	6
+Mattium_R
+	Mattium
+	macedon
+	Batavi
+	201 132 52
+	none
+	5
+	5
+Candulum_R
+	Candulum
+	macedon
+	Chatti
+	23 41 154
+	none
+	5
+	5
+Bicurgium_R
+	Bicurgium
+	macedon
+	Chatti
+	90 63 114
+	none
+	5
+	5
+Tulifurdum_R
+	Tulifurdum
+	macedon
+	Batavi
+	215 59 96
+	none
+	5
+	6
+Phleum_R
+	Phleum
+	macedon
+	Batavi
+	91 183 103
+	none
+	5
+	4
+Fabiranum_R
+	Fabiranum
+	macedon
+	Saxones
+	62 32 127
+	none
+	5
+	4
+Leufana_R
+	Leufana
+	macedon
+	Chatti
+	175 140 99
+	none
+	5
+	6
+Tribus_Chattii
+	Damme
+	macedon
+	Chatti
+	232 198 41
+	none
+	5
+	6
+Regnum_Marcomannii
+	Vicus_Marcomannii
+	macedon
+	Marcomanni
+	177 78 58
+	none
+	5
+	5
+Lugidunum_R
+	Lugidunum
+	macedon
+	Marcomanni
+	108 0 46
+	none
+	5
+	6
+Sesudata_R
+	Sesudata
+	macedon
+	Chatti
+	169 157 135
+	none
+	5
+	3
+Alisus_R
+	Alisus
+	macedon
+	Chatti
+	227 110 93
+	none
+	5
+	4
+Laciburgium_R
+	Laciburgium
+	macedon
+	Saxones
+	22 142 31
+	none
+	5
+	5
+Marionis_R
+	Marionis
+	macedon
+	Saxones
+	56 222 184
+	none
+	5
+	5
+Fundusium_R
+	Fundusium
+	macedon
+	Saxones
+	40 107 56
+	none
+	5
+	5
+Chalium_R
+	Chalium
+	macedon
+	Saxones
+	199 175 87
+	none
+	5
+	4
+Tribus_Saxones
+	Bordesholm
+	macedon
+	Saxones
+	232 41 55
+	none
+	5
+	3
+Locus_Gothi
+	Vicus_Gothi
+	macedon
+	Goths
+	203 41 232
+	none
+	5
+	7
+Scurgum_R
+	Scurgum
+	macedon
+	Goths
+	96 122 84
+	none
+	5
+	4
+Viritium_R
+	Viritium
+	macedon
+	Goths
+	25 78 147
+	none
+	5
+	3
+Ascaucalis_R
+	Ascaucalis
+	macedon
+	Marcomanni
+	104 23 145
+	none
+	5
+	4
+Setidava_R
+	Setidava
+	macedon
+	Marcomanni
+	206 140 43
+	none
+	5
+	4
+Leucaristus_R
+	Leucaristus
+	macedon
+	Marcomanni
+	48 128 55
+	none
+	5
+	5
+Budorigum_R
+	Budorigum
+	macedon
+	Marcomanni
+	113 195 189
+	none
+	5
+	5
+Eburum_R
+	Eburum
+	macedon
+	Boii
+	158 105 44
+	none
+	5
+	4
+Casurgis_R
+	Casurgis
+	macedon
+	Boii
+	40 137 52
+	none
+	5
+	8
+Boihaemum
+	Lovosice
+	macedon
+	Boii
+	58 150 177
+	none
+	5
+	5
+Furgisatis_R
+	Furgisatis
+	macedon
+	Boii
+	218 82 87
+	none
+	5
+	5
+Mediolanium_Racataea_R
+	Mediolanium_Racataea
+	macedon
+	Boii
+	35 43 188
+	none
+	5
+	5
+Asanca_R
+	Asanca
+	macedon
+	Marcomanni
+	24 63 89
+	none
+	5
+	5
+Carrodunum_R
+	Carrodunum
+	macedon
+	Venedae
+	151 110 138
+	none
+	5
+	3
+Arsicua_R
+	Arsicua
+	macedon
+	Marcomanni
+	149 49 60
+	none
+	5
+	6
+Meliodunum_R
+	Meliodunum
+	macedon
+	Boii
+	158 96 191
+	none
+	5
+	6
+
+; *********************************************************
+; *********************************************************
+; 13. Baltic
+; Number of Provinces: 11
+ 
+Galindium_R
+	Galindium
+	macedon
+	Marcomanni
+	221 215 28
+	none
+	5
+	4
+Sudinium_R
+	Sudinium
+	macedon
+	Marcomanni
+	145 97 23
+	none
+	5
+	4
+Soulonium_R
+	Soulonium
+	macedon
+	Marcomanni
+	54 173 57
+	none
+	5
+	5
+Sargenai_R
+	Sargenai
+	macedon
+	Gepids
+	105 64 65
+	none
+	5
+	2
+Venedium_R
+	Venedium
+	macedon
+	Gepids
+	217 142 191
+	none
+	5
+	4
+Locus_Gepidae
+	Domus_Dulcis_Domus
+	macedon
+	Gepids
+	58 177 95
+	none
+	5
+	2
+Veltaeum_R
+	Veltaeum
+	macedon
+	Gepids
+	41 113 26
+	none
+	5
+	3
+Firrium_R
+	Firrium
+	macedon
+	Gepids
+	189 130 38
+	none
+	5
+	2
+Aestium_R
+	Aestium
+	macedon
+	Gepids
+	80 51 219
+	none
+	5
+	3
+Osium_R
+	Osium
+	macedon
+	Saxones
+	173 84 59
+	none
+	5
+	2
+Careotaeum_R
+	Careotaeum
+	macedon
+	Gepids
+	12 43 105
+	none
+	5
+	3
+
+; *********************************************************
+; *********************************************************
+; 14. Carpathia
+; Number of Provinces: 17
+
+Parienna_R
+	Parienna
+	macedon
+	Boii
+	25 100 190
+	none
+	5
+	3
+Anduaetium_R
+	Anduaetium
+	macedon
+	Boii
+	77 40 107
+	none
+	5
+	4
+Poetovium_R
+	Poetovium
+	macedon
+	Illyrians
+	28 199 84
+	none
+	5
+	4
+Mogentiana_R
+	Mogentiana
+	macedon
+	Scordisci
+	119 53 179
+	none
+	5
+	3
+Pannonia
+	Aquincum
+	macedon
+	Scordisci
+	131 61 33
+	none
+	5
+	5
+Sopianis_R
+	Sopianis
+	macedon
+	Illyrians
+	196 187 82
+	none
+	5
+	5
+Bormanum_R
+	Bormanum
+	macedon
+	Iazyges
+	67 220 85
+	none
+	5
+	3
+Trissum_R
+	Trissum
+	macedon
+	Iazyges
+	134 137 74
+	none
+	5
+	4
+Sirmium_R
+	Sirmium
+	macedon
+	Illyrians
+	168 57 163
+	none
+	5
+	6
+Zurobara_R
+	Zurobara
+	macedon
+	Iazyges
+	133 113 157
+	none
+	5
+	5
+Argidava_R
+	Argidava
+	macedon
+	Iazyges
+	216 58 86
+	none
+	5
+	5
+Tribus_Iazyges
+	Campus_Iazyges
+	macedon
+	Iazyges
+	33 100 131
+	none
+	5
+	7
+Napoca_R
+	Napoca
+	macedon
+	Carpi
+	19 119 58
+	none
+	5
+	6
+Sangidava_R
+	Sangidava
+	macedon
+	Carpi
+	151 50 174
+	none
+	5
+	5
+Dacia
+	Porrolissum
+	macedon
+	Carpi
+	72 177 58
+	none
+	5
+	7
+Tribus_Getae
+	Campus_Getae
+	macedon
+	Troglodytae
+	131 33 38
+	none
+	5
+	5
+Petrodava_R
+	Petrodava
+	macedon
+	Carpi
+	240 114 64
+	none
+	5
+	4
+
+; *********************************************************
+; *********************************************************
+; 15. Illyria
+; Number of Provinces: 13
+
+Illyria
+	Segestica
+	macedon
+	Illyrians
+	58 173 177
+	none
+	5
+	6
+Senia_R
+	Senia
+	macedon
+	Illyrians
+	28 37 132
+	none
+	5
+	3
+Iader_R
+	Iader
+	macedon
+	Illyrians
+	211 196 173
+	none
+	5
+	4
+Salinae_R
+	Salinae
+	macedon
+	Illyrians
+	32 116 23
+	none
+	5
+	4
+HedumOppidum_R
+	HedumOppidum
+	macedon
+	Illyrians
+	147 86 88
+	none
+	5
+	5
+Dalmatia
+	Salona
+	macedon
+	Illyrians
+	61 177 58
+	none
+	5
+	4
+Issa_R
+	Issa
+	macedon
+	Illyrians
+	18 125 28
+	none
+	5
+	3
+Delminium_R
+	Delminium
+	macedon
+	Illyrians
+	161 47 199
+	none
+	5
+	6
+Rhizon_R
+	Rhizon
+	macedon
+	Illyrians
+	206 75 26
+	none
+	5
+	4
+Scodra_R
+	Scodra
+	macedon
+	Illyrians
+	213 221 70
+	none
+	5
+	7
+Epidamnus_R
+	Epidamnus
+	macedon
+	Illyrians
+	221 70 195
+	none
+	5
+	7
+Arsa_R
+	Arsa
+	macedon
+	Illyrians
+	60 240 60
+	none
+	5
+	5
+Singidunum_R
+	Singidunum
+	macedon
+	Illyrians
+	185 117 47
+	none
+	5
+	8
+
+; *********************************************************
+; *********************************************************
+; 16. Thracia
+; Number of Provinces: 17
+ 
+Naissus_R
+	Naissus
+	macedon
+	Illyrians
+	26 26 166
+	none
+	5
+	6
+Serdica_R
+	Serdica
+	macedon
+	Odrysae
+	218 120 25
+	none
+	5
+	5
+Dunonia_R
+	Dunonia
+	macedon
+	Illyrians
+	199 31 197
+	none
+	5
+	5
+Kabyle_R
+	Kabyle
+	macedon
+	Odrysae
+	4 121 41
+	none
+	5
+	7
+Odryssa_R
+	Odryssa
+	macedon
+	Odrysae
+	3 124 193
+	none
+	5
+	12
+Maroneia_R
+	Maroneia
+	macedon
+	Odrysae
+	141 63 143
+	none
+	5
+	6
+Philippopolis_R
+	Philippopolis
+	macedon
+	Odrysae
+	207 38 98
+	none
+	5
+	8
+Giridava_R
+	Giridava
+	macedon
+	Odrysae
+	131 138 216
+	none
+	5
+	6
+Helis_R
+	Helis
+	macedon
+	Odrysae
+	60 60 120
+	none
+	5
+	4
+Odessus_R
+	Odessus
+	macedon
+	Odrysae
+	193 28 208
+	none
+	5
+	8
+ApolloniaPontica_R
+	ApolloniaPontica
+	macedon
+	Odrysae
+	160 41 33
+	none
+	5
+	6
+Istros_R
+	Istros
+	macedon
+	Odrysae
+	37 136 33
+	none
+	5
+	6
+Malva_R
+	Malva
+	macedon
+	Carpi
+	200 120 60
+	none
+	5
+	4
+Thrace
+	Tylis
+	macedon
+	Odrysae
+	218 246 61
+	none
+	5
+	10
+Argedava_R
+	Argedava
+	macedon
+	Carpi
+	131 130 81
+	none
+	5
+	3
+Lysimachia_R
+	Lysimachia
+	macedon
+	Sithones
+	46 63 131
+	none
+	5
+	9
+Perinthus_R
+	Perinthus
+	macedon
+	Sithones
+	107 20 20
+	none
+	5
+	9
+Cypsela_R
+	Cypsela
+	macedon
+	Sithones
+	59 61 30
+	none
+	5
+	9
+Propontis
+	Byzantium
+	macedon
+	Sithones
+	118 131 33
+	none
+	5
+	12
+Buridava_R
+	Buridava
+	macedon
+	Carpi
+	53 64 128
+	none
+	5
+	3
+Nentidava_R
+	Nentidava
+	macedon
+	Carpi
+	123 210 168
+	none
+	5
+	3
+
+; *********************************************************
+; *********************************************************
+; 17. Macedonia
+; Number of Provinces: 14
+
+Bisaltia_R
+	Amphipolis
+	macedon
+	Edones
+	22 115 26
+	none
+	5
+	10
+Sintice_R
+	Paroecopolis
+	macedon
+	Lesbians
+	95 80 89
+	none
+	5
+	8
+Chalcidice_R
+	Cassandria
+	macedon
+	Edones
+	25 33 112
+	none
+	5
+	8
+Lyncestis_R
+	Heraclea_Lyncestis
+	macedon
+	Edones
+	163 139 139
+	none
+	5
+	8
+Dassaretis_R
+	Lychnidus
+	macedon
+	Paionians
+	26 219 171
+	none
+	5
+	6
+Magnesia_R
+	Demetrias
+	macedon
+	Thessalians
+	186 179 88
+	none
+	5
+	9
+Orestis_R
+	Argos_Orestica
+	macedon
+	Paionians
+	134 131 81
+	none
+	5
+	6
+Macedonia_R
+	Pella
+	macedon
+	Edones
+	185 117 1
+	none
+	5
+	10
+Pieria_R
+	Dion
+	macedon
+	Achaeans
+	149 94 156
+	none
+	5
+	8
+Elimiotis_R
+	Aiane
+	macedon
+	Achaeans
+	164 75 157
+	none
+	5
+	1
+Paionia
+	Bylazora
+	macedon
+	Paionians
+	131 33 100
+	none
+	5
+	7
+Thessalia_R
+	Larissa
+	macedon
+	Thessalians
+	177 83 58
+	none
+	5
+	12
+Tymphaea_R
+	Oxyneia
+	macedon
+	Achaeans
+	60 34 54
+	none
+	5
+	1
+Mygdonia_R
+	Thessalonica
+	macedon
+	Edones
+	177 58 145
+	none
+	5
+	10
+Epirus
+	Apollonia
+	macedon
+	Epirots
+	83 58 177
+	none
+	5
+	6
+Chaonia_R
+	Phoenice
+	macedon
+	Epirots
+	167 35 112
+	none
+	5
+	7
+Parauaea_R
+	Artichia
+	macedon
+	Epirots
+	196 150 211
+	none
+	5
+	1
+Corcyra_R
+	Corcyra
+	macedon
+	Epirots
+	19 146 79
+	none
+	5
+	6
+Ambracia_R
+	Ambracia
+	macedon
+	Epirots
+	62 65 121
+	none
+	5
+	10
+Molossis_R
+	Passaron
+	macedon
+	Epirots
+	107 72 107
+	none
+	5
+	6
+Aetolia_R
+	Thermon
+	macedon
+	Aetolians
+	13 18 244
+	none
+	5
+	9
+
+; *********************************************************
+; *********************************************************
+; 18. Hellas
+; Number of Provinces: 27
+
+Attica_R
+	Athens
+	macedon
+	Athenians
+	58 177 106
+	none
+	5
+	9
+Corinthia_R
+	Corinth
+	macedon
+	Achaeans
+	225 192 192
+	none
+	5
+	8
+Lemnos_R
+	Myrina
+	macedon
+	Athenians
+	96 111 146
+	none
+	5
+	8
+Laconia_R
+	Sparta
+	macedon
+	Helots
+	244 13 24
+	none
+	5
+	7
+Euboea_R
+	Chalcis
+	macedon
+	Ionians
+	158 92 60
+	none
+	5
+	3
+Boeotia_R
+	Thespiae
+	macedon
+	Athenians
+	175 48 48
+	none
+	5
+	10
+Megaris_R
+	Megara
+	macedon
+	Athenians
+	191 147 174
+	none
+	5
+	9
+Phocis_R
+	Elatea
+	macedon
+	Athenians
+	33 53 36
+	none
+	5
+	9
+Acarnania_R
+	Stratus
+	macedon
+	Athenians
+	67 74 47
+	none
+	5
+	9
+Malis_R
+	Lamia
+	macedon
+	Athenians
+	29 39 46
+	none
+	5
+	9
+Dolopia_R
+	Ctimene
+	macedon
+	Athenians
+	98 69 120
+	none
+	5
+	9
+Argolis_R
+	Argos
+	macedon
+	Achaeans
+	78 111 78
+	none
+	5
+	8
+Troezen_R
+	Troezen
+	macedon
+	Achaeans
+	97 82 92
+	none
+	5
+	8
+Mycenae_R
+	Mycenae
+	macedon
+	Achaeans
+	92 40 40
+	none
+	5
+	8
+Epidauros_R
+	Epidauros
+	macedon
+	Achaeans
+	193 108 108
+	none
+	5
+	8
+Aegina_R
+	Aegina
+	macedon
+	Achaeans
+	110 19 80
+	none
+	5
+	8
+Mantinea_R
+	Mantinea
+	macedon
+	Achaeans
+	120 50 50
+	none
+	5
+	8
+Thyrea_R
+	Thyrea
+	macedon
+	Achaeans
+	196 111 149
+	none
+	5
+	8
+Kleitor_R
+	Kleitor
+	macedon
+	Achaeans
+	166 58 116
+	none
+	5
+	8
+Olympia_R
+	Olympia
+	macedon
+	Achaeans
+	170 79 79
+	none
+	5
+	8
+Psophis_R
+	Psophis
+	macedon
+	Achaeans
+	139 82 113
+	none
+	5
+	8
+Lepreon_R
+	Lepreon
+	macedon
+	Achaeans
+	99 100 40
+	none
+	5
+	8
+Cyparissea_R
+	Cyparissea
+	macedon
+	Achaeans
+	45 45 27
+	none
+	5
+	8
+Pylos_R
+	Pylos
+	macedon
+	Achaeans
+	215 138 138
+	none
+	5
+	8
+Epidauros_Limera_R
+	Epidauros_Limera
+	macedon
+	Achaeans
+	89 37 37
+	none
+	5
+	8
+Andros_R
+	Andros
+	macedon
+	Achaeans
+	190 100 147
+	none
+	5
+	6
+Arcadia_R
+	Megalopolis
+	macedon
+	Achaeans
+	70 78 174
+	none
+	5
+	6
+Achaea_R
+	Aegium
+	macedon
+	Achaeans
+	206 173 22
+	none
+	5
+	6
+Elis_R
+	Elis
+	macedon
+	Achaeans
+	17 69 11
+	none
+	5
+	10
+Messenia_R
+	Messene
+	macedon
+	Achaeans
+	118 63 118
+	none
+	5
+	12
+Cephallenia_R
+	Same
+	macedon
+	Ionians
+	170 21 21
+	none
+	5
+	3
+Naxos_R
+	Naxos
+	macedon
+	Ionians
+	189 39 39
+	none
+	5
+	3
+Samos_R
+	Samos
+	macedon
+	Ionians
+	231 123 123
+	none
+	5
+	3
+Gortyna_R
+	Gortyna
+	macedon
+	Cretans
+	144 144 74
+	none
+	5
+	3
+Kydonia_R
+	Kydonia
+	macedon
+	Cretans
+	193 162 206
+	none
+	5
+	7
+Knossos_R
+	Knossos
+	macedon
+	Cretans
+	174 23 23
+	none
+	5
+	9
+Hierapytna_R
+	Hierapytna
+	macedon
+	Cretans
+	42 84 47
+	none
+	5
+	9
+Rhodos
+	Rhodes
+	macedon
+	Rhodians
+	131 33 77
+	none
+	5
+	6
+
+; *********************************************************
+; *********************************************************
+; 19. Anatolia
+; Number of Provinces: 44
+
+Lycia
+	Halicarnasus
+	macedon
+	Lycians
+	131 83 77
+	none
+	5
+	10
+Cnidus_R
+	Cnidus
+	macedon
+	Ionians
+	83 195 106
+	none
+	5
+	5
+Ionia
+	Sardis
+	macedon
+	Ionians
+	149 109 127
+	none
+	5
+	10
+Ephesus_R
+	Ephesus
+	macedon
+	Ionians
+	127 142 107
+	none
+	5
+	8
+Erythrae_R
+	Erythrae
+	macedon
+	Ionians
+	192 184 201
+	none
+	5
+	8
+Phrygia
+	Pergamum
+	macedon
+	Lesbians
+	33 59 131
+	none
+	5
+	12
+Galatia
+	Ancyra
+	macedon
+	Galatians
+	17 165 202
+	none
+	5
+	8
+Bithynia
+	Nicomedia
+	macedon
+	Bithynians
+	202 17 122
+	none
+	5
+	11
+Cappadocia
+	Mazaka
+	macedon
+	Cappadocians
+	177 58 148
+	none
+	5
+	8
+Samosata_R
+	Samosata
+	macedon
+	Cappadocians
+	168 116 49
+	none
+	5
+	5
+Cilicia
+	Tarsus
+	macedon
+	Cilicians
+	17 202 52
+	none
+	5
+	12
+Adana_R
+	Adana
+	macedon
+	Cilicians
+	100 20 121
+	none
+	5
+	12
+SeleuciaCalycadnum_R
+	SeleuciaCalycadnum
+	macedon
+	Cilicians
+	203 189 85
+	none
+	5
+	12
+Pontus
+	Sinope
+	macedon
+	Paphlagonians
+	202 156 17
+	none
+	5
+	10
+Cyprus
+	Salamis
+	macedon
+	Cypriots
+	126 144 111
+	none
+	5
+	9
+NeaPaphos_R
+	NeaPaphos
+	macedon
+	Cypriots
+	163 69 61
+	none
+	5
+	8
+Patara_R
+	Patara
+	macedon
+	Lycians
+	65 79 137
+	none
+	5
+	7
+Perge_R
+	Perge
+	macedon
+	Lycians
+	255 60 60
+	none
+	5
+	8
+Side_R
+	Side
+	macedon
+	Lycians
+	30 120 129
+	none
+	5
+	7
+Lesbos_R
+	Mytilene
+	macedon
+	Lesbians
+	211 209 26
+	none
+	5
+	8
+Cyzicus_R
+	Cyzicus
+	macedon
+	Lesbians
+	40 162 40
+	none
+	5
+	4
+Cos_R
+	Cos
+	macedon
+	Achaeans
+	92 83 92
+	none
+	5
+	4
+Chios_R
+	Chios
+	macedon
+	Ionians
+	25 134 61
+	none
+	5
+	3
+Smyrna_R
+	Smyrna
+	macedon
+	Ionians
+	255 140 140
+	none
+	5
+	8
+Nicaea_R
+	Nicaea
+	macedon
+	Bithynians
+	52 48 103
+	none
+	5
+	9
+HeracleaPontica_R
+	HeracleaPontica
+	macedon
+	Paphlagonians
+	89 189 101
+	none
+	5
+	8
+Abydos_R
+	Abydos
+	macedon
+	Lesbians
+	244 38 48
+	none
+	5
+	6
+Troas_R
+	Troas
+	macedon
+	Lesbians
+	78 106 79
+	none
+	5
+	6
+Dascylium_R
+	Dascylium
+	macedon
+	Ionians
+	104 127 62
+	none
+	5
+	7
+Amastris_R
+	Amastris
+	macedon
+	Paphlagonians
+	57 13 198
+	none
+	5
+	7
+Amisus_R
+	Amisus
+	macedon
+	Paphlagonians
+	117 166 100
+	none
+	5
+	7
+Amaseia_R
+	Amaseia
+	macedon
+	Paphlagonians
+	30 120 123
+	none
+	5
+	11
+ComanaPontica_R
+	ComanaPontica
+	macedon
+	Paphlagonians
+	103 84 130
+	none
+	5
+	7
+Gangra_R
+	Gangra
+	macedon
+	Paphlagonians
+	61 186 40
+	none
+	5
+	6
+Comana_R
+	Comana
+	macedon
+	Cappadocians
+	240 240 42
+	none
+	5
+	6
+Pessinus_R
+	Pessinus
+	macedon
+	Galatians
+	44 91 43
+	none
+	5
+	6
+Tavium_R
+	Tavium
+	macedon
+	Galatians
+	255 120 120
+	none
+	5
+	6
+Iconium_R
+	Iconium
+	macedon
+	Galatians
+	255 200 200
+	none
+	5
+	8
+Cotyaeum_R
+	Cotyaeum
+	macedon
+	Galatians
+	252 17 238
+	none
+	5
+	6
+LaodiceaLycus_R
+	LaodiceaLycus
+	macedon
+	Galatians
+	15 21 136
+	none
+	5
+	7
+ApameaMaeandrum_R
+	ApameaMaeandrum
+	macedon
+	Galatians
+	46 118 126
+	none
+	5
+	6
+Philomelion_R
+	Philomelion
+	macedon
+	Galatians
+	206 212 47
+	none
+	5
+	6
+Laranda_R
+	Laranda
+	macedon
+	Galatians
+	98 84 151
+	none
+	5
+	6
+Trapezus_R
+	Trapezus
+	macedon
+	Ionians
+	255 80 80
+	none
+	5
+	8
+Cotyora_R
+	Cotyora
+	macedon
+	Ionians
+	23 227 23
+	none
+	5
+	5
+Melitene_R
+	Melitene
+	macedon
+	Cappadocians
+	131 36 36
+	none
+	5
+	6
+Tyana_R
+	Tyana
+	macedon
+	Cappadocians
+	220 110 8
+	none
+	5
+	6
+
+; *********************************************************
+; *********************************************************
+; 20. Caucasia
+; Number of Provinces: 10
+
+Colchis
+	Kotais
+	macedon
+	Colchians
+	199 31 143
+	none
+	5
+	8
+Phasis_R
+	Phasis
+	macedon
+	Colchians
+	39 127 37
+	none
+	5
+	6
+Dioscurias_R
+	Dioscurias
+	macedon
+	Colchians
+	160 171 38
+	none
+	5
+	4
+Mtskheta_R
+	Mtskheta
+	macedon
+	Colchians
+	29 132 18
+	none
+	5
+	6
+Harmozica_R
+	Harmozica
+	macedon
+	Colchians
+	255 160 120
+	none
+	5
+	6
+Teleda_R
+	Teleda
+	macedon
+	Cappadocians
+	80 80 31
+	none
+	5
+	5
+Khabala_R
+	Khabala
+	macedon
+	Medes
+	30 227 64
+	none
+	5
+	10
+Tsunda_R
+	Tsunda
+	macedon
+	Colchians
+	189 185 144
+	none
+	5
+	3
+Tzon_R
+	Tzon
+	macedon
+	Medes
+	150 101 144
+	none
+	5
+	5
+Bagavan_R
+	Bagavan
+	macedon
+	Medes
+	255 20 20
+	none
+	5
+	9
+
+; *********************************************************
+; *********************************************************
+; 21. Armenia
+; Number of Provinces: 11
+
+Armenia
+	Artaxarta
+	macedon
+	Cappadocians
+	202 61 17
+	none
+	5
+	5
+Thospia_R
+	Thospia
+	macedon
+	Cappadocians
+	155 123 72
+	none
+	5
+	8
+Manavazkert_R
+	Manavazkert
+	macedon
+	Cappadocians
+	70 240 190
+	none
+	5
+	6
+Naxouana_R
+	Naxouana
+	macedon
+	Cappadocians
+	50 112 37
+	none
+	5
+	7
+Satala_R
+	Satala
+	macedon
+	Cappadocians
+	59 51 160
+	none
+	5
+	6
+Kamacha_R
+	Kamacha
+	macedon
+	Cappadocians
+	168 49 155
+	none
+	5
+	5
+Arsamosata_R
+	Arsamosata
+	macedon
+	Cappadocians
+	180 166 47
+	none
+	5
+	6
+Carcathiocerta_R
+	Carcathiocerta
+	macedon
+	Cappadocians
+	79 205 40
+	none
+	5
+	6
+Ashtishat_R
+	Ashtishat
+	macedon
+	Cappadocians
+	54 52 137
+	none
+	5
+	5
+Karin_R
+	Karin
+	macedon
+	Colchians
+	189 248 147
+	none
+	5
+	4
+Arsarata_R
+	Arsarata
+	macedon
+	Medes
+	33 117 132
+	none
+	5
+	5
+
+; *********************************************************
+; *********************************************************
+; 22. Levante
+; Number of Provinces: 15
+
+Syria
+	Antioch
+	macedon
+	Syrians
+	13 244 165
+	none
+	5
+	9
+Regnum_Palmyrae
+	Palmyra
+	macedon
+	Palmyrans
+	175 171 244
+	none
+	5
+	7
+Laodicea_R
+	Laodicea
+	macedon
+	Syrians
+	133 127 28
+	none
+	5
+	8
+ApameaOrontes_R
+	ApameaOrontes
+	macedon
+	Syrians
+	84 88 203
+	none
+	5
+	8
+Arethusa_R
+	Arethusa
+	macedon
+	Syrians
+	237 42 103
+	none
+	5
+	8
+Hierapolis_R
+	Hierapolis
+	macedon
+	Syrians
+	184 176 52
+	none
+	5
+	8
+Arados_R
+	Arados
+	macedon
+	Phoenicians
+	160 80 91
+	none
+	5
+	7
+Byblos_R
+	Byblos
+	macedon
+	Phoenicians
+	162 31 180
+	none
+	5
+	8
+Coele_Syria
+	Damascus
+	macedon
+	Syrians
+	244 203 14
+	none
+	5
+	8
+Phoenicia
+	Sidon
+	macedon
+	Phoenicians
+	33 131 128
+	none
+	5
+	9
+Ptolemais_R
+	Ptolemais
+	macedon
+	Phoenicians
+	109 137 103
+	none
+	5
+	9
+Philadelphia_R
+	Philadelphia
+	macedon
+	Nabataeans
+	199 91 249
+	none
+	5
+	5
+Gaza_R
+	Gaza
+	macedon
+	Judaeans
+	199 43 128
+	none
+	5
+	2
+Nabataea
+	Bostra
+	macedon
+	Nabataeans
+	13 244 160
+	none
+	5
+	5
+Judaea
+	Jerusalem
+	macedon
+	Judaeans
+	244 13 29
+	none
+	5
+	8
+
+; *********************************************************
+; *********************************************************
+; 23. Mesopotamia
+; Number of Provinces: 16
+
+Babylon_R
+	Babylon
+	macedon
+	Syrians
+	209 36 211
+	none
+	5
+	12
+Babylonia
+	Seleucia
+	macedon
+	Syrians
+	177 58 167
+	none
+	5
+	14
+Nineveh_R
+	Nineveh
+	macedon
+	Syrians
+	88 64 201
+	none
+	5
+	8
+Arbela_R
+	Arbela
+	macedon
+	Syrians
+	183 65 34
+	none
+	5
+	7
+Orkhoe_R
+	Orkhoe
+	macedon
+	Syrians
+	184 167 60
+	none
+	5
+	9
+CharaxSpasinu_R
+	CharaxSpasinu
+	macedon
+	Syrians
+	164 4 32
+	none
+	5
+	8
+Apphana_R
+	Apphana
+	macedon
+	Syrians
+	147 91 91
+	none
+	5
+	8
+Dura_R
+	Dura
+	macedon
+	Syrians
+	30 46 74
+	none
+	5
+	5
+Isiopolis_R
+	Isiopolis
+	macedon
+	Syrians
+	126 96 85
+	none
+	5
+	4
+Birtha_R
+	Birtha
+	macedon
+	Syrians
+	53 123 50
+	none
+	5
+	6
+ApameaSittacene_R
+	ApameaSittacene
+	macedon
+	Syrians
+	25 79 8
+	none
+	5
+	8
+Opis_R
+	Opis
+	macedon
+	Syrians
+	97 113 106
+	none
+	5
+	9
+Assyria
+	Hatra
+	macedon
+	Syrians
+	244 122 13
+	none
+	5
+	8
+Edessa_R
+	Edessa
+	macedon
+	Syrians
+	26 31 249
+	none
+	5
+	8
+Araban_R
+	Araban
+	macedon
+	Syrians
+	46 158 44
+	none
+	5
+	6
+Nisibis_R
+	Nisibis
+	macedon
+	Syrians
+	187 189 30
+	none
+	5
+	6
+Sareisa_R
+	Sareisa
+	macedon
+	Syrians
+	137 143 97
+	none
+	5
+	5
+Nikephorion_R
+	Nikephorion
+	macedon
+	Syrians
+	135 38 146
+	none
+	5
+	3
+
+; *********************************************************
+; *********************************************************
+; 24. Arabia
+; Number of Provinces: 31
+
+Arabia
+	Dumatha
+	macedon
+	Nabataeans
+	13 171 244
+	none
+	5
+	3
+Sinai
+	Petra
+	macedon
+	Nabataeans
+	35 244 13
+	none
+	5
+	4
+Aila_R
+	Aila
+	macedon
+	Nabataeans
+	48 205 193
+	none
+	5
+	6
+LeukeKome_R
+	LeukeKome
+	macedon
+	Nabataeans
+	129 27 137
+	none
+	5
+	2
+Tabawa_R
+	Tabawa
+	macedon
+	Nabataeans
+	136 126 64
+	none
+	5
+	5
+Hegra_R
+	Hegra
+	macedon
+	Nabataeans
+	228 206 114
+	none
+	5
+	3
+Tema_R
+	Tema
+	macedon
+	Nabataeans
+	117 34 48
+	none
+	5
+	3
+Yathrib_R
+	Yathrib
+	macedon
+	Nabataeans
+	29 76 16
+	none
+	5
+	4
+Makoraba_R
+	Makoraba
+	macedon
+	Nabataeans
+	179 30 149
+	none
+	5
+	4
+Charmutha_R
+	Charmutha
+	macedon
+	Nabataeans
+	148 233 232
+	none
+	5
+	3
+Thomala_R
+	Thomala
+	macedon
+	Nabataeans
+	128 45 138
+	none
+	5
+	2
+Marma_R
+	Marma
+	macedon
+	Nabataeans
+	177 99 0
+	none
+	5
+	3
+Negram_R
+	Negram
+	macedon
+	Nabataeans
+	105 173 55
+	none
+	5
+	3
+Sanaa_R
+	Sanaa
+	macedon
+	Nabataeans
+	69 241 211
+	none
+	5
+	6
+Mariba_R
+	Mariba
+	macedon
+	Nabataeans
+	176 204 11
+	none
+	5
+	5
+Tamna_R
+	Tamna
+	macedon
+	Nabataeans
+	169 42 121
+	none
+	5
+	4
+Sapphar_R
+	Sapphar
+	macedon
+	Nabataeans
+	195 85 31
+	none
+	5
+	5
+Muza_R
+	Muza
+	macedon
+	Nabataeans
+	27 71 21
+	none
+	5
+	3
+Adane_R
+	Adane
+	macedon
+	Nabataeans
+	68 66 14
+	none
+	5
+	6
+Sabatha_R
+	Sabatha
+	macedon
+	Nabataeans
+	63 161 81
+	none
+	5
+	6
+Cana_R
+	Cana
+	macedon
+	Nabataeans
+	195 202 97
+	none
+	5
+	4
+Thialemath_R
+	Thialemath
+	macedon
+	Nabataeans
+	143 17 130
+	none
+	5
+	4
+Abyssa_R
+	Abyssa
+	macedon
+	Nabataeans
+	24 207 174
+	none
+	5
+	5
+Sarapis_R
+	Sarapis
+	macedon
+	Nabataeans
+	207 212 58
+	none
+	5
+	1
+Appa_R
+	Appa
+	macedon
+	Nabataeans
+	70 54 44
+	none
+	5
+	2
+KryptosLimen_R
+	KryptosLimen
+	macedon
+	Nabataeans
+	169 96 52
+	none
+	5
+	4
+Omana_R
+	Omana
+	macedon
+	Nabataeans
+	178 162 135
+	none
+	5
+	5
+Kathara_R
+	Kathara
+	macedon
+	Nabataeans
+	94 138 102
+	none
+	5
+	3
+Tylos_R
+	Tylos
+	macedon
+	Nabataeans
+	107 80 28
+	none
+	5
+	2
+Gerrha_R
+	Gerrha
+	macedon
+	Nabataeans
+	105 111 171
+	none
+	5
+	5
+Khatt_R
+	Khatt
+	macedon
+	Nabataeans
+	62 203 70
+	none
+	5
+	3
+
+; *********************************************************
+; *********************************************************
+; 25. Persia
+; Number of Provinces: 34
+
+Morunda_R
+	Morunda
+	macedon
+	Medes
+	175 185 63
+	none
+	5
+	5
+Cyropolis_R
+	Cyropolis
+	macedon
+	Medes
+	68 25 25
+	none
+	5
+	7
+Atra_R
+	Atra
+	macedon
+	Medes
+	45 249 32
+	none
+	5
+	12
+Gazaca_R
+	Gazaca
+	macedon
+	Medes
+	33 117 209
+	none
+	5
+	8
+Aganzana_R
+	Aganzana
+	macedon
+	Medes
+	132 62 132
+	none
+	5
+	5
+Atropatene
+	Phraaspa
+	macedon
+	Medes
+	61 239 246
+	none
+	5
+	4
+Media
+	Arsakia
+	macedon
+	Medes
+	58 167 177
+	none
+	5
+	6
+Denabaran_R
+	Denabaran
+	macedon
+	Syrians
+	26 125 38
+	none
+	5
+	6
+Chala_R
+	Chala
+	macedon
+	Syrians
+	102 101 36
+	none
+	5
+	7
+Europus_R
+	Europus
+	macedon
+	Syrians
+	230 215 43
+	none
+	5
+	7
+Kumandan_R
+	Kumandan
+	macedon
+	Syrians
+	93 107 151
+	none
+	5
+	5
+Aspadana_R
+	Aspadana
+	macedon
+	Syrians
+	59 104 37
+	none
+	5
+	8
+Issatis_R
+	Issatis
+	macedon
+	Syrians
+	97 28 7
+	none
+	5
+	6
+Artacana_R
+	Artacana
+	macedon
+	Syrians
+	182 124 41
+	none
+	5
+	4
+Elymais
+	Susa
+	macedon
+	Elamites
+	72 58 177
+	none
+	5
+	8
+SeleuciaHedyphon_R
+	SeleuciaHedyphon
+	macedon
+	Syrians
+	231 200 31
+	none
+	5
+	5
+AntiochiaPersis_R
+	AntiochiaPersis
+	macedon
+	Syrians
+	224 83 75
+	none
+	5
+	6
+Siraf_R
+	Siraf
+	macedon
+	Syrians
+	37 39 100
+	none
+	5
+	6
+Persepolis_R
+	Persepolis
+	macedon
+	Syrians
+	58 202 13
+	none
+	5
+	6
+Pasargadae_R
+	Pasargadae
+	macedon
+	Syrians
+	107 36 104
+	none
+	5
+	5
+Harmozeia_R
+	Harmozeia
+	macedon
+	Syrians
+	87 148 71
+	none
+	5
+	6
+AlexandriaCarmania_R
+	AlexandriaCarmania
+	macedon
+	Syrians
+	205 127 49
+	none
+	5
+	5
+Bam_R
+	Bam
+	macedon
+	Syrians
+	98 109 159
+	none
+	5
+	6
+Pantyene_R
+	Pantyene
+	macedon
+	Syrians
+	183 48 185
+	none
+	5
+	6
+Arakia_R
+	Arakia
+	macedon
+	Nabataeans
+	197 27 217
+	none
+	5
+	2
+Kamtina_R
+	Kamtina
+	macedon
+	Nabataeans
+	39 176 28
+	none
+	5
+	2
+Archiotis_R
+	Archiotis
+	macedon
+	Medes
+	171 171 64
+	none
+	6
+	5
+Tabai_R
+	Tabai
+	macedon
+	Syrians
+	70 195 173
+	none
+	5
+	4
+Hecatompylos_R
+	Hecatompylos
+	macedon
+	Syrians
+	145 89 129
+	none
+	5
+	7
+Amol_R
+	Amol
+	macedon
+	Syrians
+	109 119 181
+	none
+	5
+	7
+Zadracarta_R
+	Zadracarta
+	macedon
+	Syrians
+	92 80 22
+	none
+	5
+	8
+Assak_R
+	Assak
+	macedon
+	Syrians
+	34 135 168
+	none
+	5
+	4
+Parbara_R
+	Parbara
+	macedon
+	Syrians
+	26 94 6
+	none
+	5
+	5
+Tastache_R
+	Tastache
+	macedon
+	Medes
+	197 90 92
+	none
+	5
+	3
+
+; *********************************************************
+; *********************************************************
+; 26. Ariana & Gedrosia
+; Number of Provinces: 25
+
+Susia_R
+	Susia
+	macedon
+	Syrians
+	43 170 46
+	none
+	5
+	6
+Sarakhs_R
+	Sarakhs
+	macedon
+	Syrians
+	217 208 58
+	none
+	5
+	6
+Iasonium_R
+	Iasonium
+	macedon
+	Syrians
+	135 138 181
+	none
+	5
+	4
+Sabarz_R
+	Sabarz
+	macedon
+	Medes
+	223 37 225
+	none
+	5
+	3
+Zamuchana_R
+	Zamuchana
+	macedon
+	Athenians
+	217 52 52
+	none
+	5
+	3
+AlexandriaAriana_R
+	AlexandriaAriana
+	macedon
+	Syrians
+	78 41 140
+	none
+	5
+	8
+AlexandriaProphthasia_R
+	AlexandriaProphthasia
+	macedon
+	Syrians
+	139 140 41
+	none
+	5
+	6
+Tatacene_R
+	Xarxiare
+	macedon
+	Athenians
+	196 111 2
+	none
+	5
+	5
+Zranka_R
+	Nostana
+	macedon
+	Syrians
+	165 25 124
+	none
+	5
+	5
+Arana_R
+	Arana
+	macedon
+	Syrians
+	33 118 29
+	none
+	5
+	3
+Neh_R
+	Neh
+	macedon
+	Syrians
+	158 141 53
+	none
+	5
+	4
+Sigal_R
+	Sigal
+	macedon
+	Syrians
+	141 193 35
+	none
+	5
+	5
+AlexandriaArachosia_R
+	AlexandriaArachosia
+	macedon
+	Syrians
+	45 53 216
+	none
+	5
+	7
+AlexandriaOpiana_R
+	AlexandriaOpiana
+	macedon
+	Syrians
+	146 98 78
+	none
+	5
+	6
+Kophen_R
+	Kophen
+	macedon
+	Syrians
+	43 180 119
+	none
+	5
+	5
+Bamiyan_R
+	Bamiyan
+	macedon
+	Syrians
+	234 66 70
+	none
+	5
+	3
+AlexandriaCaucasus_R
+	AlexandriaCaucasus
+	macedon
+	Medes
+	166 10 88
+	none
+	5
+	6
+Artoarta_R
+	Artoarta
+	macedon
+	Medes
+	202 97 192
+	none
+	5
+	5
+Bandara_R
+	Bandara
+	macedon
+	Medes
+	229 83 80
+	none
+	5
+	5
+Cuni_R
+	Cuni
+	macedon
+	Medes
+	97 33 191
+	none
+	5
+	4
+AlexandriaOrietai_R
+	AlexandriaOrietai
+	macedon
+	Medes
+	89 98 211
+	none
+	5
+	6
+Parsine_R
+	Parsis_Metropolis	
+	macedon
+	Medes
+	191 129 33
+	none
+	5
+	6
+Bagisara_R
+	Bagisara
+	macedon
+	Medes
+	15 119 17
+	none
+	5
+	4
+Barna_R
+	Barna
+	macedon
+	Medes
+	141 180 146
+	none
+	5
+	3
+Tisa_R
+	Tisa
+	macedon
+	Medes
+	222 211 34
+	none
+	5
+	3
+Pura_R
+	Pura
+	macedon
+	Medes
+	90 13 87
+	none
+	5
+	6
+
+; *********************************************************
+; *********************************************************
+; 27. Chorasmia
+; Number of Provinces: 8
+
+Nisa_R
+	Nisa
+	macedon
+	Syrians
+	143 11 64
+	none
+	5
+	6
+Parau_R
+	Parau
+	macedon
+	Saka
+	58 153 60
+	none
+	5
+	5
+Chatracharta_R
+	Chatracharta
+	macedon
+	Syrians
+	18 113 119
+	none
+	5
+	6
+Chorasmopolis_R	
+	Chorasmopolis
+	macedon
+	Saka
+	91 17 90
+	none
+	5
+	6
+Chorasmia_R
+	Chorasmia	
+	macedon
+	Saka
+	67 222 55
+	none
+	5
+	6
+Chomara_R
+	Chomara
+	macedon
+	Saka
+	24 26 109
+	none
+	5
+	7
+Alicodra_R
+	Alicodra
+	macedon
+	Saka
+	207 76 76
+	none
+	5
+	5
+Aspabota_R
+	Aspabota
+	macedon
+	Saka
+	108 61 154
+	none
+	5
+	5
+Barange_R
+	Barange
+	macedon
+	Saka
+	223 189 68
+	none
+	5
+	5
+AntiochiaMargiana_R
+	AntiochiaMargiana
+	macedon
+	Syrians
+	163 88 68
+	none
+	5
+	9
+
+; *********************************************************
+; *********************************************************
+; 28. Bactria & Sogdiana
+; Number of Provinces: 19
+
+Bactra_R
+	Bactra
+	macedon
+	Syrians
+	173 86 22
+	none
+	5
+	11
+Dargamanis_R
+	Ebusmi_Regia
+	macedon
+	Syrians
+	45 140 51
+	none
+	5
+	4
+Drapsaka_R
+	Drapsaka
+	macedon
+	Syrians
+	170 167 104
+	none
+	5
+	7
+AlexandriaOxiana_R
+	AlexandriaOxiana
+	macedon
+	Syrians
+	207 148 71
+	none
+	5
+	5
+Tarmita_R
+	Tarmita
+	macedon
+	Syrians
+	130 72 135
+	none
+	5
+	7
+Gazaba_R
+	Gazaba
+	macedon
+	Syrians
+	57 217 92
+	none
+	5
+	6
+Nakhshab_R
+	Nakhshab
+	macedon
+	Syrians
+	125 118 45
+	none
+	5
+	5
+Zamm_R
+	Zamm
+	macedon
+	Syrians
+	188 139 202
+	none
+	5
+	4
+Tribactra_R
+	Tribactra
+	macedon
+	Syrians
+	19 118 21
+	none
+	5
+	8
+Maracanda_R
+	Maracanda
+	macedon
+	Syrians
+	187 53 63
+	none
+	5
+	9
+Varakhsha_R
+	Varakhsha
+	macedon
+	Saka
+	184 116 31
+	none
+	5
+	6
+Nur_R
+	Nur
+	macedon
+	Saka
+	164 160 220
+	none
+	5
+	5
+AlexandriaEschate_R
+	AlexandriaEschate
+	macedon
+	Syrians
+	90 98 197
+	none
+	5
+	6
+Juandu_R
+	Juandu
+	macedon
+	Syrians
+	150 200 100
+	none
+	5
+	6
+Akhsikath_R
+	Akhsikath
+	macedon
+	Saka
+	221 138 23
+	none
+	5
+	7
+Taohuai_R
+	Yucheng
+	macedon
+	Saka
+	182 77 214
+	none
+	5
+	6
+Parab_R
+	Parab
+	macedon
+	Saka
+	56 80 87
+	none
+	5
+	6
+Isfijab_R
+	Isfijab
+	macedon
+	Saka
+	189 36 13
+	none
+	5
+	6
+Chach_R
+	Chach
+	macedon
+	Saka
+	110 215 83
+	none
+	5
+	9
+Baharak_R
+	Baharak
+	macedon
+	Medes
+	25 73 139
+	none
+	5
+	3
+Eshkashem_R
+	Eshkashem
+	macedon
+	Medes
+	193 30 46
+	none
+	5
+	3
+
+; *********************************************************
+; *********************************************************
+; 29. Indus
+; Number of Provinces: 19
+
+Pushkalavati_R
+	Pushkalavati
+	macedon
+	Medes
+	228 159 51
+	none
+	5
+	9
+Taxila_R
+	Taxila
+	macedon
+	Medes
+	53 116 98
+	none
+	5
+	12
+Bucephala_R
+	Bucephala
+	macedon
+	Medes
+	196 52 235
+	none
+	5
+	8
+Sagala_R
+	Sagala
+	macedon
+	Medes
+	191 126 130
+	none
+	5
+	11
+Amaktis_R
+	Amaktis
+	macedon
+	Medes
+	65 65 218
+	none
+	5
+	6
+Prasthala_R
+	Prasthala
+	macedon
+	Medes
+	109 132 183
+	none
+	5
+	7
+Trigarta_R
+	Trigarta
+	macedon
+	Medes
+	106 15 217
+	none
+	5
+	5
+Labokla_R
+	Labokla
+	macedon
+	Medes
+	167 23 29
+	none
+	5
+	8
+Varnu_R
+	Varnu
+	macedon
+	Medes
+	62 22 146
+	none
+	5
+	5
+Sibipura_R
+	Sibipura
+	macedon
+	Medes
+	69 142 35
+	none
+	5
+	7
+Tulamba_R
+	Tulamba
+	macedon
+	Medes
+	203 201 105
+	none
+	5
+	8
+AlexandriaIndus_R
+	AlexandriaIndus
+	macedon
+	Medes
+	144 84 66
+	none
+	5
+	9
+Panassa_R
+	Panassa
+	macedon
+	Medes
+	41 52 187
+	none
+	5
+	5
+Andrapana_R
+	Andrapana
+	macedon
+	Medes
+	215 30 55
+	none
+	5
+	5
+Mulasthana_R
+	Mulasthana
+	macedon
+	Medes
+	63 190 152
+	none
+	5
+	7
+Cottabara_R
+	Cottabara
+	macedon
+	Medes
+	129 243 99
+	none
+	5
+	5
+Kamigara_R
+	Kamigara
+	macedon
+	Medes
+	136 110 143
+	none
+	5
+	8
+Sindomana_R
+	Sindomana
+	macedon
+	Medes
+	166 162 78
+	none
+	5
+	8
+Minnagara_R
+	Minnagara
+	macedon
+	Medes
+	83 97 166
+	none
+	5
+	9
+Naagramma_R
+	Naagramma
+	macedon
+	Medes
+	255 252 108
+	none
+	5
+	6
+Patala_R
+	Patala
+	macedon
+	Medes
+	193 116 35
+	none
+	5
+	11
+Barbaricum_R
+	Barbaricum
+	macedon
+	Medes
+	79 52 108
+	none
+	5
+	5
+
+; *********************************************************
+; *********************************************************
+; 30. Himalaya
+; Number of Provinces: 15
+
+Nandou_R	
+	Skardu
+	macedon
+	Medes
+	24 105 187
+	none
+	5
+	3
+Sargin_R
+	Sargin
+	macedon
+	Medes
+	32 147 86
+	none
+	5
+	1
+Zanskar_R
+	Loha
+	macedon
+	Medes
+	132 28 54
+	none
+	5
+	3
+Maryul_R	
+	Rutog
+	macedon
+	Medes
+	105 27 137
+	none
+	5
+	4
+Kyunglung_R
+	Kyunglung
+	macedon
+	Medes
+	19 226 19
+	none
+	5
+	4
+Aiaka_R
+	Aiaka
+	macedon
+	Medes
+	27 70 230
+	none
+	5
+	4
+Srinagara_R
+	Srinagara
+	macedon
+	Medes
+	206 207 110
+	none
+	5
+	6
+Jumla_R
+	Jumla
+	macedon
+	Medes
+	160 38 63
+	none
+	5
+	5
+Paro_R
+	Paro
+	macedon
+	Medes
+	209 186 107
+	none
+	5
+	5
+Shigatse_R
+	Srad
+	macedon
+	Medes
+	52 154 64
+	none
+	5
+	5
+Gyantse_R
+	Gyantse
+	macedon
+	Medes
+	210 105 34
+	none
+	5
+	5
+Lhoka
+	Tsetang
+	macedon
+	Medes
+	77 183 193
+	none
+	5
+	5
+Yangbajain_R
+	Lhasa
+	macedon
+	Medes
+	201 195 94
+	none
+	5
+	5
+Langru_R
+	Langru
+	macedon
+	Athenians
+	24 38 102
+	none
+	5
+	1
+BamcangCamp_R
+	BamcangCamp
+	macedon
+	Medes
+	213 86 213
+	none
+	5
+	3
+Changtang_R
+	ChangpaCamp
+	macedon
+	Medes
+	37 139 43
+	none
+	5
+	2
+
+; *********************************************************
+; *********************************************************
+; 31. Bengal
+; Number of Provinces: 8
+
+Monyul_R
+	Monyul
+	macedon
+	Medes
+	53 53 99
+	none
+	5
+	6
+Pundranagara_R
+	Pundranagara
+	macedon
+	Medes
+	36 43 246
+	none
+	5
+	7
+Kelydna_R
+	Kelydna
+	macedon
+	Medes
+	228 221 46
+	none
+	5
+	6
+Aganagara_R
+	Aganagara
+	macedon
+	Medes
+	68 119 66
+	none
+	5
+	6
+Pertalis_R
+	Pertalis
+	macedon
+	Medes
+	132 84 186
+	none
+	5
+	6
+Tamralipta_R
+	Tamralipta
+	macedon
+	Medes
+	193 69 124
+	none
+	5
+	8
+Haritakivan_R
+	Haritakivan
+	macedon
+	Medes
+	233 219 130
+	none
+	5
+	5
+Bamanghati_R
+	Bamanghati
+	macedon
+	Medes
+	149 205 214
+	none
+	5
+	5
+
+
+; *********************************************************
+; *********************************************************
+; 32. Ganges
+; Number of Provinces: 22
+
+Sthanishvara_R
+	Sthanishvara
+	macedon
+	Medes
+	35 117 34
+	none
+	5
+	6
+Dronanagari_R
+	Dronanagari
+	macedon
+	Medes
+	193 175 18
+	none
+	5
+	5
+Khokhrakot_R
+	Khokhrakot
+	macedon
+	Medes
+	227 136 59
+	none
+	5
+	6
+Hastinapura_R
+	Hastinapura
+	macedon
+	Medes
+	164 30 32
+	none
+	5
+	7
+Mathura_R
+	Mathura
+	macedon
+	Medes
+	33 127 228
+	none
+	5
+	9
+Ahichchhatra_R
+	Ahichchhatra
+	macedon
+	Medes
+	63 224 107
+	none
+	5
+	8
+Kanyakubja_R
+	Kanyakubja
+	macedon
+	Medes
+	82 21 160
+	none
+	5
+	8
+Karvirpur_R
+	Karvirpur
+	macedon
+	Medes
+	91 143 176
+	none
+	5
+	6
+Kaushambi_R
+	Kaushambi
+	macedon
+	Medes
+	164 88 30
+	none
+	5
+	7
+Varanasi_R
+	Varanasi
+	macedon
+	Medes
+	188 133 191
+	none
+	5
+	8
+Saketa_R
+	Saketa
+	macedon
+	Medes
+	229 217 105
+	none
+	5
+	9
+Sravasti_R
+	Sravasti
+	macedon
+	Medes
+	106 92 33
+	none
+	5
+	7
+Kapilavastu_R
+	Kapilavastu
+	macedon
+	Medes
+	128 230 140
+	none
+	5
+	6
+Kushinara_R
+	Kushinara
+	macedon
+	Medes
+	113 19 158
+	none
+	5
+	7
+Devanapatana_R
+	Devanapatana
+	macedon
+	Medes
+	82 28 111
+	none
+	5
+	7
+Rajagriha_R
+	Rajagriha
+	macedon
+	Medes
+	60 49 124
+	none
+	5
+	10
+Champa_R
+	Champa
+	macedon
+	Medes
+	165 80 29
+	none
+	5
+	9
+Vaishali_R
+	Vaishali
+	macedon
+	Medes
+	197 198 25
+	none
+	5
+	8
+Mithila_R
+	Mithila
+	macedon
+	Medes
+	147 48 42
+	none
+	5
+	7
+Pataliputra_R
+	Pataliputra
+	macedon
+	Medes
+	163 143 186
+	none
+	5
+	13
+Saharsa_R
+	Saharsa
+	macedon
+	Medes
+	103 210 111
+	none
+	5
+	7
+Naimisha_R
+	Naimisha
+	macedon
+	Medes
+	221 112 112
+	none
+	5
+	6
+; *********************************************************
+; *********************************************************
+; 33. Satpura-Vindhaya
+; Number of Provinces: 14
+
+Viratanagara_R
+	Viratanagara
+	macedon
+	Medes
+	152 190 152
+	none
+	5
+	6
+Mrittikavati_R
+	Mrittikavati
+	macedon
+	Medes
+	204 94 223
+	none
+	5
+	7
+Kantipura_R
+	Kantipura
+	macedon
+	Medes
+	133 14 26
+	none
+	5
+	7
+Padmavati_R
+	Padmavati
+	macedon
+	Medes
+	99 218 151
+	none
+	5
+	8
+Erakaksa_R
+	Erakaksa
+	macedon
+	Medes
+	25 73 220
+	none
+	5
+	6
+Pulindanagara_R
+	Pulindanagara
+	macedon
+	Medes
+	12 224 22
+	none
+	5
+	6
+Suktimati_R
+	Suktimati
+	macedon
+	Medes
+	63 64 126
+	none
+	5
+	7
+Tripuri_R
+	Tripuri
+	macedon
+	Medes
+	165 99 230
+	none
+	5
+	7
+Vidisha_R
+	Vidisha
+	macedon
+	Medes
+	131 33 46
+	none
+	5
+	8
+Mahishmati_R
+	Mahishmati
+	macedon
+	Medes
+	64 121 43
+	none
+	5
+	9
+Ujjain_R
+	Ujjain
+	macedon
+	Medes
+	91 151 154
+	none
+	5
+	11
+Dashapura_R
+	Dashapura
+	macedon
+	Medes
+	217 198 49
+	none
+	5
+	6
+Madhyamika_R
+	Madhyamika
+	macedon
+	Medes
+	36 103 0
+	none
+	5
+	7
+Pushkara_R
+	Pushkara
+	macedon
+	Medes
+	38 68 130
+	none
+	5
+	5
+
+; *********************************************************
+; *********************************************************
+; 34. Gurjaratra
+; Number of Provinces: 8
+
+Kanthi_R
+	Kanthi
+	macedon
+	Medes
+	75 157 75
+	none
+	5
+	4
+Dvaravati_R
+	Dvaravati
+	macedon
+	Medes
+	28 132 41
+	none
+	5
+	6
+Vamanasthali_R
+	Vamanasthali
+	macedon
+	Medes
+	231 227 73
+	none
+	5
+	6
+Vallabhipura_R
+	Vallabhipura
+	macedon
+	Medes
+	164 55 76
+	none
+	5
+	7
+Saudrabatva_R
+	Saudrabatva
+	macedon
+	Medes
+	161 163 107
+	none
+	5
+	5
+Ajabpura_R
+	Ajabpura
+	macedon
+	Medes
+	129 31 138
+	none
+	5
+	6
+Bharukaccha_R
+	Bharukaccha
+	macedon
+	Medes
+	187 111 28
+	none
+	5
+	8
+Sopara_R
+	Sopara
+	macedon
+	Medes
+	73 239 188
+	none
+	5
+	8
+
+; *********************************************************
+; *********************************************************
+; 35. Malabar Coast
+; Number of Provinces: 6
+
+Mandagara_R
+	Mandagara
+	macedon
+	Medes
+	144 106 151
+	none
+	5
+	6
+Govapuri_R
+	Govapuri
+	macedon
+	Medes
+	255 234 107
+	none
+	5
+	7
+Olochoira_R
+	Olochoira
+	macedon
+	Medes
+	109 32 149
+	none
+	5
+	7
+Ezhimala_R
+	Ezhimala
+	macedon
+	Medes
+	40 179 169
+	none
+	5
+	6
+Vanchi_R
+	Vanchi
+	macedon
+	Medes
+	199 115 11
+	none
+	5
+	8
+Kuzhumur_R
+	Kuzhumur
+	macedon
+	Medes
+	54 51 180
+	none
+	5
+	7
+
+; *********************************************************
+; *********************************************************
+; 36. Deccan
+; Number of Provinces: 24
+
+Navashikh_R
+	Navashikh
+	macedon
+	Medes
+	105 47 100
+	none
+	5
+	5
+Junnar_R
+	Junnar
+	macedon
+	Medes
+	197 22 63
+	none
+	5
+	6
+Pratishthana_R
+	Pratishthana
+	macedon
+	Medes
+	30 60 159
+	none
+	5
+	10
+Vatsagulma_R
+	Vatsagulma
+	macedon
+	Medes
+	166 226 70
+	none
+	5
+	7
+Kundinapuri_R
+	Kundinapuri
+	macedon
+	Medes
+	80 77 206
+	none
+	5
+	8
+Nandivardhana_R
+	Nandivardhana
+	macedon
+	Medes
+	35 171 60
+	none
+	5
+	6
+Bilaspura_R
+	Bilaspura
+	macedon
+	Medes
+	44 49 213
+	none
+	5
+	5
+Sripura_R
+	Sripura
+	macedon
+	Medes
+	142 41 35
+	none
+	5
+	6
+Asurgarh_R
+	Asurgarh
+	macedon
+	Medes
+	153 140 7
+	none
+	5
+	5
+Samapa_R
+	Samapa
+	macedon
+	Medes
+	87 98 238
+	none
+	5
+	5
+Pauni_R
+	Pauni
+	macedon
+	Medes
+	158 65 122
+	none
+	5
+	8
+Sabbinadu_R
+	Sabbinadu
+	macedon
+	Medes
+	30 105 52
+	none
+	5
+	6
+Podanapura_R
+	Podanapura
+	macedon
+	Medes
+	140 84 45
+	none
+	5
+	6
+Kondapur_R
+	Kondapur
+	macedon
+	Medes
+	47 138 206
+	none
+	5
+	6
+Tagara_R
+	Tagara
+	macedon
+	Medes
+	255 151 255
+	none
+	5
+	8
+Hippokoura_R
+	Hippokoura
+	macedon
+	Medes
+	145 123 57
+	none
+	5
+	6
+Raichore_R
+	Raichore
+	macedon
+	Medes
+	97 109 138
+	none
+	5
+	7
+Suvarnagiri_R
+	Suvarnagiri
+	macedon
+	Medes
+	26 91 36
+	none
+	5
+	6
+Yerragudi_R
+	Yerragudi
+	macedon
+	Medes
+	116 26 65
+	none
+	5
+	5
+Uccashringi_R
+	Uccashringi
+	macedon
+	Medes
+	126 216 138
+	none
+	5
+	5
+Banavasi_R
+	Banavasi
+	macedon
+	Medes
+	235 60 67
+	none
+	5
+	6
+Tagadur_R
+	Tagadur
+	macedon
+	Medes
+	144 129 88
+	none
+	5
+	6
+Mahishapura_R
+	Mahishapura
+	macedon
+	Medes
+	153 231 190
+	none
+	5
+	6
+Kodumanam_R
+	Kodumanam
+	macedon
+	Medes
+	38 109 42
+	none
+	5
+	7
+
+; *********************************************************
+; *********************************************************
+; 37. Coromandel Coast
+; Number of Provinces: 13
+
+Tosali_R
+	Tosali
+	macedon
+	Medes
+	180 114 34
+	none
+	5
+	10
+Jaugada_R
+	Jaugada
+	macedon
+	Medes
+	229 41 89
+	none
+	5
+	7
+Dantapura_R
+	Dantapura
+	macedon
+	Medes
+	26 91 56
+	none
+	5
+	7
+Pishtapura_R
+	Pishtapura
+	macedon
+	Medes
+	139 139 84
+	none
+	5
+	8
+Amaravathi_R
+	Amaravathi
+	macedon
+	Medes
+	32 42 127
+	none
+	5
+	10
+Vengipuram_R
+	Vengipuram
+	macedon
+	Medes
+	143 113 166
+	none
+	5
+	8
+Ongole_R
+	Ongole
+	macedon
+	Medes
+	120 104 59
+	none
+	5
+	6
+Melange_R
+	Melange
+	macedon
+	Medes
+	67 136 32
+	none
+	5
+	6
+Kanchi_R
+	Kanchi
+	macedon
+	Medes
+	131 93 156
+	none
+	5
+	7
+Uraiyur_R
+	Uraiyur
+	macedon
+	Medes
+	189 51 21
+	none
+	5
+	9
+Thiruvarur_R
+	Thiruvarur
+	macedon
+	Medes
+	193 29 207
+	none
+	5
+	7
+Madurai_R
+	Madurai
+	macedon
+	Medes
+	246 250 138
+	none
+	5
+	10
+Aykudi_R
+	Aykudi
+	macedon
+	Medes
+	200 123 36
+	none
+	5
+	6
+
+; *********************************************************
+; *********************************************************
+; 38. Simhala
+; Number of Provinces: 5
+
+Yalpanapattinam_R
+	Yalpanapattinam
+	macedon
+	Medes
+	152 78 158
+	none
+	5
+	5
+Anuradhapura_R
+	Anuradhapura
+	macedon
+	Medes
+	165 41 46
+	none
+	5
+	8
+Pulathisipura_R
+	Pulathisipura
+	macedon
+	Medes
+	201 197 153
+	none
+	5
+	6
+Panduwasnuwara_R
+	Panduwasnuwara
+	macedon
+	Medes
+	97 216 99
+	none
+	5
+	7
+Dighavapi_R
+	Dighavapi
+	macedon
+	Medes
+	47 52 113
+	none
+	5
+	6
+Magampura_R
+	Magampura
+	macedon
+	Medes
+	176 167 39
+	none
+	5
+	5
+
+; *********************************************************
+; *********************************************************
+; 39. Taklamakan
+; Number of Provinces: 15
+
+Puli_R
+	Puli
+	macedon
+	Medes
+	40 98 46
+	none
+	5
+	5
+Wucha_R
+	Wuzhuang
+	macedon
+	Medes
+	175 106 60
+	none
+	5
+	3
+Shule_R	
+	Kasia
+	macedon
+	Medes
+	197 192 39
+	none
+	5
+	5
+Shache_R	
+	Shache	
+	macedon
+	Medes
+	40 45 107
+	none
+	5
+	4
+Pishan_R
+	Pishan
+	macedon
+	Athenians
+	135 175 27
+	none
+	5
+	1
+Weitou_R	
+	Gyazdi
+	macedon
+	Athenians
+	0 50 50
+	none
+	5
+	1
+Wunsu_R
+	Ush
+	macedon
+	Medes
+	104 54 131
+	none
+	5
+	3
+Gumo_R
+	Gumo
+	macedon
+	Medes
+	40 79 235
+	none
+	5
+	4
+Qiuci_R	
+	Yancheng
+	macedon
+	Medes
+	156 147 25
+	none
+	5
+	5
+Yutian_R	
+	Gostan	
+	macedon
+	Medes
+	149 104 109
+	none
+	5
+	5
+Yumi_R	
+	Yumi	
+	macedon
+	Medes
+	123 161 62
+	none
+	5
+	2
+Qule_R
+	Jiandu
+	macedon
+	Athenians
+	76 196 147
+	none
+	5
+	1
+Jingjue_R	
+	Jingjue	
+	macedon
+	Medes
+	207 158 54
+	none
+	5
+	4
+Ronglu_R
+	Beipin
+	macedon
+	Athenians
+	163 40 40
+	none
+	5
+	1
+Qiemo_R
+	Qiemo
+	macedon
+	Medes
+	30 244 72
+	none
+	5
+	4
+Yixun_R
+	Yuni
+	macedon
+	Medes
+	23 132 123
+	none
+	5
+	4
+Loulan_R
+	Kroran
+	macedon
+	Medes
+	115 83 166
+	none
+	5
+	5
+Yanqi_R	
+	Yuanqu	
+	macedon
+	Medes
+	175 99 149
+	none
+	5
+	5
+Quli_R
+	Quli
+	macedon
+	Medes
+	183 40 47
+	none
+	5
+	4
+
+; *********************************************************
+; *********************************************************
+; 40. Qaidam & Turfan
+; Number of Provinces: 6
+
+Wusun_R
+	WusunCamp
+	macedon
+	Medes
+	208 175 45
+	none
+	5
+	3
+Xiaoyuezhi
+	XiaoyuezhiCamp
+	macedon
+	Medes
+	99 32 119
+	none
+	5
+	4
+Bailan_R
+	Bailan
+	macedon
+	Medes
+	33 153 27
+	none
+	5
+	1
+YuezhiCamp_R
+	YuezhiCamp
+	macedon
+	Medes
+	216 168 121
+	none
+	5
+	3
+Cumuda_R
+	Cumuda
+	macedon
+	Medes
+	111 57 60
+	none
+	5
+	5
+Qian_Cheshi_R
+	Jiaohe
+	macedon
+	Medes
+	162 42 181
+	none
+	5
+	5
+
+; *********************************************************
+; *********************************************************
+; 41. Altai
+; Number of Provinces: 18
+
+Damna_R
+	Damna
+	macedon
+	Alans
+	227 150 81
+	none
+	5
+	3
+Usu_R
+	Usu
+	macedon
+	Medes
+	39 95 104
+	none
+	5
+	5
+Wutanzili_R
+	Wutanzili
+	macedon
+	Medes
+	194 62 109
+	none
+	5
+	5
+Jie_R	
+	Yulai
+	macedon
+	Medes
+	184 90 18
+	none
+	5
+	5
+Pulei_R
+	Pulei
+	macedon
+	Alans
+	30 213 27
+	none
+	5
+	3
+Hou_Cheshi_R
+	Wutugu
+	macedon
+	Medes
+	74 122 71
+	none
+	5
+	5
+HujieCamp_R
+	HujieCamp
+	macedon
+	Medes
+	103 159 105
+	none
+	5
+	4
+ChileCamp_R
+	ChileCamp
+	macedon
+	Alans
+	213 69 213
+	none
+	5
+	3
+GekunCamp_R
+	GekunCamp	
+	macedon
+	Alans
+	230 78 61
+	none
+	5
+	3
+XinliCamp_R
+	XinliCamp
+	macedon
+	Alans
+	106 117 142
+	none
+	5
+	4
+AshinaCamp_R
+	AshinaCamp
+	macedon
+	Alans
+	198 68 202
+	none
+	5
+	3
+TieleCamp_R
+	TieleCamp
+	macedon
+	Alans
+	91 51 96
+	none
+	5
+	3
+GaocheCamp_R
+	GaocheCamp
+	macedon
+	Alans
+	198 217 66
+	none
+	5
+	3
+SamoyedCamp_R
+	SamoyedCamp
+	macedon
+	Alans
+	30 124 27
+	none
+	5
+	3
+HunyuCamp_R
+	HunyuCamp
+	macedon
+	Alans
+	68 180 180
+	none
+	5
+	3
+QiulinXiongnuCamp_R
+	QiulinXiongnuCamp
+	macedon
+	Alans
+	119 62 15
+	none
+	5
+	3
+LanXiongnuCamp_R
+	LanXiongnuCamp
+	macedon
+	Alans
+	58 161 102
+	none
+	5
+	3
+ChubeiXiongnuCamp_R
+	ChubeiXiongnuCamp
+	macedon
+	Alans
+	68 43 218
+	none
+	5
+	3
+
+; *********************************************************
+; *********************************************************
+; 42. Eastern Scythia
+; Number of Provinces: 20
+
+Yilie_R
+	Yilie
+	macedon
+	Alans
+	118 138 94
+	none
+	5
+	4
+SakaCamp_R
+	SakaCamp
+	macedon
+	Alans
+	125 213 150
+	none
+	5
+	3
+SakaRaukaCamp_R
+	SakaRaukaCamp
+	macedon
+	Alans
+	30 109 29
+	none
+	5
+	4
+JiankunCamp_R
+	JiankunCamp
+	macedon
+	Alans
+	167 48 150
+	none
+	5
+	2
+MateriCamp_R
+	MateriCamp
+	macedon
+	Alans
+	143 59 22
+	none
+	5
+	3
+Almatau_R
+	Almatau
+	macedon
+	Alans
+	66 76 170
+	none
+	5
+	5
+Issedon_R
+	Issedon
+	macedon
+	Alans
+	219 131 214
+	none
+	5
+	5
+Balasagun_R
+	Balasagun
+	macedon
+	Alans
+	147 129 4
+	none
+	5
+	6
+AspisiCamp_R
+	AspisiCamp
+	macedon
+	Alans
+	179 177 116
+	none
+	5
+	3
+MagyarCamp_R
+	MagyarCamp
+	macedon
+	Alans
+	75 63 144
+	none
+	5
+	3
+IastaeCamp_R
+	IastaeCamp
+	macedon
+	Alans
+	155 204 186
+	none
+	5
+	3
+AlanCamp_R
+	AlanCamp
+	macedon
+	Alans
+	160 18 18
+	none
+	5
+	3
+ArggipaeiCamp_R
+	ArggipaeiCamp
+	macedon
+	Alans
+	217 237 49
+	none
+	5
+	3
+ArimaspiCamp_R
+	ArimaspiCamp
+	macedon
+	Alans
+	186 119 39
+	none
+	5
+	2
+MassagetaeCamp_R
+	MassagetaeCamp
+	macedon
+	Alans
+	59 54 74
+	none
+	5
+	3
+Roksanaki_R
+	Roksanaki
+	macedon
+	Saka
+	212 113 41
+	none
+	5
+	5
+Khavrana_R
+	Khavrana
+	macedon
+	Saka
+	120 183 138
+	none
+	5
+	5
+Davaba_R
+	Davaba
+	macedon
+	Saka
+	244 222 75
+	none
+	5
+	4
+Tribus_Sakae
+	Campus_Sakae
+	macedon
+	Saka
+	58 177 75
+	none
+	5
+	4
+Auzacia_R
+	Auzacia
+	macedon
+	Alans
+	193 123 130
+	none
+	5
+	4
+
+; *********************************************************
+; *********************************************************
+; 43. Sarmatia
+; Number of Provinces: 18
+
+Maetonium_R
+	Maetonium
+	macedon
+	Venedae
+	231 234 91
+	none
+	5
+	5
+Clepidava_R
+	Clepidava
+	macedon
+	Venedae
+	139 190 155
+	none
+	5
+	4
+Costobocum_R
+	Costobocum
+	macedon
+	Venedae
+	187 58 204
+	none
+	5
+	3
+Eractum_R
+	Eractum
+	macedon
+	Sarmatians
+	30 120 120
+	none
+	5
+	4
+Tyras_R
+	Tyras
+	macedon
+	Sarmatians
+	176 50 194
+	none
+	5
+	5
+Olbia_R
+	Olbia
+	macedon
+	Sarmatians
+	89 160 57
+	none
+	5
+	6
+Sarbacum_R
+	Sarbacum
+	macedon
+	Sarmatians
+	213 145 27
+	none
+	5
+	3
+Pripet
+	Vicus_Venedae
+	macedon
+	Venedae
+	131 33 125
+	none
+	5
+	3
+Scythia
+	Campus_Scythii
+	macedon
+	Roxolani
+	33 131 116
+	none
+	5
+	7
+Sarum_R
+	Sarum
+	macedon
+	Sarmatians
+	52 159 62
+	none
+	5
+	3
+ScythianMetropolis_R
+	ScythianMetropolis
+	macedon
+	Sarmatians
+	35 230 64
+	none
+	5
+	4
+Hygres_R
+	Hygres
+	macedon
+	Sarmatians
+	214 203 136
+	none
+	5
+	4
+Carcina_R
+	Carcina
+	macedon
+	Sarmatians
+	153 71 165
+	none
+	5
+	3
+Ojum_R
+	Ojum
+	macedon
+	Sarmatians
+	50 106 54
+	none
+	5
+	4
+Gelonus_R
+	Gelonus
+	macedon
+	Sarmatians
+	107 102 49
+	none
+	5
+	3
+Cariscus_R
+	Cariscus
+	macedon
+	Sarmatians
+	208 164 155
+	none
+	5
+	3
+ScythianCamp_R
+	ScythianCamp
+	macedon
+	Sarmatians
+	142 37 156
+	none
+	5
+	3
+Maeotis
+	Tanais
+	macedon
+	Maeotae
+	131 89 33
+	none
+	5
+	9
+
+; *********************************************************
+; *********************************************************
+; 44. Taurika
+; Number of Provinces: 5
+
+Panticapaeum_R
+	Panticapaeum
+	macedon
+	Sarmatians
+	45 187 26
+	none
+	5
+	10
+Theodosia_R
+	Theodosia
+	macedon
+	Sarmatians
+	166 49 49
+	none
+	5
+	7
+Cercinitis_R
+	Cercinitis
+	macedon
+	Sarmatians
+	118 142 173
+	none
+	5
+	4
+ScythianNeapolis_R
+	ScythianNeapolis
+	macedon
+	Sarmatians
+	96 18 122
+	none
+	5
+	5
+Bosphorus
+	Chersonesos
+	macedon
+	Bosphorans
+	17 74 202
+	none
+	5
+	8
+
+; *********************************************************
+; *********************************************************
+; 45. Western Scythia
+; Number of Provinces: 20
+
+ThyssagetaeCamp_R
+	ThyssagetaeCamp
+	macedon
+	Sarmatians
+	220 240 40
+	none
+	5
+	3
+JazygesCamp_R
+	JazygesCamp
+	macedon
+	Alans
+	135 197 119
+	none
+	5
+	3
+IyrkaeCamp_R
+	IyrkaeCamp
+	macedon
+	Sarmatians
+	174 32 162
+	none
+	5
+	4
+UpperAorsiCamp_R
+	UpperAorsiCamp
+	macedon
+	Sarmatians
+	43 100 82
+	none
+	5
+	3
+BoudiniCamp_R
+	BoudiniCamp
+	macedon
+	Sarmatians
+	54 86 232
+	none
+	5
+	3
+Tribus_Sarmatae
+	Campus_Sarmatae
+	macedon
+	Sarmatians
+	177 58 83
+	none
+	5
+	4
+Tribus_Alanni
+	Campus_Alanni
+	macedon
+	Alans
+	177 170 58
+	none
+	5
+	3
+Hexopolis_R
+	Hexopolis
+	macedon
+	Sarmatians
+	134 150 221
+	none
+	5
+	4
+Navaris_R
+	Navaris
+	macedon
+	Sarmatians
+	185 63 88
+	none
+	5
+	3
+OudaeCamp_R
+	OudaeCamp
+	macedon
+	Sarmatians
+	128 128 128
+	none
+	5
+	3
+Msandar_R
+	Msandar
+	macedon
+	Sarmatians
+	110 200 50
+	none
+	5
+	5
+Touschoiopolis_R
+	Touschoiopolis
+	macedon
+	Sarmatians
+	85 13 76
+	none
+	5
+	4
+Sanaraiopolis_R
+	Sanaraiopolis
+	macedon
+	Sarmatians
+	250 136 42
+	none
+	5
+	4
+OlondaeCamp_R
+	OlondaeCamp
+	macedon
+	Sarmatians
+	30 111 104
+	none
+	5
+	3
+Seraca_R
+	Seraca
+	macedon
+	Sarmatians
+	196 91 195
+	none
+	5
+	5
+Abunis_R
+	Abunis
+	macedon
+	Sarmatians
+	46 150 43
+	none
+	5
+	3
+Uspe_R
+	Uspe
+	macedon
+	Sarmatians
+	124 145 180
+	none
+	5
+	4
+Gorgippia_R
+	Gorgippia
+	macedon
+	Sarmatians
+	29 116 20
+	none
+	5
+	6
+Phanagoria_R
+	Phanagoria
+	macedon
+	Sarmatians
+	122 221 200
+	none
+	5
+	8
+Azara_R
+	Azara
+	macedon
+	Sarmatians
+	164 148 38
+	none
+	5
+	4
+
+; *********************************************************
+; *********************************************************
+; 46. Northern Forests
+; Number of Provinces: 10
+
+Hyperboria
+	Themiskyra
+	macedon
+	Amazons
+	58 89 177
+	none
+	5
+	2
+Borusci_Camp_R
+	Borusci_Camp
+	macedon
+	Sarmatians
+	239 200 31
+	none
+	5
+	3
+Chaenides_Camp_R
+	Chaenides_Camp	
+	macedon
+	Sarmatians
+	46 118 51
+	none
+	5
+	1
+Agathyrsi_Camp_R
+	Agathyrsi_Camp	
+	macedon
+	Sarmatians
+	190 105 46
+	none
+	5
+	2
+AndrophagiCamp_R
+	AndrophagiCamp
+	macedon
+	Sarmatians
+	155 196 155
+	none
+	5
+	3
+Melanchlainopolis_R
+	Melanchlainopolis
+	macedon
+	Sarmatians
+	89 30 117
+	none
+	5
+	3
+Stavanium_R
+	Stavanium
+	macedon
+	Sarmatians
+	218 175 69
+	none
+	5
+	3
+Gerrhos_R
+	Gerrhos
+	macedon
+	Sarmatians
+	212 221 23
+	none
+	5
+	4
+Igyllionium_R
+	Igyllionium
+	macedon
+	Sarmatians
+	125 141 195
+	none
+	5
+	3
+
+; *********************************************************
+; *********************************************************
+; 47. Egypt
+; Number of Provinces: 16
+
+Nile_Delta
+	Alexandria
+	macedon
+	Libyans
+	244 13 214
+	none
+	5
+	12
+Gynaecopolites_R
+	Naucratis
+	macedon
+	Libyans
+	62 41 52
+	none
+	5
+	8
+Memphites_R
+	Memphis
+	macedon
+	Libyans
+	122 13 244
+	none
+	5
+	10
+Heliopolites_R
+	Heliopolis
+	macedon
+	Libyans
+	88 109 70
+	none
+	5
+	9
+Thebais
+	Thebes
+	macedon
+	Libyans
+	241 244 13
+	none
+	5
+	8
+Thinites_R
+	PtolemaisHermeiou
+	macedon
+	Libyans
+	169 106 159
+	none
+	5
+	8
+Panopolites_R
+	Panopolis
+	macedon
+	Poeni
+	53 45 80
+	none
+	5
+	3
+Sethroites_R
+	Pelusium
+	macedon
+	Libyans
+	157 158 48
+	none
+	5
+	10
+Rhaithou_R
+	Rhaithou
+	macedon
+	Nabataeans
+	193 135 44
+	none
+	5
+	1
+Saites_R
+	Sais
+	macedon
+	Libyans
+	72 142 60
+	none
+	5
+	11
+Athribites_R
+	Athribis
+	macedon
+	Libyans
+	170 117 140
+	none
+	5
+	11
+Tanites_R
+	Tanis
+	macedon
+	Libyans
+	96 69 69
+	none
+	5
+	11
+Prosopites_R
+	Niciu
+	macedon
+	Libyans
+	121 80 80
+	none
+	5
+	10
+Moeris_R
+	Crocodilopolis
+	macedon
+	Libyans
+	129 165 221
+	none
+	5
+	7
+Ancyronpolites_R
+	Ancyronpolis
+	macedon
+	Libyans
+	86 68 136
+	none
+	5
+	6
+Oxyrhynchus_R
+	Oxyrhynchus
+	macedon
+	Libyans
+	147 72 17
+	none
+	5
+	8
+Hermopolites_R
+	Hermopolis
+	macedon
+	Libyans
+	189 169 88
+	none
+	5
+	8
+Antaeopolites_R
+	Antaeopolis
+	macedon
+	Libyans
+	117 65 65
+	none
+	5
+	6
+Alabastronopolites_R
+	Alabastronopolis
+	macedon
+	Libyans
+	142 203 255
+	none
+	5
+	6
+Apollinopolites_R
+	Apollinopolis
+	macedon
+	Libyans
+	135 42 139
+	none
+	5
+	7
+Philotera_R
+	Philotera
+	macedon
+	Libyans
+	42 105 61
+	none
+	5
+	4
+Syene_R
+	Syene
+	macedon
+	Libyans
+	45 213 33
+	none
+	5
+	8
+MyosHormos_R
+	MyosHormos
+	macedon
+	Libyans
+	185 33 33
+	none
+	5
+	8
+BereniceTroglodytica_R
+	BereniceTroglodytica
+	macedon
+	Libyans
+	202 115 0
+	none
+	5
+	8
+Lycopolites_R
+	Lycopolis
+	macedon
+	Libyans
+	65 87 218
+	none
+	5
+	7
+Oasis_Magna_R
+	Hibis
+	macedon
+	Libyans
+	212 96 39
+	none
+	5
+	3
+Oasis_Parva_R
+	Zeszes
+	macedon
+	Libyans
+	36 99 52
+	none
+	5
+	2
+Pachoras_R
+	Pachoras
+	macedon
+	Libyans
+	80 79 13
+	none
+	5
+	9
+BerenicePanchrysos_R
+	BerenicePanchrysos
+	macedon
+	Libyans
+	238 24 220
+	none
+	5
+	3
+ArsinoeClysma_R
+	ArsinoeClysma
+	macedon
+	Libyans
+	36 162 54
+	none
+	5
+	3
+Heroopolites_R
+	Heroopolis
+	macedon
+	Athenians
+	147 208 167
+	none
+	5
+	8
+
+; *********************************************************
+; *********************************************************
+; 48. Ethiopia
+; Number of Provinces: 14
+
+PtolemaisTheron_R
+	PtolemaisTheron
+	macedon
+	Libyans
+	76 26 97
+	none
+	5
+	3
+Napata_R
+	Napata
+	macedon
+	Libyans
+	42 181 35
+	none
+	5
+	8
+Patinga_R
+	Patinga
+	macedon
+	Libyans
+	217 107 77
+	none
+	5
+	8
+Meroe_R
+	Meroe
+	macedon
+	Libyans
+	181 224 182
+	none
+	5
+	8
+Maste_R
+	Maste
+	macedon
+	Libyans
+	21 108 17
+	none
+	5
+	5
+Daron_R
+	Daron
+	macedon
+	Libyans
+	87 35 14
+	none
+	5
+	5
+Roha_R
+	Roha
+	macedon
+	Libyans
+	134 224 144
+	none
+	5
+	7
+Axum_R
+	Axum
+	macedon
+	Libyans
+	70 61 182
+	none
+	5
+	8
+Adulis_R
+	Adulis
+	macedon
+	Libyans
+	222 216 57
+	none
+	5
+	5
+Primis_R
+	Primis
+	macedon
+	Libyans
+	152 69 213
+	none
+	5
+	4
+Araba_R
+	Araba
+	macedon
+	Libyans
+	192 196 74
+	none
+	5
+	4
+Premis_R
+	Premis
+	macedon
+	Libyans
+	167 160 111
+	none
+	5
+	6
+Koloe_R
+	Koloe
+	macedon
+	Libyans
+	95 16 148
+	none
+	5
+	5
+Morou_R
+	Morou
+	macedon
+	Libyans
+	172 30 78
+	none
+	5
+	5
+
+; *********************************************************
+; *********************************************************
+; 49. Eastern Africa
+; Number of Provinces: 7
+
+Arsinoe_R
+	Arsinoe
+	macedon
+	Libyans
+	159 170 68
+	none
+	5
+	5
+Gey_R
+	Gey
+	macedon
+	Libyans
+	176 43 76
+	none
+	5
+	3
+Aualites_R
+	Aualites
+	macedon
+	Libyans
+	93 83 170
+	none
+	5
+	4
+Malao_R
+	Malao
+	macedon
+	Libyans
+	20 94 25
+	none
+	5
+	3
+Mosyllum_R
+	Mosyllum
+	macedon
+	Libyans
+	157 151 96
+	none
+	5
+	3
+Opone_R
+	Opone
+	macedon
+	Libyans
+	211 153 61
+	none
+	5
+	3
+Tamrida_R
+	Tamrida
+	macedon
+	Libyans
+	47 143 17
+	none
+	5
+	3
+
+; *********************************************************
+; *********************************************************
+; 50. Libya
+; Number of Provinces: 7
+
+Tetrapyrgia_R
+	Tetrapyrgia
+	macedon
+	Libyans
+	192 53 53
+	none
+	5
+	3
+Paraetonium_R
+	Paraetonium
+	macedon
+	Libyans
+	162 163 51
+	none
+	5
+	3
+Libya
+	Siwa
+	macedon
+	Libyans
+	42 232 77
+	none
+	5
+	2
+Cyrenaica
+	Cyrene
+	macedon
+	Libyans
+	244 171 13
+	none
+	5
+	5
+Barce_R
+	Barce
+	macedon
+	Libyans
+	133 122 169
+	none
+	5
+	4
+Augila_R
+	Augila
+	macedon
+	Libyans
+	48 116 11
+	none
+	5
+	3
+Euesperides_R
+	Euesperides
+	macedon
+	Libyans
+	234 223 55
+	none
+	5
+	4
+
+; *********************************************************
+; *********************************************************
+; 51. Africa
+; Number of Provinces: 13
+
+Automalax_R
+	Automalax
+	macedon
+	Poeni
+	202 65 234
+	none
+	5
+	3
+Macomades_R
+	Macomades
+	macedon
+	Poeni
+	41 144 102
+	none
+	5
+	3
+Sabratha_R
+	Sabratha
+	macedon
+	Poeni
+	61 91 19
+	none
+	5
+	4
+Tripolitania
+	Lepcis_Magna
+	macedon
+	Poeni
+	202 17 48
+	none
+	5
+	5
+Thenteos_R
+	Thenteos
+	macedon
+	Gaetuli
+	133 95 170
+	none
+	5
+	3
+Tacape_R
+	Tacape
+	macedon
+	Gaetuli
+	239 120 238
+	none
+	5
+	4
+Girba_R
+	Girba
+	macedon
+	Gaetuli
+	49 157 28
+	none
+	5
+	5
+Cercinna_R
+	Cercinna
+	macedon
+	Poeni
+	195 121 60
+	none
+	5
+	5
+Byzacium
+	Thapsus
+	macedon
+	Poeni
+	31 202 17
+	none
+	5
+	9
+Africa
+	Carthage
+	macedon
+	Poeni
+	202 191 17
+	none
+	5
+	14
+Aspis_R
+	Aspis
+	macedon
+	Poeni
+	114 32 119
+	none
+	5
+	9
+Utica_R
+	Utica
+	macedon
+	Gaetuli
+	55 31 61
+	none
+	5
+	9
+
+; *********************************************************
+; *********************************************************
+; 52. Numidia
+; Number of Provinces: 15
+
+Thugga_R
+	Thugga
+	macedon
+	Gaetuli
+	58 106 73
+	none
+	5
+	7
+Sufetula_R
+	Sufetula
+	macedon
+	Gaetuli
+	164 83 8
+	none
+	5
+	7
+Hippo_R
+	Hippo
+	macedon
+	Poeni
+	145 53 85
+	none
+	5
+	9
+Sahara
+	Nepte
+	macedon
+	Gaetuli
+	41 86 232
+	none
+	5
+	1
+Numidia
+	Cirta
+	macedon
+	Moors
+	17 83 202
+	none
+	5
+	8
+Saldae_R
+	Saldae
+	macedon
+	Poeni
+	46 114 37
+	none
+	5
+	9
+Theveste_R
+	Theveste
+	macedon
+	Gaetuli
+	197 145 213
+	none
+	5
+	7
+Zabi_R
+	Zabi
+	macedon
+	Gaetuli
+	186 171 135
+	none
+	5
+	8
+Gemmelle_R
+	Gemmelle
+	macedon
+	Gaetuli
+	153 96 19
+	none
+	5
+	5
+Iol_R
+	Iol
+	macedon
+	Poeni
+	227 152 37
+	none
+	5
+	9
+Auzia_R
+	Auzia
+	macedon
+	Gaetuli
+	177 38 38
+	none
+	5
+	7
+Cartenna_R
+	Cartenna
+	macedon
+	Poeni
+	26 100 22
+	none
+	5
+	9
+Tingartia_R
+	Tingartia
+	macedon
+	Gaetuli
+	120 239 128
+	none
+	5
+	8
+Gaetulia
+	Dimmidi
+	macedon
+	Gaetuli
+	244 13 138
+	none
+	5
+	8
+NigritaeCamp_R
+	NigritaeCamp
+	macedon
+	Gaetuli
+	103 74 234
+	none
+	5
+	2
+
+; *********************************************************
+; *********************************************************
+; 53. Mauretania
+; Number of Provinces: 16
+
+Siga_R
+	Siga
+	macedon
+	Poeni
+	243 245 52
+	none
+	5
+	7
+Rusadir_R
+	Rusadir
+	macedon
+	Poeni
+	38 145 81
+	none
+	5
+	7
+Altava_R
+	Altava
+	macedon
+	Gaetuli
+	186 118 33
+	none
+	5
+	3
+Molochath_R
+	Molochath
+	macedon
+	Moors
+	179 21 21
+	none
+	5
+	8
+Mauretania
+	Tingi
+	macedon
+	Moors
+	202 126 17
+	none
+	5
+	6
+Lixus_R
+	Lixus
+	macedon
+	Moors
+	177 237 169
+	none
+	5
+	8
+Volubilis_R
+	Volubilis
+	macedon
+	Moors
+	231 54 71
+	none
+	5
+	11
+Sala_R
+	Sala
+	macedon
+	Moors
+	139 145 38
+	none
+	5
+	8
+Benta_R
+	Benta
+	macedon
+	Moors
+	97 103 160
+	none
+	5
+	7
+Rusibis_R
+	Rusibis
+	macedon
+	Moors
+	59 218 52
+	none
+	5
+	7
+Arambys_R
+	Arambys
+	macedon
+	Moors
+	117 23 161
+	none
+	5
+	8
+Agadir_R
+	Agadir
+	macedon
+	Moors
+	209 211 79
+	none
+	5
+	8
+Tamdoult_R
+	Tamdoult
+	macedon
+	Moors
+	58 145 38
+	none
+	5
+	5
+Magura_R
+	Magura
+	macedon
+	Moors
+	226 140 31
+	none
+	5
+	3
+Thalubath_R
+	Thalubath
+	macedon
+	Moors
+	132 45 174
+	none
+	5
+	8
+Ifeyyey_R
+	Ifeyyey
+	macedon
+	Gaetuli
+	197 191 34
+	none
+	5
+	3
+; *********************************************************
+; *********************************************************
+; 54. Sahara
+; Number of Provinces: 19
+
+Tucrumuda_R
+	Tucrumuda
+	macedon
+	Gaetuli
+	174 53 53
+	none
+	5
+	4
+OasisAghlan_R
+	OasisAghlan
+	macedon
+	Gaetuli
+	206 163 152
+	none
+	5
+	4
+Cydamus_R
+	Cydamus
+	macedon
+	Gaetuli
+	220 150 40
+	none
+	5
+	4
+Buata_R
+	Buata
+	macedon
+	Gaetuli
+	182 179 106
+	none
+	5
+	3
+Uddita_R
+	Uddita
+	macedon
+	Gaetuli
+	74 17 88
+	none
+	5
+	3
+Garama_R
+	Garama
+	macedon
+	Gaetuli
+	62 161 117
+	none
+	5
+	6
+Cufra_R
+	Cufra
+	macedon
+	Libyans
+	17 231 183
+	none
+	5
+	3
+Lynxama_R
+	Lynxama
+	macedon
+	Gaetuli
+	27 109 42
+	none
+	5
+	2
+Ischeri_R
+	Ischeri
+	macedon
+	Gaetuli
+	162 153 12
+	none
+	5
+	3
+Geva_R
+	Geva
+	macedon
+	Gaetuli
+	164 119 180
+	none
+	5
+	3
+GiraMetropolis_R
+	GiraMetropolis
+	macedon
+	Gaetuli
+	95 85 21
+	none
+	5
+	4
+Abalessa_R
+	Abalessa
+	macedon
+	Gaetuli
+	201 195 33
+	none
+	5
+	3
+Tagama_R
+	Tagama
+	macedon
+	Gaetuli
+	18 57 13
+	none
+	5
+	3
+Byntha_R
+	Byntha
+	macedon
+	Gaetuli
+	206 136 25
+	none
+	5
+	3
+Thabudis_R
+	Thabudis
+	macedon
+	Gaetuli
+	206 53 32
+	none
+	5
+	3
+Malachath_R
+	Malachath
+	macedon
+	Gaetuli
+	53 105 39
+	none
+	5
+	4
+Cuphe_R
+	Cuphe
+	macedon
+	Gaetuli
+	166 86 192
+	none
+	5
+	4
+Thamondocana_R
+	Thamondocana
+	macedon
+	Gaetuli
+	86 192 186
+	none
+	5
+	4
+NigiraMetropolis_R
+	NigiraMetropolis
+	macedon
+	Gaetuli
+	130 6 161
+	none
+	5
+	4
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Far East
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; *********************************************************
+; *********************************************************
+; 55. India beyond Gangas
+; Number of Provinces: 9
+
+Pragjyotishpura_R
+	Pragjyotishpura
+	macedon
+	Medes
+	40 107 50
+	none
+	5
+	7
+Durjaya_R
+	Durjaya
+	macedon
+	Medes
+	203 74 71
+	none
+	5
+	6
+Salariga_R
+	Salariga
+	macedon
+	Medes
+	195 214 141
+	none
+	5
+	6
+
+;; New!
+Lauhiti_R
+	Lauhiti
+	macedon
+	Athenians
+	81 144 14
+	none
+	5
+	1
+Haruppeswara_R
+	Sonitapura
+	macedon
+	Athenians
+	78 73 17
+	none
+	5
+	1
+Lanka_R
+	Lanka
+	macedon
+	Athenians
+	22 162 104
+	none
+	5
+	1
+Kangleipak_R
+	Kangla
+	macedon
+	Athenians
+	185 48 48
+	none
+	5
+	1
+Pentapolis_R
+	Pentapolis
+	macedon
+	Athenians
+	29 92 42
+	none
+	5
+	1
+Srihatta_R
+	Srihatta
+	macedon
+	Athenians
+	22 92 178
+	none
+	5
+	1
+Dhannavati_R
+	Parapura
+	macedon
+	Athenians
+	124 49 138
+	none
+	5
+	1
+Pinle_Pyu_R
+	Pinle_Pyu
+	macedon
+	Athenians
+	79 185 77
+	none
+	5
+	1
+Sri_Ksetra_R
+	Sri_Ksetra
+	macedon
+	Athenians
+	217 143 15
+	none
+	5
+	1
+Beikthano_R
+	Beikthano
+	macedon
+	Athenians
+	110 131 166
+	none
+	5
+	1
+Binnaka_R
+	Binnaka
+	macedon
+	Athenians
+	209 42 215
+	none
+	5
+	1
+Bagan_R
+	Bagan
+	macedon
+	Athenians
+	92 51 175
+	none
+	5
+	1
+Maingmaw_R
+	Maingmaw
+	macedon
+	Athenians
+	134 167 20
+	none
+	5
+	1
+Halingyi_R
+	Halingyi
+	macedon
+	Athenians
+	221 123 36
+	none
+	5
+	1
+Tagaung_R
+	Tagaung
+	macedon
+	Athenians
+	186 141 125
+	none
+	5
+	1
+Pong_R
+	Mongkawng
+	macedon
+	Athenians
+	191 216 147
+	none
+	5
+	1
+Mongmao_R
+	Mongmao
+	macedon
+	Athenians
+	17 86 66
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 56. Kham
+; Number of Provinces: 5
+
+Nagqu_R
+	Nagqu
+	macedon
+	Athenians
+	87 126 103
+	none
+	5
+	1
+Yarlung_R
+	Drakchi
+	macedon
+	Athenians
+	222 228 64
+	none
+	5
+	1
+Qamdo_R
+	Qamdo
+	macedon
+	Athenians
+	96 123 200
+	none
+	5
+	1
+Deqen_R
+	Deqen
+	macedon
+	Athenians
+	169 180 98
+	none
+	5
+	1
+Bainang_R
+	Bathang
+	macedon
+	Athenians
+	77 149 30
+	none
+	5
+	1
+Lithang_R
+	Lithang
+	macedon
+	Athenians
+	180 133 98
+	none
+	5
+	1
+Garze_R
+	Garze
+	macedon
+	Athenians
+	219 133 40
+	none
+	5
+	1
+Glingtshang_R
+	Denkok
+	macedon
+	Athenians
+	220 58 31
+	none
+	5
+	1
+Derge_R
+	Derge
+	macedon
+	Athenians
+	152 50 171
+	none
+	5
+	1
+
+
+; *********************************************************
+; *********************************************************
+; 57. Amdo
+; Number of Provinces: 11
+
+Yangtong_R
+	ChodaiCamp	
+	macedon
+	Athenians
+	28 162 174
+	none
+	5
+	3
+
+;; New!
+SumpaCamp_R
+	SumpaCamp
+	macedon
+	Athenians
+	187 118 21
+	none
+	5
+	1
+Jyekundo_R
+	Jyekundo
+	macedon
+	Athenians
+	15 90 22
+	none
+	5
+	1
+Qugar_R
+	Qugar
+	macedon
+	Athenians
+	89 36 108
+	none
+	5
+	1
+Diezhou_R
+	Diezhou
+	macedon
+	Athenians
+	98 119 91
+	none
+	5
+	1
+ShaodangCamp_R
+	ShaodangCamp
+	macedon
+	Athenians
+	189 94 30
+	none
+	5
+	1
+Hekou_R
+	Hekou
+	macedon
+	Athenians
+	188 27 27
+	none
+	5
+	1
+LianchuanCamp_R
+	LianchuanCamp
+	macedon
+	Athenians
+	44 54 186
+	none
+	5
+	1
+TuyuhunCamp_R
+	TuyuhunCamp
+	macedon
+	Athenians
+	144 158 68
+	none
+	5
+	1
+Fuqi_R
+	Fuqi
+	macedon
+	Athenians
+	180 40 40
+	none
+	5
+	1
+LushuihuCamp_R
+	LushuihuCamp
+	macedon
+	Athenians
+	87 117 84
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 58. Mongolia
+; Number of Provinces: 
+
+Khitan_R
+	Khitan
+	macedon
+	Athenians
+	174 209 79
+	none
+	5
+	1
+Murong_R
+	Murong
+	macedon
+	Athenians
+	85 132 250
+	none
+	5
+	1
+Rouran_R
+	Rouran
+	macedon
+	Athenians
+	56 126 38
+	none
+	5
+	1
+Tuoba_R
+	Tuoba
+	macedon
+	Athenians
+	35 32 135
+	none
+	5
+	1
+HuyanXiongnuCamp_R
+	HuyanXiongnuCamp
+	macedon
+	Athenians
+	129 115 67
+	none
+	5
+	1
+TegregCamp_R
+	TegregCamp
+	macedon
+	Alans
+	123 67 25
+	none
+	5
+	1
+XunyuCamp_R
+	XunyuCamp
+	macedon
+	Athenians
+	192 197 42
+	none
+	5
+	1
+LuandiXiongnu_R
+	Longcheng
+	macedon
+	Athenians
+	32 174 116
+	none
+	5
+	1
+XubuXiongnu_R
+	Zhaoxin
+	macedon
+	Athenians
+	47 50 163
+	none
+	5
+	1
+DinglingCamp_R
+	DinglingCamp	
+	macedon
+	Alans
+	102 21 125
+	none
+	5
+	3
+QusheCamp_R
+	QusheCamp
+	macedon
+	Athenians
+	64 153 40
+	none
+	5
+	1
+Ashina_R
+	Ashina
+	macedon
+	Athenians
+	171 131 23
+	none
+	5
+	1
+Tufa_R
+	Tufa
+	macedon
+	Athenians
+	209 152 129
+	none
+	5
+	1
+Qifu_R
+	Qifu
+	macedon
+	Athenians
+	158 202 74
+	none
+	5
+	1
+Luofan_R
+	Shengle
+	macedon
+	Athenians
+	165 85 174
+	none
+	5
+	1
+Awu_R
+	Awu
+	macedon
+	Athenians
+	100 192 193
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 59. Korea & Manchuria
+; Number of Provinces: 20
+
+Tangna_R
+	Mugeunseong
+	macedon
+	Athenians
+	61 208 58
+	none
+	5
+	1
+Silla_R
+	Seorabeol
+	macedon
+	Athenians
+	202 220 236
+	none
+	5
+	1
+Gaya_R
+	Geumgwan_Gaya
+	macedon
+	Athenians
+	193 40 107
+	none
+	5
+	1
+Mahan_R
+	Mokji
+	macedon
+	Athenians
+	37 165 58
+	none
+	5
+	1
+Jinhan_R
+	Gochang
+	macedon
+	Athenians
+	90 74 113
+	none
+	5
+	1
+Honam_R
+	Jungbang
+	macedon
+	Athenians
+	97 229 244
+	none
+	5
+	1
+Yemaek_R
+	Wonju
+	macedon
+	Athenians
+	3 135 31
+	none
+	5
+	1
+Baekje_R
+	Wiryeseong
+	macedon
+	Athenians
+	209 180 71
+	none
+	5
+	1
+Tongni_R	
+	Hwaryeo	
+	macedon
+	Athenians
+	181 98 70
+	none
+	5
+	1
+Daifang_R
+	Daifang
+	macedon
+	Athenians
+	205 37 191
+	none
+	5
+	1
+Qian_Xuantu_R
+	Fuzu
+	macedon
+	Athenians
+	181 200 131
+	none
+	5
+	1
+Okjeo_R
+	Aodong
+	macedon
+	Athenians
+	194 192 25
+	none
+	5
+	1
+Lelang_R
+	Chaoxian
+	macedon
+	Athenians
+	18 203 110
+	none
+	5
+	1
+Gungnae_R
+	Gungnae
+	macedon
+	Athenians
+	230 10 147
+	none
+	5
+	1
+Gaogouli_R
+	Jolbon
+	macedon
+	Athenians
+	177 144 53
+	none
+	5
+	1
+Haengin_R
+	Haengin
+	macedon
+	Athenians
+	183 110 31
+	none
+	5
+	1
+Sushan_Tribe_R
+	Huicheng
+	macedon
+	Athenians
+	81 52 3
+	none
+	5
+	1
+Buyeo_R
+	Fuyu
+	macedon
+	Athenians
+	242 109 101
+	none
+	5
+	1
+
+Yilou_Tribe_R
+	YilouCamp
+	macedon
+	Athenians
+	85 172 188
+	none
+	5
+	1
+Wuji_Tribe_R
+	WujiCamp
+	macedon
+	Athenians
+	149 50 143
+	none
+	5
+	1
+Shiwei_Tribe_R
+	ShiweiCamp
+	macedon
+	Athenians
+	212 101 151
+	none
+	5
+	1
+Duan_Tribe_R
+	DuanCamp
+	macedon
+	Athenians
+	10 193 139
+	none
+	5
+	1
+Yuwen_Tribe_R
+	YuwenCamp
+	macedon
+	Athenians
+	63 57 237
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 60. Hebei
+; Number of Provinces: 
+
+Wuhuan_R
+	Liucheng
+	macedon
+	Athenians
+	53 45 78
+	none
+	5
+	1
+Liaodong_R
+	Xiangping
+	macedon
+	Athenians
+	212 209 172
+	none
+	5
+	1
+Hou_Xuantu_R
+	Houcheng
+	macedon
+	Athenians
+	34 152 25
+	none
+	5
+	1
+Changli_R
+	Changli
+	macedon
+	Athenians
+	128 180 68
+	none
+	5
+	1
+Liaoxi_R
+	Yangle
+	macedon
+	Athenians
+	198 251 107
+	none
+	5
+	1
+Youbeiping_R
+	Tuyin
+	macedon
+	Athenians
+	96 15 89
+	none
+	5
+	1
+Guangyang_R
+	Jicheng
+	macedon
+	Athenians
+	27 127 77
+	none
+	5
+	1
+Zhuo_R
+	Fanyang
+	macedon
+	Athenians
+	199 101 66
+	none
+	5
+	1
+Dai_R
+	Daixian
+	macedon
+	Athenians
+	81 81 183
+	none
+	5
+	1
+Gu_R
+	Gu
+	macedon
+	Athenians
+	66 141 133
+	none
+	5
+	1
+Zhongshan_R
+	Lunu
+	macedon
+	Athenians
+	116 205 41
+	none
+	5
+	1
+Bohai_R
+	Nanpi
+	macedon
+	Athenians
+	42 78 210
+	none
+	5
+	1
+Anping_R
+	Xindu
+	macedon
+	Athenians
+	208 220 12
+	none
+	5
+	1
+Wei_R
+	Yecheng
+	macedon
+	Athenians
+	87 156 29
+	none
+	5
+	1
+Qinghe_R
+	Dongwucheng
+	macedon
+	Athenians
+	12 52 64
+	none
+	5
+	1
+Pingyuan_R
+	Pingyuan
+	macedon
+	Athenians
+	249 126 6
+	none
+	5
+	1
+Gaotang_R
+	Gaotang
+	macedon
+	Achaeans
+	84 80 115
+	none
+	5
+	6
+Dong_R
+	Puyang
+	macedon
+	Athenians
+	78 11 182
+	none
+	5
+	1
+DongEr_R
+	Aryi
+	macedon
+	Athenians
+	114 255 131
+	none
+	5
+	1
+Hedong_R
+	Anyi
+	macedon
+	Athenians
+	220 201 135
+	none
+	5
+	1
+Puban_R
+	Puban
+	macedon
+	Athenians
+	150 50 50
+	none
+	5
+	1
+Linghu_R
+	Linghu
+	macedon
+	Athenians
+	30 60 90
+	none
+	5
+	1
+Pingyang_R
+	Pingyang
+	macedon
+	Athenians
+	31 216 214
+	none
+	5
+	1
+Duanshi_R
+	Duanshi
+	macedon
+	Athenians
+	106 125 125
+	none
+	5
+	1
+Henei_R
+	Yewang
+	macedon
+	Athenians
+	206 4 202
+	none
+	5
+	1
+Yanmen_R
+	Yinguan
+	macedon
+	Athenians
+	178 68 198
+	none
+	5
+	1
+Taiyuan_R
+	Jinyang
+	macedon
+	Athenians
+	68 198 121
+	none
+	5
+	1
+Shangdang_R
+	Zhangzi
+	macedon
+	Athenians
+	242 63 120
+	none
+	5
+	1
+Xuanshi_R
+	Xuanshi
+	macedon
+	Athenians
+	37 94 50
+	none
+	5
+	1
+Nie_R
+	Nie
+	macedon
+	Athenians
+	9 147 136
+	none
+	5
+	1
+Yishi_R
+	Yishi
+	macedon
+	Athenians
+	0 122 200
+	none
+	5
+	1
+Shanggu_R
+	Juyang
+	macedon
+	Athenians
+	202 31 31
+	none
+	5
+	1
+Yuyang_R
+	Yuyang
+	macedon
+	Athenians
+	171 184 26
+	none
+	5
+	1
+Hengshan_R
+	Lingshou
+	macedon
+	Athenians
+	130 122 38
+	none
+	5
+	1
+Zhangwu_R
+	Dongpingshu
+	macedon
+	Athenians
+	134 24 84
+	none
+	5
+	1
+Hejian_R
+	Lucheng
+	macedon
+	Athenians
+	104 42 188
+	none
+	5
+	1
+Julu_R
+	Yingtao
+	macedon
+	Athenians
+	19 28 95
+	none
+	5
+	1
+Zhao_R
+	Handan
+	macedon
+	Athenians
+	210 108 40
+	none
+	5
+	1
+Laoling_R
+	Raoan
+	macedon
+	Athenians
+	42 200 87
+	none
+	5
+	1
+Xinxing_R
+	Jiuyuan
+	macedon
+	Athenians
+	186 42 42
+	none
+	5
+	1
+Leping_R
+	Zhan
+	macedon
+	Athenians
+	142 47 197
+	none
+	5
+	1
+Linshui_R
+	Linshui
+	macedon
+	Athenians
+	60 90 30
+	none
+	5
+	1
+Xihe_R
+	Lishi
+	macedon
+	Athenians
+	159 34 190
+	none
+	5
+	1
+Zhongmou_R
+	Zhongmou
+	macedon
+	Athenians
+	10 166 164
+	none
+	5
+	1
+Chaoge_R
+	Chaoge
+	macedon
+	Athenians
+	50 150 50
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 61. Zhongyuan
+; Number of Provinces: 
+
+Jinan_R
+	Lixia
+	macedon
+	Athenians
+	113 179 178
+	none
+	5
+	1
+Qiansheng_R
+	Qiansheng
+	macedon
+	Athenians
+	146 119 144
+	none
+	5
+	9
+Qi_R
+	Linzi
+	macedon
+	Athenians
+	183 46 188
+	none
+	5
+	1
+Beihai_R
+	Yingling
+	macedon
+	Athenians
+	96 48 109
+	none
+	5
+	1
+Donglai_R
+	Huang
+	macedon
+	Athenians
+	237 90 116
+	none
+	5
+	1
+Changguang_R
+	Changguang
+	macedon
+	Athenians
+	33 153 30
+	none
+	5
+	1
+Chengyang_R
+	Dongwu
+	macedon
+	Athenians
+	92 80 26
+	none
+	5
+	1
+Donghai_R
+	Tan
+	macedon
+	Athenians
+	175 176 117
+	none
+	5
+	1
+Xiapi_R
+	Xiapi
+	macedon
+	Athenians
+	148 200 179
+	none
+	5
+	1
+Dongyang_R
+	Huaiyin
+	macedon
+	Athenians
+	184 209 46
+	none
+	5
+	1
+Taishan_R
+	Fenggao
+	macedon
+	Athenians
+	81 104 177
+	none
+	5
+	1
+Chenliu_R
+	Chenliu
+	macedon
+	Athenians
+	147 179 113
+	none
+	5
+	1
+Xue_R
+	Lu
+	macedon
+	Athenians
+	172 52 134
+	none
+	5
+	1
+Qiao_R
+	Qiao
+	macedon
+	Athenians
+	43 139 21
+	none
+	5
+	1
+Liang_R
+	Suiyang
+	macedon
+	Athenians
+	98 108 30
+	none
+	5
+	1
+Yingchuan_R
+	Yangdi
+	macedon
+	Athenians
+	206 123 4
+	none
+	5
+	1
+Runan_R
+	Pingyu
+	macedon
+	Athenians
+	204 68 26
+	none
+	5
+	1
+Anfeng_R
+	Luan
+	macedon
+	Athenians
+	21 71 139
+	none
+	5
+	1
+Jiujiang_R
+	Yinling
+	macedon
+	Athenians
+	170 27 137
+	none
+	5
+	1
+Sanchuan_R
+	Luoyang
+	macedon
+	Athenians
+	64 211 188
+	none
+	5
+	5
+Mi_R
+	Mi
+	macedon
+	Athenians
+	250 200 150
+	none
+	5
+	5
+Daliang_R
+	Daliang
+	macedon
+	Athenians
+	255 42 42
+	none
+	5
+	5
+Juancheng_R
+	Juanyi
+	macedon
+	Athenians
+	67 191 113
+	none
+	5
+	1
+Linqiu_R
+	Linqiu
+	macedon
+	Athenians
+	168 115 165
+	none
+	5
+	6
+Langya_R
+	Kaiyang
+	macedon
+	Athenians
+	107 188 75
+	none
+	5
+	1
+Pengcheng_R
+	Pengcheng
+	macedon
+	Athenians
+	183 206 32
+	none
+	5
+	1
+Huaiyang_R	
+	Huaiyang
+	macedon
+	Athenians
+	249 246 13
+	none
+	5
+	1
+Shanyang_R
+	Changyi
+	macedon
+	Athenians
+	238 182 141
+	none
+	5
+	1
+Jiyin_R	
+	Dingtao
+	macedon
+	Athenians
+	203 76 109
+	none
+	5
+	1
+Sishui_R	
+	Xiang
+	macedon
+	Athenians
+	33 144 157
+	none
+	5
+	1
+Xiyang_R
+	Xiyang
+	macedon
+	Athenians
+	194 144 197
+	none
+	5
+	1
+Ruyin_R
+	Ruyin
+	macedon
+	Athenians
+	232 196 245
+	none
+	5
+	1
+Hongnong_R
+	HanGuGuan
+	macedon
+	Athenians
+	117 200 121
+	none
+	5
+	1
+Yinjin_R
+	Yinjin
+	macedon
+	Athenians
+	50 50 120
+	none
+	5
+	1
+Yiyang_R
+	Yiyang
+	macedon
+	Athenians
+	192 100 137
+	none
+	5
+	1
+Xincheng_R
+	Xincheng
+	macedon
+	Athenians
+	25 75 125
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 62. Shuofeng-Yongliang
+; Number of Provinces: 
+
+Weinan_R
+	ChangAn
+	macedon
+	Athenians
+	231 165 146
+	none
+	5
+	1
+Shang_R
+	Shang
+	macedon
+	Athenians
+	84 122 147
+	none
+	5
+	1
+Heshang_R
+	Linjin
+	macedon
+	Athenians
+	12 107 32
+	none
+	5
+	1
+Shaoliang_R
+	Shaoliang
+	macedon
+	Athenians
+	150 100 50
+	none
+	5
+	1
+Gaoling_R
+	Gaoling
+	macedon
+	Athenians
+	206 205 226
+	none
+	5
+	1
+Gaonu_R
+	Gaonu
+	macedon
+	Athenians
+	100 100 150
+	none
+	5
+	1
+Anding_R
+	Anding
+	macedon
+	Athenians
+	253 76 100
+	none
+	5
+	1
+Fushi_R
+	Fushi
+	macedon
+	Athenians
+	158 226 96
+	none
+	5
+	1
+Beidi_R
+	Maling
+	macedon
+	Athenians
+	124 196 218
+	none
+	5
+	1
+Hefei_R
+	Fuping
+	macedon
+	Athenians
+	58 203 79
+	none
+	5
+	1
+Dingxiang_R
+	Linhu
+	macedon
+	Athenians
+	22 38 139
+	none
+	5
+	1
+Yunzhong_R
+	Yunzhong
+	macedon
+	Athenians
+	183 79 85
+	none
+	5
+	1
+Wuyuan_R
+	Jinyuan
+	macedon
+	Athenians
+	69 139 22
+	none
+	5
+	1
+Shuofang_R
+	Shuofang
+	macedon
+	Athenians
+	19 173 204
+	none
+	5
+	1
+Tianshui_R
+	Ji
+	macedon
+	Athenians
+	1 92 237
+	none
+	5
+	1
+Longxi_R
+	Xiangwu
+	macedon
+	Athenians
+	44 169 213
+	none
+	5
+	1
+Wudu_R
+	Wudu
+	macedon
+	Athenians
+	204 113 58
+	none
+	5
+	1
+Wuwei_R
+	Guzang
+	macedon
+	Athenians
+	184 50 155
+	none
+	5
+	1
+Jincheng_R
+	Jincheng
+	macedon
+	Athenians
+	45 159 66
+	none
+	5
+	1
+Xiping_R
+	Xidu
+	macedon
+	Athenians
+	201 224 50
+	none
+	5
+	1
+Zhangye_R
+	Lude
+	macedon
+	Athenians
+	24 134 203
+	none
+	5
+	1
+Jiuquan_R
+	Lufu
+	macedon
+	Athenians
+	217 94 20
+	none
+	5
+	1
+Xihai_R
+	Juyan
+	macedon
+	Athenians
+	110 39 133
+	none
+	5
+	1
+Yumen_R
+	Yumen
+	macedon
+	Medes
+	58 170 96
+	none
+	5
+	5
+Mingan
+	Anxi
+	macedon
+	Medes
+	200 50 50
+	none
+	5
+	3
+Dunhuang_R
+	Dunhuang
+	macedon
+	Medes
+	103 122 218
+	none
+	5
+	6
+Zhongdi_R
+	Huaili
+	macedon
+	Medes
+	211 198 50
+	none
+	5
+	1
+Hanxing_R
+	Yong
+	macedon
+	Medes
+	31 136 95
+	none
+	5
+	1
+Xi_R
+	Rile
+	macedon
+	Medes
+	37 166 58
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 63. Ba & Shu
+; Number of Provinces: 
+
+Hanzhong_R
+	Nanzheng
+	macedon
+	Athenians
+	110 192 93
+	none
+	5
+	1
+Guling_R
+	Yufu
+	macedon
+	Athenians
+	36 97 12
+	none
+	5
+	1
+Quren_R
+	Quren
+	macedon
+	Athenians
+	131 137 83
+	none
+	5
+	6
+Baxi_R
+	Langzhong
+	macedon
+	Athenians
+	237 74 31
+	none
+	5
+	1
+Zitong_R
+	Zitong
+	macedon
+	Athenians
+	19 138 137
+	none
+	5
+	1
+Yinping_R
+	Yinping
+	macedon
+	Athenians
+	86 57 152
+	none
+	5
+	1
+Wenshan_R
+	Wenjiang
+	macedon
+	Athenians
+	237 201 31
+	none
+	5
+	1
+Shu_R
+	Chengdu
+	macedon
+	Athenians
+	172 9 0
+	none
+	5
+	5
+Hanjia_R
+	Hanjia
+	macedon
+	Athenians
+	106 155 102
+	none
+	5
+	1
+Jiangyang_R
+	Jiangyang
+	macedon
+	Athenians
+	230 238 18
+	none
+	5
+	1
+Ba_R
+	Jiangzhou
+	macedon
+	Athenians
+	201 51 153
+	none
+	5
+	1
+Dangqu_R
+	Dangqu
+	macedon
+	Athenians
+	232 155 100
+	none
+	5
+	1
+Guanghan_R
+	Luo
+	macedon
+	Athenians
+	31 39 151
+	none
+	5
+	1
+Qianwei_R
+	Bodao
+	macedon
+	Athenians
+	53 60 122
+	none
+	5
+	1
+Zhi_R
+	Zhi
+	macedon
+	Athenians
+	147 148 232
+	none
+	5
+	4
+Badong_R
+	Fuling
+	macedon
+	Athenians
+	110 173 146
+	none
+	5
+	1
+Bie_R
+	Bie
+	macedon
+	Athenians
+	112 145 206
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 64. Jingzhou
+; Number of Provinces: 
+
+Xicheng_R
+	Xicheng
+	macedon
+	Athenians
+	25 1 135
+	none
+	5
+	1
+Fangling_R
+	Fangling
+	macedon
+	Athenians
+	34 156 143
+	none
+	5
+	1
+Nanyang_R
+	Wan
+	macedon
+	Athenians
+	144 251 44
+	none
+	5
+	1
+Luyang_R
+	Luyang
+	macedon
+	Athenians
+	121 95 215
+	none
+	5
+	1
+Xiangyang_R
+	Xiangyang
+	macedon
+	Athenians
+	158 211 104
+	none
+	5
+	1
+Jiangxia_R
+	Xiling
+	macedon
+	Athenians
+	114 121 57
+	none
+	5
+	1
+Nan_R
+	Maicheng
+	macedon
+	Athenians
+	163 131 4
+	none
+	5
+	1
+Wuqian_R
+	Yidu
+	macedon
+	Athenians
+	72 197 59
+	none
+	5
+	1
+Wuchang_R
+	Shaxian
+	macedon
+	Athenians
+	100 174 107
+	none
+	5
+	1
+Wuling_R
+	Suo
+	macedon
+	Athenians
+	7 13 85
+	none
+	5
+	1
+Changsha_R
+	Linxiang
+	macedon
+	Athenians
+	175 46 173
+	none
+	5
+	1
+Xiangnan_R
+	Xiangnan
+	macedon
+	Athenians
+	177 149 52
+	none
+	5
+	1
+Zhaoling_R
+	Zhaoling
+	macedon
+	Athenians
+	40 142 20
+	none
+	5
+	1
+Lingling_R
+	Lingling
+	macedon
+	Athenians
+	116 22 212
+	none
+	5
+	1
+Guiyang_R
+	Chen
+	macedon
+	Athenians
+	201 82 17
+	none
+	5
+	1
+Qujiang_R
+	Qujiang
+	macedon
+	Athenians
+	85 108 83
+	none
+	5
+	1
+Shangyong_R
+	Shangyong
+	macedon
+	Athenians
+	127 88 123
+	none
+	5
+	1
+Nanxiang_R
+	Nanxiang
+	macedon
+	Athenians
+	30 197 195
+	none
+	5
+	1
+Zhangling_R
+	Zhangling
+	macedon
+	Athenians
+	216 130 153
+	none
+	5
+	1
+Anlu_R
+	Anlu
+	macedon
+	Athenians
+	121 95 220
+	none
+	5
+	1
+Cigu_R
+	Cigu
+	macedon
+	Athenians
+	174 146 157
+	none
+	5
+	1
+Linjiang_R
+	Ying
+	macedon
+	Athenians
+	0 255 174
+	none
+	5
+	1
+Shian_R
+	Shian
+	macedon
+	Athenians
+	0 131 31
+	none
+	5
+	1
+Hengyang_R
+	Hengyang
+	macedon
+	Athenians
+	48 229 170
+	none
+	5
+	1
+Qianling_R
+	Qianling
+	macedon
+	Athenians
+	107 121 56
+	none
+	5
+	1
+Qianzhong_R
+	Qiancheng
+	macedon
+	Athenians
+	158 167 212
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 65. Jiangdong
+; Number of Provinces: 
+
+Guangling_R
+	Guangling
+	macedon
+	Athenians
+	55 123 14
+	none
+	5
+	1
+Liyang_R
+	Liyang
+	macedon
+	Athenians
+	161 161 195
+	none
+	5
+	1
+Lujiang_R
+	Shu
+	macedon
+	Athenians
+	194 28 236
+	none
+	5
+	1
+Qichun_R
+	Qichun
+	macedon
+	Athenians
+	146 83 77
+	none
+	5
+	1
+Pengze_R
+	Pengze
+	macedon
+	Athenians
+	223 42 72
+	none
+	5
+	1
+Danyang_R
+	Jianye
+	macedon
+	Athenians
+	188 94 118
+	none
+	5
+	5
+Piling_R
+	Piling
+	macedon
+	Athenians
+	77 46 194
+	none
+	5
+	1
+Wu_R
+	Wu
+	macedon
+	Athenians
+	206 59 182
+	none
+	5
+	1
+Xindu_R
+	Shixin
+	macedon
+	Athenians
+	41 157 126
+	none
+	5
+	1
+Poyang_R
+	Poyang
+	macedon
+	Athenians
+	67 78 157
+	none
+	5
+	1
+Yuzhang_R
+	Nanchang
+	macedon
+	Athenians
+	26 221 83
+	none
+	5
+	1
+Luling_R
+	Xichang
+	macedon
+	Athenians
+	60 105 217
+	none
+	5
+	1
+Nan_Luling_R
+	Yudu
+	macedon
+	Athenians
+	160 162 24
+	none
+	5
+	1
+Nancheng_R
+	Nancheng
+	macedon
+	Athenians
+	145 19 19
+	none
+	5
+	1
+Shangrao_R
+	Shangrao
+	macedon
+	Athenians
+	154 255 87
+	none
+	5
+	1
+Gumie_R
+	Gumie
+	macedon
+	Athenians
+	70 127 143
+	none
+	5
+	1
+Lingyang_R
+	Lingyang
+	macedon
+	Athenians
+	211 210 140
+	none
+	5
+	1
+Qian_R
+	Yuhang
+	macedon
+	Athenians
+	214 176 194
+	none
+	5
+	1
+Zhang_R
+	Guzhang
+	macedon
+	Athenians
+	195 211 247
+	none
+	5
+	1
+Ancheng_R
+	Yichun
+	macedon
+	Athenians
+	63 27 41
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 66. Minnan
+; Number of Provinces: 
+
+Wushang_R
+	Wushang
+	macedon
+	Athenians
+	185 147 54
+	none
+	5
+	1
+Huiji_R
+	Shanyin
+	macedon
+	Athenians
+	168 95 8
+	none
+	5
+	1
+Linhai_R
+	Linhai
+	macedon
+	Athenians
+	34 125 24
+	none
+	5
+	1
+JianAn_R
+	JianAn
+	macedon
+	Athenians
+	69 255 36
+	none
+	5
+	1
+Yizhou_R
+	Yizhou
+	macedon
+	Athenians
+	185 195 18
+	none
+	5
+	1
+Houguan_R
+	Ye
+	macedon
+	Athenians
+	191 191 242
+	none
+	5
+	1
+Yongning_R
+	Yongning
+	macedon
+	Athenians
+	90 183 109
+	none
+	5
+	1
+Dongan_R
+	Dongan
+	macedon
+	Athenians
+	196 183 167
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 67. Lingnan
+; Number of Provinces: 
+
+Nanhai_R
+	Panyu
+	macedon
+	Athenians
+	209 149 44
+	none
+	5
+	1
+Cangwu_R
+	Guangxin
+	macedon
+	Athenians
+	112 12 12
+	none
+	5
+	1
+Linyun_R
+	Ducheng
+	macedon
+	Athenians
+	138 124 136
+	none
+	5
+	8
+Gaoyao_R
+	Gaoyao
+	macedon
+	Athenians
+	135 124 174
+	none
+	5
+	9
+Gaoliang_R
+	Gaoliang
+	macedon
+	Athenians
+	64 205 94
+	none
+	5
+	1
+Xuwen_R
+	Xuwen
+	macedon
+	Athenians
+	187 211 25
+	none
+	5
+	1
+Hepu_R
+	Hepu
+	macedon
+	Athenians
+	82 153 71
+	none
+	5
+	1
+Guilin_R
+	Bushan
+	macedon
+	Athenians
+	94 67 8
+	none
+	5
+	1
+Jiaozhi_R
+	Longbian
+	macedon
+	Athenians
+	228 143 59
+	none
+	5
+	1
+Jiuzhen_R
+	Xupu
+	macedon
+	Athenians
+	77 35 95
+	none
+	5
+	1
+Jiude_R
+	Jiude
+	macedon
+	Athenians
+	78 173 53
+	none
+	5
+	1
+Rinan_R
+	Xiquan
+	macedon
+	Athenians
+	163 53 173
+	none
+	5
+	1
+Zhuya_R
+	Zhuya
+	macedon
+	Athenians
+	34 112 51
+	none
+	5
+	1
+Sihui_R
+	Sihui
+	macedon
+	Athenians
+	202 251 235
+	none
+	5
+	1
+Linchen_R
+	Linchen
+	macedon
+	Athenians
+	235 36 229
+	none
+	5
+	1
+Tanzhong_R
+	Tanzhong
+	macedon
+	Athenians
+	117 119 144
+	none
+	5
+	1
+Lingfang_R
+	Lingfang
+	macedon
+	Athenians
+	122 101 213
+	none
+	5
+	1
+Jieyang_R
+	Jieyang
+	macedon
+	Athenians
+	158 212 183
+	none
+	5
+	1
+Longchuan_R
+	Longchuan
+	macedon
+	Athenians
+	244 236 150
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 68. Nanzhong
+; Number of Provinces: 
+
+Jianwei_R
+	Zhuti
+	macedon
+	Athenians
+	138 64 134
+	none
+	5
+	1
+Yuesui_R
+	Qiongdu
+	macedon
+	Athenians
+	15 130 10
+	none
+	5
+	1
+Yunnan_R
+	Yunnan
+	macedon
+	Athenians
+	149 124 39
+	none
+	5
+	1
+Mengzhang_R
+	Buwei
+	macedon
+	Athenians
+	48 5 79
+	none
+	5
+	1
+Dianchi_R
+	Dianchi
+	macedon
+	Athenians
+	43 226 39
+	none
+	5
+	1
+Zangke_R
+	Julan
+	macedon
+	Athenians
+	105 42 11
+	none
+	5
+	1
+Xinggu_R
+	Wanwen
+	macedon
+	Athenians
+	54 66 190
+	none
+	5
+	1
+Mongnai_R
+	Mongnai
+	macedon
+	Athenians
+	47 58 96
+	none
+	5
+	1
+Pu_R
+	Sua
+	macedon
+	Athenians
+	190 48 48
+	none
+	5
+	1
+Jianning_R
+	Weixian
+	macedon
+	Athenians
+	213 101 201
+	none
+	5
+	1
+Yelang_R
+	Yelang
+	macedon
+	Athenians
+	159 138 123
+	none
+	5
+	1
+Mengdaguang_R
+	Xisui
+	macedon
+	Athenians
+	161 199 28
+	none
+	5
+	1
+Wulian_R
+	Wulian
+	macedon
+	Athenians
+	223 192 125
+	none
+	5
+	1
+Ailao_R
+	Yongxiang
+	macedon
+	Athenians
+	255 214 116
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 69. Nanyang
+; Number of Provinces: 
+
+Vesunga_R
+	Vesunga
+	macedon
+	Athenians
+	147 28 28
+	none
+	5
+	1
+Verapatha_R
+	Verapatha
+	macedon
+	Athenians
+	38 62 110
+	none
+	5
+	1
+Haripunjaya_R
+	Haripunjaya
+	macedon
+	Athenians
+	242 227 166
+	none
+	5
+	1
+Prabang_R
+	Prabang
+	macedon
+	Athenians
+	176 59 177
+	none
+	5
+	1
+Lavapura_R
+	Lavapura
+	macedon
+	Athenians
+	83 162 44
+	none
+	5
+	1
+Nagarjaysri_R
+	Nagarjaysri
+	macedon
+	Athenians
+	178 130 27
+	none
+	5
+	1
+Vajrapura_R
+	Vajrapura
+	macedon
+	Athenians
+	125 19 148
+	none
+	5
+	1
+Candanapura_R
+	Candanapura
+	macedon
+	Athenians
+	68 146 153
+	none
+	5
+	1
+Bhimapura_R
+	Bhimapura
+	macedon
+	Athenians
+	167 200 36
+	none
+	5
+	1
+Sresthapura_R
+	Sresthapura
+	macedon
+	Athenians
+	113 106 206
+	none
+	5
+	1
+Hariharalaya_R
+	Hariharalaya
+	macedon
+	Athenians
+	165 133 96
+	none
+	5
+	1
+Isanapura_R
+	Isanapura
+	macedon
+	Athenians
+	22 122 90
+	none
+	5
+	1
+Bhavapura_R
+	Bhavapura
+	macedon
+	Athenians
+	165 105 166
+	none
+	5
+	1
+Vyadhapura_R
+	Vyadhapura
+	macedon
+	Athenians
+	221 16 16
+	none
+	5
+	1
+Cattigara_R
+	Cattigara
+	macedon
+	Athenians
+	58 167 36
+	none
+	5
+	1
+Simhapura_R
+	Simhapura
+	macedon
+	Athenians
+	241 221 35
+	none
+	5
+	1
+Vijaya_R
+	Vijaya
+	macedon
+	Athenians
+	34 99 21
+	none
+	5
+	1
+Virapura_R
+	Virapura
+	macedon
+	Athenians
+	29 92 96
+	none
+	5
+	1
+Baigaur_R
+	Baigaur
+	macedon
+	Athenians
+	17 170 136
+	none
+	5
+	1
+Cahaya_R
+	Cahaya
+	macedon
+	Athenians
+	46 135 61
+	none
+	5
+	1
+Takola_R
+	Takola
+	macedon
+	Athenians
+	173 158 31
+	none
+	5
+	1
+Tambralinga_R
+	Tambralinga
+	macedon
+	Athenians
+	200 64 229
+	none
+	5
+	1
+Langkasuka_R
+	Langkasuka
+	macedon
+	Athenians
+	64 35 148
+	none
+	5
+	1
+Kadaram_R
+	Katahanagara
+	macedon
+	Athenians
+	155 108 6
+	none
+	5
+	1
+Raktamaritika_R
+	Valai
+	macedon
+	Athenians
+	227 140 38
+	none
+	5
+	1
+Pahang_R
+	Inderapura
+	macedon
+	Athenians
+	216 188 59
+	none
+	5
+	1
+Gelanggi_R
+	Gelanggi
+	macedon
+	Athenians
+	89 199 67
+	none
+	5
+	1
+Srideva_R
+	Dhamoratna
+	macedon
+	Athenians
+	234 120 51
+	none
+	5
+	1
+Srimahosata_R
+	Srimahosata
+	macedon
+	Athenians
+	155 32 32
+	none
+	5
+	1
+U_Thong_R
+	U_Thong
+	macedon
+	Athenians
+	116 160 209
+	none
+	5
+	1
+Fa_Daet_R
+	Fa_Daet
+	macedon
+	Athenians
+	179 79 18
+	none
+	5
+	1
+Sri_Gotapura_R
+	Sri_Gotapura
+	macedon
+	Athenians
+	18 27 134
+	none
+	5
+	1
+Tigumpa_R
+	Tigumpa
+	macedon
+	Athenians
+	82 129 21
+	none
+	5
+	1
+Gangganagara_R
+	Gangganagara
+	macedon
+	Athenians
+	230 104 55
+	none
+	5
+	1
+
+; *********************************************************
+; *********************************************************
+; 70. Indies Archipelago
+; Number of Provinces: 13
+
+Maladvipa_R
+	Athamana_Huraa
+	macedon
+	Athenians
+	172 75 0
+	none
+	5
+	0
+Lusong_R
+	Lusong
+	macedon
+	Athenians
+	82 68 154
+	none
+	5
+	1
+Niyan_R
+	Niyan
+	macedon
+	Athenians
+	217 199 45
+	none
+	5
+	1
+Lamuri_R
+	Lamuri
+	macedon
+	Athenians
+	56 148 73
+	none
+	5
+	1
+Aru_R
+	Rentang
+	macedon
+	Athenians
+	228 226 27
+	none
+	5
+	1
+Barus_R
+	Barus
+	macedon
+	Athenians
+	189 53 149
+	none
+	5
+	1
+Panai_R
+	Panai
+	macedon
+	Athenians
+	212 66 32
+	none
+	5
+	1
+Sambas_R
+	Sambas
+	macedon
+	Athenians
+	210 110 232
+	none
+	5
+	1
+Cerava_R
+	Cerava
+	macedon
+	Athenians
+	31 65 28
+	none
+	5
+	1
+Musa_R
+	Vijayapura
+	macedon
+	Athenians
+	153 30 184
+	none
+	5
+	1
+Lahad_R
+	Lahad
+	macedon
+	Athenians
+	184 179 30
+	none
+	5
+	1
+Berau_R
+	Berau
+	macedon
+	Athenians
+	103 101 177
+	none
+	5
+	1
+Banaue_R
+	Banaue
+	macedon
+	Athenians
+	59 132 23
+	none
+	5
+	1
+; *********************************************************
+; *********************************************************
+; 71. Tsushima Basin
+; Number of Provinces: 1
+
+Tshushima_R
+	Tshushima
+	macedon
+	Athenians
+	197 225 247
+	none
+	5
+	0
+	
+; *********************************************************
+; *********************************************************
+; 72. Mai/Tagalog Archipelago
+; Number of Provinces: 1
+
+Mai_R
+	Mai
+	macedon
+	Athenians
+	202 37 49
+	none
+	5
+	0

@@ -1,0 +1,6 @@
+macedon
+take_regions 900
+
+seleucid
+take_regions 900
+

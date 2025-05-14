@@ -1,0 +1,8 @@
+
+pool Aegean
+	regions Corinthia_R			
+	unit merc greek hoplites,			exp 0 cost 850 replenish 0.08 - 0.15 max 2 initial 1
+
+
+
+
