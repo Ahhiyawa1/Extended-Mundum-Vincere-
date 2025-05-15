@@ -1778,19 +1778,19 @@ unit		greek general's guard cavalry early		exp 1 armour 4 weapon_lvl 4
 
 ;--------- 4$b/d Admirals ---------
 ;	Amphipolis
-character	Melotas, admiral, age 30, , x 329, y 322
+character	Melotas, admiral, age 30, , x 226, y 232
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$b/e Agents ---------
 ;	outside Thessalonica
-character	Carpus of Pylos, diplomat, age 20, , x 319, y 322
+character	Carpus of Pylos, diplomat, age 20, , x 228, y 238
 traits GoodDiplomat 3
 ancillaries wine_steward
 
 ;	outside Pella
-character	Aegisthes of Larissa, spy, age 20, , x 313, y 321
+character	Aegisthes of Larissa, spy, age 20, , x 220, y 240
 traits GoodSpy 2
 ancillaries dancer
 
