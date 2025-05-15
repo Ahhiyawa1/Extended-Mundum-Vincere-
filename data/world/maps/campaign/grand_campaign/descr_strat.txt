@@ -1525,6 +1525,9 @@ settlement
 	population 1500
 	plan_set default_set
 	faction_creator macedon
+	garrisoned_army
+	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -1571,6 +1574,9 @@ settlement
 	population 1400
 	plan_set default_set
 	faction_creator macedon
+	garrisoned_army
+	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -1586,6 +1592,9 @@ settlement
 	population 1500
 	plan_set default_set
 	faction_creator macedon
+	garrisoned_army
+	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -1605,6 +1614,9 @@ settlement
 	population 1100
 	plan_set default_set
 	faction_creator macedon
+	garrisoned_army
+	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -1665,6 +1677,154 @@ settlement
 		type port_buildings port
 	}
 }
+
+
+;--------- 4$b/a Historical Characters ----------
+;	Thessalonica
+character	AntigonosB Antigonides, named character, leader, age 48, , x 226, y 237, portrait_index 000
+traits GoodCommander 3 , NaturalMilitarySkill 3 , GoodRiskyAttacker 2 , PublicFaith 1 , GoodAdministrator 4 , Intelligent 1
+ancillaries shieldbearer
+army
+unit		greek general's guard cavalry early		exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
+unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
+unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
+
+;	Demetrias
+character	DemetriusB Antigonides, named character, heir, age 45, , x 226, y 226
+traits GoodCommander 4 , NaturalMilitarySkill 2 , PublicFaith 1 , MathematicsSkill 1 , Intelligent 1 , Generous 1
+ancillaries actor
+army
+unit		greek general's guard cavalry early		exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
+unit		greek archer						exp 0 armour 0 weapon_lvl 0
+
+;	Corinth
+character	Craterus Antigonides, named character, age 49, , x 227, y 213
+traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 3
+ancillaries treasurer
+army
+unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
+unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
+unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
+unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Amphipolis
+character	Corrhabus Antigonides, named character, age 47, , x 232, y 240
+traits GoodAdministrator 3
+ancillaries tutor
+army
+unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Heraclea Sintike
+character	Gyras Antigonides, named character, age 44, , x 228, y 245
+traits GoodCommander 2, GoodAdministrator 4
+army
+unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	outside Corinth
+character	Alexander Antigonides, named character, age 31, , x 226, y 213
+traits GoodCommander 3
+army
+unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
+
+;	outside Thessalonica
+character	Alcyoneus Antigonides, named character, age 18, , x 226, y 238
+traits GoodCommander 3
+army
+unit		greek general's guard cavalry early		exp 1 armour 2 weapon_lvl 0
+
+;	Cassandreia
+character	Ameinias Iolaides, named character, age 23, , x 229, y 234
+traits GoodCommander 3
+army
+unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;--------- 4$b/a2 Made-up Characters ---------
+
+;	Chalcis
+character	Abreas Antigonides, named character, age 28, , x 231, y 219
+traits GoodAdministrator 3
+army
+unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	outside Demetrias
+character	Deukalos Antigonides, named character, age 24, , x 225, y 226
+traits GoodAdministrator 3
+army
+unit		greek general's guard cavalry early		exp 1 armour 1 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	outside Heraclea Sintike
+character	Damasos Antigonides, named character, age 20, , x 229, y 245
+traits GoodCommander 4
+army
+unit		greek general's guard cavalry early		exp 1 armour 4 weapon_lvl 4
+
+;--------- 4$b/b Generals ---------
+
+;--------- 4$b/d Admirals ---------
+;	Amphipolis
+character	Melotas, admiral, age 30, , x 329, y 322
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+;--------- 4$b/e Agents ---------
+;	outside Thessalonica
+character	Carpus of Pylos, diplomat, age 20, , x 319, y 322
+traits GoodDiplomat 3
+ancillaries wine_steward
+
+;	outside Pella
+character	Aegisthes of Larissa, spy, age 20, , x 313, y 321
+traits GoodSpy 2
+ancillaries dancer
+
+;--------- 4$b/f Family Info ---------
+character_record		Antigonos Antigonides, 	male, command 0, influence 0, management 0, subterfuge 0, age 110, dead, past_leader
+character_record		Demetrius Antigonides, 	male, command 0, influence 0, management 0, subterfuge 0, age 65, dead, past_leader
+character_record		Philip Antigonides, 	male, command 0, influence 0, management 0, subterfuge 0, age 62, dead, never_a_leader
+character_record		Euenus Antigonides, 	male, command 0, influence 0, management 0, subterfuge 0, age 39, dead, never_a_leader
+character_record		DemetriusC Antigonides, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
+character_record		AntigonosC Antigonides, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Echecrates Antigonides, 	male, command 0, influence 0, management 0, subterfuge 0, age 0, alive, never_a_leader
+character_record		Stratonice, 	female, command 0, influence 0, management 0, subterfuge 0, age 105, dead, never_a_leader
+character_record		Phila, 	female, command 0, influence 0, management 0, subterfuge 0, age 75, dead, never_a_leader
+character_record		Thessala, 	female, command 0, influence 0, management 0, subterfuge 0, age 58, dead, never_a_leader
+;;character_record		StratoniceB, 	female, command 0, influence 0, management 0, subterfuge 0, age 48, dead, never_a_leader
+character_record		Alkmena, 	female, command 0, influence 0, management 0, subterfuge 0, age 47, alive, never_a_leader
+character_record		Pervica, 	female, command 0, influence 0, management 0, subterfuge 0, age 44, alive, never_a_leader
+character_record		Doris, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
+character_record		Olympias, 	female, command 0, influence 0, management 0, subterfuge 0, age 39, alive, never_a_leader
+character_record		PhilaB, 	female, command 0, influence 0, management 0, subterfuge 0, age 36, alive, never_a_leader
+character_record		Caleope Antigonides, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
+character_record		Menelaia, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
+
+relative 	Antigonos Antigonides, 	Stratonice,		Demetrius Antigonides,	Philip Antigonides,	end
+relative 	Demetrius Antigonides, 	Phila,		Craterus Antigonides,	AntigonosB Antigonides,	Corrhabus Antigonides,	DemetriusB Antigonides,	end
+relative 	Philip Antigonides,	Thessala,		Gyras Antigonides,	Euenus Antigonides,	end
+relative 	Craterus Antigonides, 	Alkmena,		Alexander Antigonides,	Abreas Antigonides,	end
+relative 	AntigonosB Antigonides, 	PhilaB,		Alcyoneus Antigonides,	Menelaia,	DemetriusC Antigonides,	end
+relative 	Corrhabus Antigonides, 	Pervica,		Caleope Antigonides,	Deukalos Antigonides,	end
+relative 	DemetriusB Antigonides, 	Olympias,		AntigonosC Antigonides,	Echecrates Antigonides,	end
+relative 	Gyras Antigonides,	Doris,		Damasos Antigonides,	end
+relative 	Ameinias Iolaides, 	Caleope Antigonides,	end
+
+
 
 faction	slave, balanced_smith
 ;; Starting Treasury ;; 
