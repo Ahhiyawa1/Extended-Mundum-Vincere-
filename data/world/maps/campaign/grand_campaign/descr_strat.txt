@@ -973,10 +973,491 @@ relative 	Tiberius Brutus, 	Galla,		Aulus Brutus,	Amulius Brutus,	Vibius Brutus,
 relative 	Aulus Brutus, 	Hostia,		Paulina,	Titus Brutus,	Oppius Brutus,	end
 relative 	Amulius Brutus, 	Lucilla,		Cassius Brutus,	Cornelius Brutus,	end
 
+faction	romans_scipii, bureaucrat_napoleon
+superfaction romans_senate
+denari	7500
+settlement
+{
+	level large_town
+	region Campania
+
+	year_founded 0
+	population 4800
+	plan_set default_set
+	faction_creator romans_scipii
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+settlement
+{
+	level large_town
+	region Bruttium
+
+	year_founded 0
+	population 4300
+	plan_set default_set
+	faction_creator romans_scipii
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+settlement
+{
+	level large_town
+	region Rhegium_R
+
+	year_founded 0
+	population 3500
+	plan_set default_set
+	faction_creator romans_scipii
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+settlement
+{
+	level town
+	region Bovianum_R
+
+	year_founded 0
+	population 1700
+	plan_set default_set
+	faction_creator romans_scipii
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+;	Rhegium
+character	Cornelius Scipio, named character, leader, age 54, , x 178, y 211, portrait_index 195
+traits GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1
+ancillaries aged_retainer
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 0 armour 0 weapon_lvl 0
+unit		roman hastati				exp 0 armour 0 weapon_lvl 0
+unit		roman hastati				exp 0 armour 0 weapon_lvl 0
+unit		roman hastati				exp 2 armour 0 weapon_lvl 0
+
+;	outside Rhegium
+character	Quintus Scipio, named character, age 35, , x 179, y 211
+traits NaturalMilitarySkill 1 , PoliticsSkill 1 , Intelligent 1 , Generous 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 2 armour 0 weapon_lvl 0
+unit		roman archer				exp 2 armour 0 weapon_lvl 0
+unit		roman velite				exp 0 armour 0 weapon_lvl 0
+
+;	Capua
+character	Julianus Scipio, named character, heir, age 36, , x 167, y 236
+traits GoodCommander 2 , NaturalMilitarySkill 3 , PoliticsSkill 1 , GoodRiskyAttacker 1
+ancillaries drillmaster
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+
+;	outside Capua
+character	Gaius Scipio, named character, age 29, , x 168, y 235
+traits NaturalMilitarySkill 3 , PoliticsSkill 1 , Intelligent 1 , Generous 1 , AuthoritarianRomanVirtue 2
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Croton
+character	Marcus, general, age 20, , x 187, y 221
+army
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Bovianum
+character	Marcus, general, age 20, , x 168, y 241
+army
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	outside Capua
+character	Quintus Caecus, diplomat, age 26, , x 167, y 237
+traits GoodDiplomat 2
+
+;	outside Rhegium
+character	Aulus Ovidius, spy, age 20, , x 178, y 212
+traits GoodSpy 3
+
+;	outside Capua
+character	Aulus Volesus, admiral, age 22, , x 165, y 233
+army
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+character_record		Aulus Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		Flavius Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
+character_record		Lucius Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Publius Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Metella, 	female, command 0, influence 0, management 0, subterfuge 0, age 52, alive, never_a_leader
+character_record		Antistia, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Crispina, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Placidia, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+
+relative 	Cornelius Scipio, 	Metella,		Julianus Scipio,	Quintus Scipio,	Gaius Scipio,	Aulus Scipio,	end
+relative 	Julianus Scipio, 	Antistia,		Flavius Scipio,	Lucius Scipio,	end
+relative 	Quintus Scipio, 	Crispina,		Placidia,	Publius Scipio,	end
+
+
+faction	romans_senate, comfortable_napoleon
+denari	25000
+settlement
+{
+	level city
+	region Latium
+
+	year_founded 0
+	population 7500
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+;;MV
+settlement
+{
+	level town
+	region Veii_R
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Lavinium_R
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Fregellae_R
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+
+;	Rome
+character	Decius Maxentius, named character, leader, age 60, , x 220, y 330
+traits GoodCommander 1 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1
+ancillaries doctor
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+unit		roman princeps				exp 3 armour 1 weapon_lvl 0
+unit		roman princeps				exp 3 armour 1 weapon_lvl 0
+unit		roman velite				exp 3 armour 1 weapon_lvl 0
+unit		roman velite				exp 3 armour 1 weapon_lvl 0
+unit		roman triarii				exp 3 armour 1 weapon_lvl 0
+
+;	Lavinium
+character	Marcus Maxentius, named character, heir, age 30, , x 222, y 325
+traits GoodCommander 2 , NaturalMilitarySkill 2 , PoliticsSkill 1 , GoodAdministrator 1 , Intelligent 1
+ancillaries bodyguard
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman triarii				exp 3 armour 1 weapon_lvl 0
+unit		roman velite				exp 3 armour 1 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+
+;	Veii
+character	Servius Maxentius, named character, age 36, , x 217, y 331
+traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 1 , Intelligent 1
+ancillaries scribe_ancillary
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman velite				exp 3 armour 1 weapon_lvl 0
+unit		roman hastati				exp 3 armour 0 weapon_lvl 0
+unit		roman princeps				exp 3 armour 1 weapon_lvl 0
+unit		roman triarii				exp 3 armour 0 weapon_lvl 0
+
+;	Fregellae
+character	Marcus, general, age 20, , x 228, y 327
+army
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	outside Rome
+character	Flavius Nepos, diplomat, age 30, , x 218, y 331
+traits GoodDiplomat 5
+
+character_record		Gaius Maxentius, 	male, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
+character_record		Lentulus Maxentius, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
+character_record		Publius Maxentius, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
+character_record		Honoria, 	female, command 0, influence 0, management 0, subterfuge 0, age 50, alive, never_a_leader
+character_record		Licinia, 	female, command 0, influence 0, management 0, subterfuge 0, age 29, alive, never_a_leader
+character_record		Marciana, 	female, command 0, influence 0, management 0, subterfuge 0, age 34, alive, never_a_leader
+character_record		Papiria, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
+character_record		Prisca, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
+
+relative 	Decius Maxentius, 	Honoria,		Servius Maxentius,	Marcus Maxentius,	Prisca,	end
+relative 	Marcus Maxentius, 	Licinia,		Publius Maxentius,	Gaius Maxentius,	end
+relative 	Servius Maxentius, 	Marciana,		Lentulus Maxentius,	Papiria,	end
+
+;-------------- 4$b - Macedonia ---------------
+faction	macedon, fortified_napoleon
+denari	7500
+;--------- 4$b.a - Greece ----------
+settlement
+{
+	level city
+	region Macedonia_R
+
+	year_founded 0
+	population 7000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level city
+	region Corinthia_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
 
 faction	slave, balanced_smith
 ;; Starting Treasury ;; 
-denari	-100000000
+denari	-100000000000
 settlement
 {
 	level town
@@ -3020,51 +3501,6 @@ settlement
 settlement
 {
 	level town
-	region Rhegium_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Bruttium
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Cosentia_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
 	region Brundisium_R
 
 	year_founded 0
@@ -3125,21 +3561,6 @@ settlement
 settlement
 {
 	level town
-	region Campania
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
 	region Corfinium_R
 
 	year_founded 0
@@ -3155,67 +3576,7 @@ settlement
 settlement
 {
 	level town
-	region Latium
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
 	region Asculum_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Umbria
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Etruria
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Volaterrae_R
 
 	year_founded 0
 	population 1400
@@ -3246,21 +3607,6 @@ settlement
 {
 	level town
 	region Ilva_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Bovianum_R
 
 	year_founded 0
 	population 1400
@@ -5267,20 +5613,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level town
-	region Macedonia_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
 
 settlement
 {
@@ -20203,52 +20535,6 @@ settlement
 		type core_building governors_house
 	}
 }
-
-
-
-; >>>> DIADOCHOI <<<<
-
-; >>> Macedon <<<
-
-faction	macedon, balanced_smith
-denari	20100
-settlement
-{
-	level town
-	region Corinthia_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type port_buildings port
-	}
-}
-
-
-character	Hippomenes, named character, leader, age 29, , x 227 , y 213
-traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodRiskyAttacker 2 , PublicFaith 1 , GoodAdministrator 1 , Intelligent 1
-ancillaries shieldbearer
-army
-unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-
-character	Alcaeos, admiral, age 20, , x 225, y 216
-army
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-
-
-character_record		Hippodameia, 	female, command 0, influence 0, management 0, subterfuge 0, age 29, alive, never_a_leader
-character_record		Hippocratus, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
-
-relative 	Hippomenes, 	Hippodameia,		Hippocratus,	end
-
 
 
 ; >>>> DIADOCHOI <<<<

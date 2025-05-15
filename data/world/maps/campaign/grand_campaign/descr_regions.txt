@@ -1265,7 +1265,7 @@ Melita_R
 
 Rhegium_R
 	Rhegium
-	macedon
+	romans_scipii
 	Sicani
 	49 114 37
 	none
@@ -1273,7 +1273,7 @@ Rhegium_R
 	8
 Bruttium
 	Croton
-	macedon
+	romans_scipii
 	Lucanians
 	13 170 198
 	none
@@ -1361,7 +1361,7 @@ Arpi_R
 	8
 Campania
 	Capua
-	macedon
+	romans_scipii
 	Campanians
 	198 13 174
 	none
@@ -1381,6 +1381,30 @@ Latium
 	Latins
 	52 13 198
 	rome, italy
+	5
+	8
+Veii_R
+	Veii
+	romans_senate
+	Latins
+	174 151 168
+	none
+	5
+	8
+Lavinium_R
+	Lavinium
+	romans_senate
+	Latins
+	30 22 28
+	none
+	5
+	8
+Fregellae_R
+	Fregellae
+	romans_senate
+	Latins
+	107 12 12
+	none
 	5
 	8
 Asculum_R
@@ -1473,7 +1497,7 @@ Ilva_R
 	3
 Bovianum_R
 	Bovianum
-	macedon
+	romans_scipii
 	Lucanians
 	41 187 58
 	none
