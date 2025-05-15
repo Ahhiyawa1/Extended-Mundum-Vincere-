@@ -1455,6 +1455,217 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Bisaltia_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Sintice_R
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level town
+	region Chalcidice_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level town
+	region Dassaretis_R
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level town
+	region Magnesia_R
+
+	year_founded 0
+	population 1950
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Orestis_R
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Pieria_R
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Elimiotis_R
+
+	year_founded 0
+	population 1100
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Euboea_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
 faction	slave, balanced_smith
 ;; Starting Treasury ;; 
 denari	-100000000000
@@ -5526,127 +5737,6 @@ settlement
 settlement
 {
 	level town
-	region Bisaltia_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Sintice_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Chalcidice_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Dassaretis_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Magnesia_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Orestis_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-
-settlement
-{
-	level town
-	region Pieria_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Elimiotis_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
 	region Paionia
 
 	year_founded 0
@@ -5828,21 +5918,6 @@ settlement
 {
 	level town
 	region Laconia_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Euboea_R
 
 	year_founded 0
 	population 1400
