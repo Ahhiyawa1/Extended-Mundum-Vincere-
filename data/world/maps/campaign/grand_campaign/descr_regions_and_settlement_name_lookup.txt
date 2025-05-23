@@ -286,6 +286,14 @@ Apulia
 Tarentum
 Potentia_R
 Potentia
+Histonium_R
+Histonium
+Stiglanium_R
+Stiglanium
+Grumentum_R
+Grumentum
+Consilinum_R
+Consilinum
 Venusia_R
 Venusia
 Arpi_R
@@ -296,6 +304,12 @@ Corfinium_R
 Corfinium
 Latium
 Rome
+Veii_R
+Veii
+Lavinium_R
+Lavinium
+Fregellae_R
+Fregellae
 Asculum_R
 Asculum
 Umbria

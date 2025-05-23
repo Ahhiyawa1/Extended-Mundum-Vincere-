@@ -70,11 +70,10 @@ playable
 	greek_f_7			;bosporan kingdom
 	greek_f_9 			;bactria
 	iberian_f_11 		;arevaci
+	romans_senate
 end
 unlockable
 end
-	romans_senate
-	slave
 	;------- WARNING -------
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
@@ -269,6 +268,7 @@ end
 	indian_f_3			;chera (unused)
 	indian_f_4			;pandya (unused)
 	indian_f_5			;anuradhapura (unused)
+	slave
 end
 
 start_date	-315 summer
@@ -1457,62 +1457,153 @@ settlement
 
 settlement
 {
-	level town
+	level city
 	region Bisaltia_R
 
 	year_founded 0
-	population 1800
+	population 5000
 	plan_set default_set
 	faction_creator macedon
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
-		type port_buildings port
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
 	}
 }
 
 settlement
 {
-	level town
+	level city
 	region Sintice_R
 
 	year_founded 0
-	population 1400
+	population 5000
 	plan_set default_set
 	faction_creator macedon
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
 	}
 }
-
 settlement
 {
-	level town
+	level city
 	region Chalcidice_R
 
 	year_founded 0
-	population 1800
+	population 5000
 	plan_set default_set
 	faction_creator macedon
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
 	}
 }
 
@@ -1525,9 +1616,6 @@ settlement
 	population 1500
 	plan_set default_set
 	faction_creator macedon
-	garrisoned_army
-	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -1540,28 +1628,52 @@ settlement
 
 settlement
 {
-	level town
+	level city
 	region Magnesia_R
 
 	year_founded 0
-	population 1950
+	population 5000
 	plan_set default_set
 	faction_creator macedon
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
-		type barracks muster_field
+		type defenses stone_wall
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type amphitheatres stone_amphitheatre
 	}
 	building
 	{
-		type port_buildings port
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
 	}
 }
 
@@ -1571,12 +1683,9 @@ settlement
 	region Orestis_R
 
 	year_founded 0
-	population 1400
+	population 1700
 	plan_set default_set
 	faction_creator macedon
-	garrisoned_army
-	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -1585,23 +1694,52 @@ settlement
 
 settlement
 {
-	level town
+	level city
 	region Pieria_R
 
 	year_founded 0
-	population 1500
+	population 5000
 	plan_set default_set
 	faction_creator macedon
-	garrisoned_army
-	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
 	}
 }
 
@@ -1611,12 +1749,9 @@ settlement
 	region Elimiotis_R
 
 	year_founded 0
-	population 1100
+	population 1400
 	plan_set default_set
 	faction_creator macedon
-	garrisoned_army
-	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-	unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -1625,7 +1760,7 @@ settlement
 
 settlement
 {
-	level town
+	level city
 	region Euboea_R
 
 	year_founded 0
@@ -1828,6 +1963,1812 @@ relative 	Ameinias Iolaides, 	Caleope Antigonides,	end
 faction	egypt, religious_caesar
 denari	7500
 ;--------- 4$c.a - Lower Egypt ----------
+settlement
+{
+	level city
+	region Nile_Delta
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type temple_of_law temple_of_law_shrine
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+settlement
+{
+	level city
+	region Gynaecopolites_R
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type temple_of_law temple_of_law_shrine
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Memphites_R
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type temple_of_law temple_of_law_shrine
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Heliopolites_R
+
+	year_founded 0
+	population 2200
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Thebais
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type temple_of_law temple_of_law_shrine
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Thinites_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Panopolites_R
+
+	year_founded 0
+	population 1900
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Sethroites_R
+
+	year_founded 0
+	population 7000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level town
+	region Rhaithou_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Saites_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Athribites_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level town
+	region Tanites_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Prosopites_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Moeris_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level town
+	region Ancyronpolites_R
+
+	year_founded 0
+	population 2100
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+settlement
+{
+	level town
+	region Oxyrhynchus_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Hermopolites_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Antaeopolites_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level town
+	region Alabastronopolites_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Apollinopolites_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level town
+	region Philotera_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Syene_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region MyosHormos_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region BereniceTroglodytica_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Lycopolites_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Oasis_Magna_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Oasis_Parva_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Pachoras_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region BerenicePanchrysos_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level town
+	region ArsinoeClysma_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Heroopolites_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+settlement
+{
+	level city
+	region Patara_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Perge_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Side_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Lesbos_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Byblos_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Coele_Syria
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Phoenicia
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Ptolemais_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Gaza_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Judaea
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Lycia
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+settlement
+{
+	level city
+	region Cnidus_R
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+}
+
+;--------- 4$c/a Historical Characters ----------
+;	Alexandria
+character	PtolemyC Ptolemeides, named character, leader, age 37, , x 280, y 161, portrait_index 082
+traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2
+ancillaries librarian, master_embalmer
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen						exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen						exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer						exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer						exp 0 armour 0 weapon_lvl 0
+unit		egyptian peasant					exp 0 armour 0 weapon_lvl 0
+
+;	Memphis
+character	Meleager Ptolemeides, named character, heir, age 44, , x 291, y 152
+traits StrategicSkill 2 , NaturalMilitarySkill 1 , PublicFaith 3
+ancillaries magician
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer						exp 0 armour 0 weapon_lvl 0
+unit		egyptian peasant					exp 0 armour 0 weapon_lvl 0
+
+;	Pelusium
+character	Leontiscus Ptolemeides, named character, age 55, , x 300, y 162
+traits NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 1
+ancillaries master_of_archers
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer						exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+unit		egyptian peasant					exp 0 armour 0 weapon_lvl 0
+
+;	outside Memphis
+character	Alexander Antigonides, named character, age 46, , x 288, y 153
+traits GoodCommander 1
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+
+;	outside Alexandria
+character	Sosibius Pixodarides, named character, age 32, , x 280, y 150
+traits GoodCommander 2, NaturalMilitarySkill 1
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+
+;	Halicarnassus
+character	Pelops Alexandrides, named character, age 27, , x 259, y 208
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Patara
+character	Ptolemy Lysimachides, named character, age 22, , x 273, y 203
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;--------- 4$c/a2 Made-up Characters ----------
+;	Jerusalem
+character	Arcesilaus Ptolemeides, named character, age 35, , x 317, y 171
+traits GoodCommander 1 , PublicFaith 2 , MathematicsSkill 3 , Embezzler 1
+ancillaries mathematician
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer						exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer						exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Sidon
+character	Memnon Ptolemeides, named character, age 26, , x 317, y 185
+traits GoodCommander 1, GoodAdministrator 1
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	outside Jereusalem
+character	Hermolaos Ptolemeides, named character, age 16, , x 316, y 171
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+
+;	Ptolemais Hermeiou
+character	BleitorB Mazaka, named character, age 36, , x 297, y 125
+traits GoodCommander 1, GoodAdministrator 1
+army
+unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen			exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
+unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+
+
+;--------- 4$c/b Generals ----------
+
+;--------- 4$c/c Captains ---------- ; field captains can be inserted here if needed
+
+;--------- 4$c/d Admirals ----------
+;	Patara Harbor
+character	Timosthenes of Rhodes, admiral, age 36, , x 276, y 202
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+;	Sidon Harbor
+character	Aristarchos, admiral, age 29, , x 315, y 184
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+;	Alexandria Harbor
+character	Patroclus, admiral, age 29, , x 279, y 161
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+;--------- 4$c/e Agents ----------
+;	Alexandria
+character	Philipos, diplomat, age 20, , x 280, y 161
+traits GoodDiplomat 2
+
+;	outside Jerusalem
+character	Tymnes, spy, age 20, , x 316, y 169
+traits GoodSpy 3
+ancillaries poisoner
+
+;--------- 4$c/f Family Info ---------
+character_record		Hebeny, 	female, command 0, influence 0, management 0, subterfuge 0, age 100, dead, never_a_leader
+character_record		Amestris, 	female, command 0, influence 0, management 0, subterfuge 0, age 86, dead, never_a_leader
+character_record		Euredice, 	female, command 0, influence 0, management 0, subterfuge 0, age 85, dead, never_a_leader
+character_record		Senbi, 	female, command 0, influence 0, management 0, subterfuge 0, age 60, alive, never_a_leader
+character_record		Charis, 	female, command 0, influence 0, management 0, subterfuge 0, age 55, alive, never_a_leader
+character_record		Stheneboea, 	female, command 0, influence 0, management 0, subterfuge 0, age 42, alive, never_a_leader
+character_record		Arsinoe, 	female, command 0, influence 0, management 0, subterfuge 0, age 39, alive, never_a_leader
+character_record		Lysandra, 	female, command 0, influence 0, management 0, subterfuge 0, age 37, alive, never_a_leader
+character_record		Phaethusa, 	female, command 0, influence 0, management 0, subterfuge 0, age 33, alive, never_a_leader
+character_record		Hypsipyle Ptolemeides, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Iphigenia, 	female, command 0, influence 0, management 0, subterfuge 0, age 21, alive, never_a_leader
+character_record		Aerope, 	female, command 0, influence 0, management 0, subterfuge 0, age 16, alive, never_a_leader
+character_record		Berenice, 	female, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
+character_record		Mazakes Mazaka, 	male, command 0, influence 0, management 0, subterfuge 0, age 105, dead, past_leader
+character_record		Ptolemy Ptolemeides, 	male, command 0, influence 0, management 0, subterfuge 0, age 95, dead, past_leader
+character_record		Lysimachus Lysimachides, 	male, command 0, influence 0, management 0, subterfuge 0, age 88, dead, never_a_leader
+character_record		Bleitor Mazaka, 	male, command 0, influence 0, management 0, subterfuge 0, age 64, dead, never_a_leader
+character_record		PtolemyB Ptolemeides, 	male, command 0, influence 0, management 0, subterfuge 0, age 47, dead, never_a_leader
+character_record		Agathocles Lysimachides, 	male, command 0, influence 0, management 0, subterfuge 0, age 35, dead, never_a_leader
+character_record		LysimachusB Lysimachides, 	male, command 0, influence 0, management 0, subterfuge 0, age 20, dead, never_a_leader
+character_record		Philip Lysimachides, 	male, command 0, influence 0, management 0, subterfuge 0, age 19, dead, never_a_leader
+character_record		Tereus Ptolemeides, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		PtolemyD Ptolemeides, 	male, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Lysimachus Ptolemeides, 	male, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+character_record		PelopsB Alexandrides, 	male, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+character_record		LysimachusC Lysimachides, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
+character_record		Epigonus Lysimachides, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		PtolemyE Ptolemeides, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+
+relative 	Ptolemy Ptolemeides, 	Euredice,		Leontiscus Ptolemeides,	PtolemyB Ptolemeides,	Meleager Ptolemeides,	PtolemyC Ptolemeides,	end
+relative 	PtolemyC Ptolemeides, 	Arsinoe,		PtolemyD Ptolemeides,	Lysimachus Ptolemeides,	Berenice,	PtolemyE Ptolemeides,	end
+relative 	Leontiscus Ptolemeides, 	Charis,		Arcesilaus Ptolemeides,	Hypsipyle Ptolemeides,	Memnon Ptolemeides,	end
+relative 	Meleager Ptolemeides, 	Stheneboea,		Aerope,	Tereus Ptolemeides,	end
+relative 	Arcesilaus Ptolemeides, 	Phaethusa,		Hermolaos Ptolemeides,	end
+relative 	Mazakes Mazaka, 	Hebeny,		Bleitor Mazaka,	end
+relative 	Bleitor Mazaka, 	Senbi,		BleitorB Mazaka,	end
+relative 	Pelops Alexandrides, 	Hypsipyle Ptolemeides,		PelopsB Alexandrides,	end
+relative 	Lysimachus Lysimachides, 	Amestris,		Agathocles Lysimachides,	Ptolemy Lysimachides,	LysimachusB Lysimachides,	Philip Lysimachides,	end
+relative 	Agathocles Lysimachides, 	Lysandra,		end
+relative 	Ptolemy Lysimachides, 	Iphigenia,		LysimachusC Lysimachides,	Epigonus Lysimachides,	end
+
+;-------------- 4$d - Seleucid Empire ---------------
+faction	seleucid, balanced_stalin
+denari	3000
+;--------- 4$d.a - Syria ----------
 
 faction	slave, balanced_smith
 ;; Starting Treasury ;; 
@@ -6219,6 +8160,81 @@ settlement
 settlement
 {
 	level town
+	region Skyros_R
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Poseideion_R
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Lyktos_R
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Zakynthos_R
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Praesos_R
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
 	region Epidauros_R
 
 	year_founded 0
@@ -6519,36 +8535,6 @@ settlement
 settlement
 {
 	level town
-	region Lycia
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Cnidus_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
 	region Ionia
 
 	year_founded 0
@@ -6745,66 +8731,6 @@ settlement
 {
 	level town
 	region NeaPaphos_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Patara_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Perge_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Side_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Lesbos_R
 
 	year_founded 0
 	population 1400
@@ -7614,66 +9540,6 @@ settlement
 settlement
 {
 	level town
-	region Byblos_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Coele_Syria
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Phoenicia
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Ptolemais_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
 	region Philadelphia_R
 
 	year_founded 0
@@ -7689,37 +9555,7 @@ settlement
 settlement
 {
 	level town
-	region Gaza_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
 	region Nabataea
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Judaea
 
 	year_founded 0
 	population 1400
@@ -13629,502 +15465,6 @@ settlement
 settlement
 {
 	level town
-	region Nile_Delta
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Gynaecopolites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Memphites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Heliopolites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Thebais
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Thinites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Panopolites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Sethroites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type port_buildings port
-	}
-}
-
-settlement
-{
-	level town
-	region Rhaithou_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Saites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Athribites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Tanites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type port_buildings port
-	}
-}
-
-settlement
-{
-	level town
-	region Prosopites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Moeris_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Ancyronpolites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Oxyrhynchus_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Hermopolites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Antaeopolites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Alabastronopolites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Apollinopolites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Philotera_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Syene_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region MyosHormos_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region BereniceTroglodytica_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Lycopolites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Oasis_Magna_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Oasis_Parva_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Pachoras_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region BerenicePanchrysos_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region ArsinoeClysma_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type port_buildings port
-	}
-}
-
-settlement
-{
-	level town
-	region Heroopolites_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type port_buildings port
-	}
-}
-
-settlement
-{
-	level town
-	region PtolemaisTheron_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
 	region Napata_R
 
 	year_founded 0
@@ -14516,6 +15856,21 @@ settlement
 {
 	level town
 	region Euesperides_R
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region PtolemaisTheron_R
 
 	year_founded 0
 	population 1400
